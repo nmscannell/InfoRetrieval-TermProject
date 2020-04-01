@@ -27,38 +27,61 @@ for url in links:
         text = a.find(class_='media-body').get_text().strip()
         if text != 'False' and text != 'True':
             continue
-        snopes.append(a['href'])
+        if a['href'] not in snopes:
+            snopes.append(a['href'])
+
+URL = "https://www.snopes.com/fact-check/"
+page = requests.get(URL)
+soup = BeautifulSoup(page.content, 'html.parser')
+
+while len(snopes) < 1000:
+    media = soup.find(class_='theme-content').find(class_='base-main').find(class_='media-list')
+    for a in media.find_all('a', href=True):
+        if a['href'] not in snopes:
+            snopes.append(a['href'])
+    url = soup.find(class_='pagination btn-group').find(class_='btn-next btn')
+    if len(url) == 0:
+        break
+    url = url['href']
+    page = requests.get(url)
+    soup = BeautifulSoup(page.content, 'html.parser')
+
+print('done getting snopes links')
 
 t_links = []
 f_links = []
-print('number of urls in snopes:' + str(len(snopes)))
+
 for url in snopes:
     page = requests.get(url)
     soup = BeautifulSoup(page.content, 'html.parser')
     rating = soup.find(class_='rating-wrapper card').find('h5').get_text().strip()
-    print(rating)
+    if rating != 'True' and rating != 'False':
+        continue
     content = soup.find(class_='content-wrapper card').find(class_='content')
     p = content.find_all('p')
     i = 0
     while i < 2:
         section = p[i].find_all('a', href=True)
-        if section is None:
-            print('no links')
+        i += 1
+        if len(section) == 0:
             continue
         for a in section:
-            print(a['href'])
-            if rating:
+            if 'snopes' in a['href'] or 'twitter' in a['href']:
+                continue
+            if rating == 'True':
                 t_links.append(a['href'])
             else:
                 f_links.append(a['href'])
-    print(len(t_links) + len(f_links))
+    print('true: ' + str(len(t_links)))
+    print('false: ' + str(len(f_links)))
     if len(t_links) + len(f_links) > 500:
         break
+
 
 # store links in csv
 with open('sources.csv', 'w') as csvf:
     writer = csv.writer(csvf)
     for i in t_links:
-        writer.writerow(i + str(1))
+        writer.writerow([i] + [str(1)])
     for i in f_links:
-        writer.writerow(i + str(0))
+        writer.writerow([i] + [str(0)])
