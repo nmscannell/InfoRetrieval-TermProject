@@ -1,0 +1,10 @@
+bbc-news
+politico
+independent
+the-wall-street-journal
+reuters
+the-washington-times
+the-washington-post
+ars-technica
+associated-press
+medical-news-today

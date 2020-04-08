@@ -66,10 +66,11 @@ for url in snopes:
         if len(section) == 0:
             continue
         for a in section:
-            if 'snopes' in a['href'] or 'twitter' in a['href'] or 'youtu' in a['href']:
+            if 'snopes' in a['href'] or 'twitter' in a['href'] or 'youtu' in a['href'] or 'images' in a['href']:
                 continue
             if 'bbc' in a['href'] or '.gov' in a['href'] or 'cnbc' in a['href'] or 'reuters' in \
-                a['href'] or 'politico' in a['href']:
+                a['href'] or 'politico' in a['href'] or 'washingtontimes' in a['href'] or 'newyorktimes' \
+                    in a['href'] or 'nbc' in a['href']:
                 t_links.append(a['href'])
             else:
                 if rating == 'True':

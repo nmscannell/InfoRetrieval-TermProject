@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="{% static 'search.css' %}">
+</head>
+<body>
+<div class="form-box">
+    <div class="head">" "</div>
+    <form class="form" method="post" action="/search/" id="search-box">
+        <!--Its super important that action matches the url of the page-->
+        {% csrf_token %}
+        <div class="form-group">
+            <label class="label-control">
+                <span class="label-text"></span>
+            </label>
+            <input type="text" name="query" id="query" placeholder="query" required/>
+        </div>
+        <input type="submit" value="Search" class="btn"/>
+        <p class="error">{{ message }}</p>
+    </form>
+</div>
+<div class="suggested">
+  <h3>Suggested Searches</h3>
+  <table>
+    <tr>
+
+    </tr>
+  </table>
+</div>
+</body>
+</html>
