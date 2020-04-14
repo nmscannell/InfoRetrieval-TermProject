@@ -1,14 +1,11 @@
+{%  extends base %}
 {% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Search</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'search.css' %}">
-</head>
-<body>
-<h1>Medical Search</h1>
+
+{% block header %}
+    <h1 id="header">Search Results</h1>
+{%  endblock %}
+
+{% block content %}<br>
 <div class="form-box">
     <div class="head">" "</div>
     <form class="form" method="post" action="/search/" id="search-box">
@@ -32,5 +29,4 @@
     </tr>
   </table>
 </div>
-</body>
-</html>
+{% endblock %}

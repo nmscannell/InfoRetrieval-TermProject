@@ -1,0 +1,28 @@
+{%  extends base %}
+{% load static %}
+
+{% block header %}
+    <h1 id="header">Search Results</h1>
+{%  endblock %}
+
+{% block content %}<br>
+    <link rel="stylesheet" type="text/css" href="{% static 'results.css' %}">
+    <table class="list">
+        <tr class="header">
+             <th>Item</th>
+             <th>Reliability</th>
+        </tr>
+        {% for r in results %}
+            <tr class="item">
+                <td>
+                    <p>{{ r.title }}</p>
+                    <p>{{ r.url }}</p>
+                    <p>{{ r.summary }}</p>
+                </td>
+                <td>
+                    <p>{{ reliability }}</p>
+                </td>
+            </tr>
+         {% endfor %}
+    </table>
+{% endblock %}

@@ -14,5 +14,5 @@ class HomeView(View):
     def post(self, request):
         query = str(request.POST["query"])
         results = search.perform_search(query)
-
-        return render(request, 'results.html', {"results": results})
+        reliability = 'Reliable'
+        return render(request, 'results.html', {"results": results, "reliability": reliability})
