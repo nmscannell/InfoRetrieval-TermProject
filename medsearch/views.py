@@ -13,13 +13,6 @@ class HomeView(View):
 
     def post(self, request):
         query = str(request.POST["query"])
+        results = search.perform_search(query)
 
-
-        return render(request, 'results.html', {"results" : results})
-        pass
-    # return render('search.html')
-    pass
-
-
-class SearchResultsView(View):
-    pass
+        return render(request, 'results.html', {"results": results})
