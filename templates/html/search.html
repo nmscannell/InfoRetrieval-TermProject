@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'search.css' %}">
 </head>
 <body>
+<h1>Medical Search</h1>
 <div class="form-box">
     <div class="head">" "</div>
     <form class="form" method="post" action="/search/" id="search-box">
@@ -20,7 +21,7 @@
             <input type="text" name="query" id="query" placeholder="query" required/>
         </div>
         <input type="submit" value="Search" class="btn"/>
-        <p class="error">{{ message }}</p>
+        <!--<p class="error">{{ message }}</p>-->
     </form>
 </div>
 <div class="suggested">
