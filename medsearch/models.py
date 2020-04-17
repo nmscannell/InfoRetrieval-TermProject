@@ -5,9 +5,9 @@ from django.db import models
 
 class Document(models.Model):
     docID = models.IntegerField(default=0)
-    title = models.CharField(default=" ")
-    url = models.CharField(default=" ")
-    summary = models.CharField(default=" ")
-    date = models.CharField(default=" ")
-    type = models.CharField(default=" ")
+    title = models.CharField(default=" ", max_length=100)
+    url = models.CharField(default=" ", max_length=80)
+    summary = models.CharField(default=" ", max_length=803)
+    date = models.CharField(default=" ", max_length=10)
+    type = models.CharField(default=" ", max_length=10)
 

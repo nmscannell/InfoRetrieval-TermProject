@@ -19,7 +19,7 @@ Inverted index is stored in a dict that is saved and loaded via pickle.
 class Indexer():
     def __init__(self):
         if os.path.exists('obj/index.pkl'):
-            self.index = self.load_obj('index')
+            self.index = Indexer.load_obj('index')
         else:
             self.index = {}
         self.punct = ['.', '?', '"', ',', "'", '+', '%', '!', "''"]
@@ -45,7 +45,8 @@ class Indexer():
         for i in p_content:
             self.add_to_index(i, False)
 
-        content = content[:200]+'...'
+        if len(content) > 800:
+            content = content[:800] + '...'
         self.store_doc(id, url, type, title, content, date)
 
     def add_to_index(self, i, title=True):
@@ -65,7 +66,7 @@ class Indexer():
                     self.index[i][id] = [0, 1]
             else:
                 self.index[i] = {id: [0, 1]}
-        self.save_obj(self.index, 'index')
+        Indexer.save_obj(self.index, 'index')
 
     def parse_string(self, string):
         res = nltk.word_tokenize(string.lower())
@@ -83,6 +84,8 @@ class Indexer():
         return res
 
     def scrape_web(self, url):
+        id = self.num_docs
+        self.num_docs += 1
         page = requests.get(url)
         soup = bs(page.content, 'html.parser')
         content = ''
@@ -120,7 +123,8 @@ class Indexer():
         for i in p_content:
             self.add_to_index(i, False)
 
-        content = content[:200] + '...'
+        if len(content) > 800:
+            content = content[:800] + '...'
         self.store_doc(id, url, type, title, content, date)
 
     def store_doc(self, id, url, type, title, summary, date):
@@ -137,10 +141,12 @@ class Indexer():
         self.num_docs += 1
         return True
 
-    def save_obj(self, obj, name):
+    @staticmethod
+    def save_obj(obj, name):
         with open('obj/' + name + '.pkl', 'wb') as f:
             pickle.dump(obj, f, pickle.HIGHEST_PROTOCOL)
 
-    def load_obj(self, name):
+    @staticmethod
+    def load_obj(name):
         with open('obj/' + name + '.pkl', 'rb') as f:
             return pickle.load(f)
