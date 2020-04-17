@@ -19,6 +19,7 @@ from medsearch import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('results/', views.SearchResultsView.as_view(), name='Search_Results'),
-    path('search/', views.HomeView.as_view(), name='Search'),
+    path('results/', views.ResultsView.as_view()),
+    path('', views.SearchView.as_view())
+ #   path('search/', views.SearchView.as_view())
 ]

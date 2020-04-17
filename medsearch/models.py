@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 
 
-class Document(models.model):
+class Document():
     docID = models.IntegerField(default=0)
     title = models.CharField(default=" ")
     author = models.CharField(default=" ")

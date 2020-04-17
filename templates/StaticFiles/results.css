@@ -1,0 +1,11 @@
+table {
+    #table-layout: auto;
+    width: 200px;
+}
+
+th, td {
+    height: 100px;
+    resize: both;
+    overflow: auto;
+    width: 300px;
+}

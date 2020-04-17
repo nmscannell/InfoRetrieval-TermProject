@@ -1,4 +1,4 @@
-{%  extends base %}
+{%  extends 'base.html' %}
 {% load static %}
 
 {% block header %}
@@ -7,22 +7,28 @@
 
 {% block content %}<br>
     <link rel="stylesheet" type="text/css" href="{% static 'results.css' %}">
+    <div style="overflow-x:auto;">
     <table class="list">
         <tr class="header">
              <th>Item</th>
              <th>Reliability</th>
         </tr>
-        {% for r in results %}
+        {% for res in results %}
+            {% for r in res %}
             <tr class="item">
-                <td>
-                    <p>{{ r.title }}</p>
-                    <p>{{ r.url }}</p>
-                    <p>{{ r.summary }}</p>
+                <td colspan="3" class="item">
+                    <p><a href={{ r.link }} target="_blank">{{ r.title }}</a></p>
+                    <p>{{ r.snippet }}</p>
                 </td>
                 <td>
                     <p>{{ reliability }}</p>
                 </td>
             </tr>
+            {% endfor %}
          {% endfor %}
     </table>
+    </div>
+    <div class="foot">
+        <a href="/">Search Again</a>
+    </div>
 {% endblock %}
