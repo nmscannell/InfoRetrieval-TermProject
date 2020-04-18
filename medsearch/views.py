@@ -1,7 +1,8 @@
 from django.shortcuts import render, redirect
 from django.views import View
-from medsearch.models import Document
-import search
+from QueryProcessing import search
+from QueryProcessing.QueryProcessor import QueryProcessor
+
 
 # Create your views here.
 
@@ -12,7 +13,7 @@ class SearchView(View):
         return render(request, 'search.html')
 
     def post(self, request):
-        query = str(request.POST["query"])
+#        query = str(request.POST["query"])
 #        results = search.perform_search(query)
 #        reliability = 'Reliable'
         return redirect('results')
@@ -22,6 +23,8 @@ class SearchView(View):
 class ResultsView(View):
     def post(self, request):
         query = str(request.POST["query"])
-        results = search.perform_search(query)
+        proc = QueryProcessor(query)
+        mes, results = proc.perform_search()
+#        results = search.perform_search(query)
         reliability = 'Reliable'
         return render(request, 'results.html', {"results": results, "reliability": reliability})

@@ -10,11 +10,13 @@ def google_search(search_term, api_key, cse_id, **kwargs):
     results = []
     results.append(service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()['items'])
     results.append(service.cse().list(q=search_term, cx=cse_id, start=11, **kwargs).execute()['items'])
-    results.append(service.cse().list(q=search_term, cx=cse_id, start=21, **kwargs).execute()['items'])
+#    results.append(service.cse().list(q=search_term, cx=cse_id, start=21, **kwargs).execute()['items'])
     return results
 
 
 def perform_search(query):
     return google_search(query, my_api_key, my_cse_id)
 
-print(perform_search('coronavirus'))
+results = perform_search('coronavirus')
+for r in results:
+    print(r)

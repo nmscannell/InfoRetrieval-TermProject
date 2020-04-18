@@ -162,6 +162,28 @@ class Indexer():
         self.num_docs += 1
         return True
 
+    def index_google_results(self, results):
+        doc_id = self.num_docs
+        for res in results:
+            for r in res:
+                title = r.title
+                url = r.link
+                content = r.snippet
+                type = 'misc'
+                date = '*'
+                p_title = self.parse_string(title)
+                p_content = self.parse_string(content)
+
+                for i in p_title:
+                    self.add_to_index(i, doc_id)
+                for i in p_content:
+                    self.add_to_index(i, doc_id, False)
+
+                if len(content) > 800:
+                    content = content[:800] + '...'
+                self.store_doc(doc_id, url, type, title, content, date)
+                doc_id += 1
+
     @staticmethod
     def save_obj(obj, name):
         with open('obj/' + name + '.pkl', 'wb') as f:
