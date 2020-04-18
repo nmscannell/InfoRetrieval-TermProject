@@ -18,9 +18,11 @@ Inverted index is stored in a dict that is saved and loaded via pickle.
 
 class Indexer():
     def __init__(self):
-        if os.path.exists('obj/index.pkl'):
+        if os.path.exists('Index/obj/index.pkl'):
+            print('index exists')
             self.index = Indexer.load_obj('index')
         else:
+            print('no index')
             self.index = {}
         self.punct = ['.', '?', '"', ',', "'", '+', '%', '!', "''"]
         self.stops = stopwords.words('english')
@@ -191,5 +193,5 @@ class Indexer():
 
     @staticmethod
     def load_obj(name):
-        with open('obj/' + name + '.pkl', 'rb') as f:
+        with open('Index/obj/' + name + '.pkl', 'rb') as f:
             return pickle.load(f)

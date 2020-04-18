@@ -7,9 +7,10 @@ import more_itertools
 
 class QueryProcessor:
     def __init__(self, query):
+        self.indexer = Indexer()
         self.query = []
         self.query_string = query
-        self.index = Indexer().index
+        self.index = self.indexer.index
         self.parse_query()
 
     def parse_query(self):
@@ -17,7 +18,7 @@ class QueryProcessor:
             raise Exception('No query has been made.')
         if len(self.index) == 0:
             raise Exception('No index has been made.')
-        self.query = Indexer.parse_string(self.query_string)
+        self.query = self.indexer.parse_string(self.query_string)
         self.query = [i for i in self.query if i in self.index]
 
     def perform_search(self):
@@ -29,9 +30,8 @@ class QueryProcessor:
         if len(self.query) == 0:
 #            mes = 'No results found for query--searching Google.'
             results = search.perform_search(self.query_string)
-            indexer = Indexer()
-            indexer.index_google_results(results)
-            self.index = indexer.index
+            self.indexer.index_google_results(results)
+            self.index = self.indexer.index
             self.parse_query()
             return self.obtain_docs()
 
@@ -49,17 +49,17 @@ class QueryProcessor:
         # TODO: incorporate date and source/type
         title_w = 0.5
         content_w = 0.3
-        dates = [[i.docid, i.date] for i in docs]
+        dates = [[i.docID, i.date] for i in docs]
         dates.sort(reverse=True, key=lambda e: e[1])
 
         # for each document, calculate the score based on tf-idf for each term in title and content
-        for i in docs:
+        for i in range(len(docs)):
             for j in self.query:
-                if i.docID not in self.index[j]:
+                if docs[i].docID not in self.index[j]:
                     continue
-                title_tf = self.index[j][i.docID][0]
-                content_tf = self.index[j][i.docID][1]
-                idf = math.log(Indexer.num_docs/len(self.index[j]))
+                title_tf = self.index[j][docs[i].docID][0]
+                content_tf = self.index[j][docs[i].docID][1]
+                idf = math.log(self.indexer.num_docs/len(self.index[j]))
                 doc_scores[i] += title_tf * title_w * idf + content_tf * content_w * idf
 
         # sort docs in descending order using the scores, then return title, url, summary of each doc in a list

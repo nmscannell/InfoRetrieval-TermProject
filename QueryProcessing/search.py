@@ -17,6 +17,3 @@ def google_search(search_term, api_key, cse_id, **kwargs):
 def perform_search(query):
     return google_search(query, my_api_key, my_cse_id)
 
-results = perform_search('coronavirus')
-for r in results:
-    print(r)

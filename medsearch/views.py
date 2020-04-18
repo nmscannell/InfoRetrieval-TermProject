@@ -13,11 +13,7 @@ class SearchView(View):
         return render(request, 'search.html')
 
     def post(self, request):
-#        query = str(request.POST["query"])
-#        results = search.perform_search(query)
-#        reliability = 'Reliable'
         return redirect('results')
-#        return render(request, 'results.html', {"results": results, "reliability": reliability})
 
 
 class ResultsView(View):
@@ -25,6 +21,7 @@ class ResultsView(View):
         query = str(request.POST["query"])
         proc = QueryProcessor(query)
         mes, results = proc.perform_search()
-#        results = search.perform_search(query)
         reliability = 'Reliable'
-        return render(request, 'results.html', {"results": results, "reliability": reliability})
+        print(mes)
+        print(results)
+        return render(request, 'results.html', {"results": results, "mes": mes, "reliability": reliability})
