@@ -10,11 +10,11 @@ from Index.Indexer import Indexer
 
 
 indexer = Indexer()
-doc_id = 73
-for i in range(1, 24):
-    print(doc_id)
-    indexer.process_file('files/' + str(i)+'.txt', doc_id)
-    doc_id += 1
+doc_id = 96
+#for i in range(1, 24):
+#    print(doc_id)
+#    indexer.process_file('files/' + str(i)+'.txt', doc_id)
+#    doc_id += 1
 
 #with open('urls.txt') as f:
 #    for line in f:
