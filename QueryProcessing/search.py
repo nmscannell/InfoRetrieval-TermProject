@@ -10,7 +10,6 @@ def google_search(search_term, api_key, cse_id, **kwargs):
     results = []
     results.append(service.cse().list(q=search_term, cx=cse_id, **kwargs).execute()['items'])
     results.append(service.cse().list(q=search_term, cx=cse_id, start=11, **kwargs).execute()['items'])
-#    results.append(service.cse().list(q=search_term, cx=cse_id, start=21, **kwargs).execute()['items'])
     return results
 
 

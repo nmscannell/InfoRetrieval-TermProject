@@ -28,7 +28,6 @@ class QueryProcessor:
             raise Exception('No index has been made.')
 
         if len(self.query) == 0:
-#            mes = 'No results found for query--searching Google.'
             results = search.perform_search(self.query_string)
             self.indexer.index_google_results(results)
             self.index = self.indexer.index
@@ -37,6 +36,8 @@ class QueryProcessor:
 
         mes, docs = self.obtain_docs()
         ranked = self.rank_docs(docs)
+        if len(ranked) > 20:
+            ranked = ranked[:20]
         return mes, ranked
 
     def rank_docs(self, docs):
@@ -87,7 +88,7 @@ class QueryProcessor:
 
         # if there are common terms, we will return results with both terms
         if len(common_docs) > 0:
-            mes = 'Results contain both terms.'
+            mes = 'Results contain all terms.'
             docs = []
             for i in common_docs:
                 docs.append(Document.objects.get(docID=i))

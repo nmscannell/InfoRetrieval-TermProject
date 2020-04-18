@@ -9,14 +9,13 @@
     <link rel="stylesheet" type="text/css" href="{% static 'results.css' %}">
     <div style="overflow-x:auto;">
     <h3>{{ mes }}</h3>
-    </br>s
+
     <table class="list">
         <tr class="header">
              <th>Item</th>
              <th>Reliability</th>
         </tr>
         {% for res in results %}
-            <!---{% for r in res %}--->
             <tr class="item">
                 <td colspan="3" class="item">
                     <p><a href={{ res.url }} target="_blank">{{ res.title }}</a></p>
@@ -26,7 +25,6 @@
                     <p>{{ reliability }}</p>
                 </td>
             </tr>
-            <!---{% endfor %}--->
          {% endfor %}
     </table>
     </div>
