@@ -25,6 +25,10 @@ class Indexer():
         self.punct = ['.', '?', '"', ',', "'", '+', '%', '!', "''"]
         self.stops = stopwords.words('english')
         self.num_docs = len(Document.objects.all())
+        if os.path.exists('obj/scraped.pkl'):
+            self.scraped = Indexer.load_obj('scraped')
+        else:
+            self.scraped = []
 
     def process_file(self, file):
         with open(file) as f:
@@ -84,36 +88,47 @@ class Indexer():
         return res
 
     def scrape_web(self, url):
+        if url in self.scraped:
+            return
         id = self.num_docs
-        self.num_docs += 1
         page = requests.get(url)
         soup = bs(page.content, 'html.parser')
+        print(soup)
         content = ''
         if url.count('nasa.gov') > 0:
             if url.count('/experiments/') > 0:
                 type = 'research'
                 date = '*'
-                title = soup.find(_class='inv-title').get_text().strip()
-                content += soup.find(_class='block flagged').get_text()
+                title = soup.find(class_='inv-title').get_text().strip()
+                content += soup.find(class_='block flagged').get_text()
                 content += soup.find(id='ResearchSummary').get_text()
                 content += soup.find(id='ResearchDescription').get_text()
                 content += soup.find(id='ApplicationsInSpaceAnger').get_text()
             else:
                 type = 'article'
-                date = soup.find(_class='pr-promo-date-time').get_text()
-                title = soup.find(_class='title-wrap').get_text()
-                content = soup.find(_class='text').find_all('p').get_text()
+                date = soup.find(class_='pr-promo-date-time').get_text()
+                title = soup.find(class_='title-wrap').get_text()
+                text = soup.find(class_='text').find_all('p')
+                content = ''
+                for p in text:
+                    content += p.get_text()
         elif url.count('space.com') > 0:
-            article = soup.find(_class='news-article ')
+            article = soup.find(class_='news-article')
             type = 'article'
-            title = article.find('h1').get_text()
+            title = article.find('header').get_text()
             date = article.find('time').get_text()
-            content = article.find(id='article-body').find_all('p').get_text()
+            text = article.find(id='article-body').find_all('p')
+            content = ''
+            for p in text:
+                content += p.get_text()
         elif url.count('/books/') > 0:
             date = '*'
-            article = soup.find(_class='document')
-            title = article.find(_class='title').get_text()
-            content = article.find_all('p').get_text()
+            article = soup.find(class_='document')
+            title = article.find(class_='title').get_text()
+            content = ''
+            text = article.find_all('p')
+            for p in text:
+                content += p.get_text()
             type = 'book'
 
         p_title = self.parse_string(title)
@@ -126,6 +141,8 @@ class Indexer():
         if len(content) > 800:
             content = content[:800] + '...'
         self.store_doc(id, url, type, title, content, date)
+        self.scraped.append(url)
+        Indexer.save_obj(self.scraped, 'scraped')
 
     def store_doc(self, id, url, type, title, summary, date):
         if Document.objects.filter(url=url).exists():
