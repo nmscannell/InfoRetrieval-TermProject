@@ -1,22 +1,80 @@
-https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=7803
-research
-Comfort and Human Factors: AstroRad Radiation Garment Evaluation (CHARGE)
-*
-Comfort and Human Factors AstroRad Radiation Garment Evaluation (CHARGE) (AstroRad Vest) tests a special vest designed to protect astronauts from radiation caused by unpredictable solar particle events (SPEs). Astronauts will provide input on the garment as they wear it while performing daily tasks, including how easy it is to put on, how it fits and feels, and the range of motion it allows. Garment developers can use this input to improve design, and use of the vest protects crew members on missions to the Moon and Mars.
-RESEARCH OVERVIEW
-Crew members on the International Space Station (ISS) test the comfort of the Comfort and Human Factors AstroRad Radiation Garment Evaluation (CHARGE) (AstroRad Vest) when worn in the weightlessness of space.
-Each crew member wears AstroRad Vest and performs a set of tests over a three or four week timespan, providing feedback to ground teams.
-AstroRad Vest is developed by StemRad and Lockheed Martin to protect against the radiation produced by solar particle events in space. AstroRad Vest uses a radiation shielding technology protecting specific radiation sensitive organs, tissues and stem cell concentrations with the intent of reducing the adverse health effects of exposure to radiation, such as radiation-induced cancer.
-Crew members wear AstroRad Vest and perform nominal tasks such as maintenance, sleep, eating meals, cargo loading/unloading and exercise. After each of these events, the crew members fill out a survey. They answer questions about the ease of performing those tasks while wearing AstroRad Vest and provide any comments on the comfort of the vest.
-AstroRad Vest was developed to mitigate radiation threats to crew members on missions to the Moon and Mars. Flying AstroRad Vest on the ISS allows the designers to apply the feedback from the astronauts to improve the design and make the vest more comfortable for the crew members to wear.
-AstroRad Vest complements the Matroshka AstroRad Radiation Experiment (MARE). On Orion Exploration Mission-1, MARE will characterize the radiation environment through the Van Allen radiation belts and in lunar orbit. AstroRad designers will apply data and feedback from both experiments to optimize AstroRad Vest. By improving crew member safety, AstroRad Vest is a key enabler of deep space exploration missions.
-DESCRIPTION
-Comfort and Human Factors AstroRad Radiation Garment Evaluation (CHARGE) (AstroRad Vest) is a personal protective equipment vest for astronauts. AstroRad Vest uses the International Space Station (ISS) as a ‘phase zero’ test platform in the development of this key element of cis-lunar exploration. Lockheed Martin and StemRad, a company based in Tel Aviv, Israel, developed AstroRad Vest and optimized the design to mitigate radiation threats to astronauts on missions to the Moon and Mars. Unpredictable solar particle events may deliver high radiation doses in a few hours. Wearing the AstroRad Vest reduces the chance of radiation exposure-induced death from radiation-induced fatal cancers and other short- and long-term adverse health effects. This type of garment shielding protects specific radiation-sensitive organs, tissues and stem cell concentrations. Three-dimensional selective protection by variable thickness shielding complements the body’s self-shielding. AstroRad Vest’s evaluation of human factors on the ISS ensures that this personal protective equipment will be reasonable to deploy for lunar operations.
+https://www.hopkinsmedicine.org/news/publications/hopkins_medicine_magazine/archives/springsummer_2011/cosmic_mission
+article
+Cosmic Mission
+5-20-2011
+Space radiation is a huge hazard for astronauts headed to Mars. In working to fend off damaging "nano-cannonballs" out in space, Dan Berkowitz may just find answers to aging and heart disease for those here on Earth.
+The mission clock showed 12 minutes to go. Twelve minutes until the space shuttle landed, here on this bright Saturday morning at Cape Canaveral, Fla. Once the vehicle rolled to a stop, and the post-flight checklist was completed, Dan Berkowitz would have to spring into action. A Johns Hopkins professor of critical care anesthesiology with a research focus in vascular biology, Berkowitz was a member of a large scientific collaboration that had sent nine rats aloft with the shuttle. Now, after the animals had been weightless in orbit for 16 days, the scientists would have to perform their experiments on them quickly, before the effects of zero gravity wore off.
 
-AstroRad Vest key ergonomic data collected on the ISS provides the designers with information needed to build the vest for operations on future NASA missions. On ISS, up to four female crew members evaluate AstroRad Vest. Female crew have been chosen for this evaluation because they have greater sensitivity to space radiation, mostly due to higher radiation-induced cancer risk to the ovaries and breast tissue. The crew members wear AstroRad Vest in microgravity during nominal ISS tasks, including maintenance, sleep, meals, cargo loading / unloading and exercise. They assess ergonomics, range of motion, comfort and general user experience. The crew members record feedback on a survey, providing key data to designers for future improvments. Video footage recorded during assessments show crew member range of motion limitations while wearing AstroRad Vest.
+Berkowitz’s team’s experiment concerned the rats’ blood vessels. Astronauts newly returned from orbit often could not stand up without fainting, and the condition—known as orthostatic hypotension—might even rob them of consciousness during re-entry and landing. Berkowitz and his colleagues suspected that the zero-g environment alters key signaling receptors on vascular endothelial and smooth-muscle cells, leaving vessels less able to contract and squeeze blood toward the brain when needed. To test the hypothesis they had sent the rats into space.
 
-AstroRad Vest project complements the Matroshka AstroRad Radiation Experiment (MARE). On Orion Exploration Mission-1, MARE will characterize the radiation environment through the Van Allen radiation belts and in cis-lunar space. AstroRad Vest designers apply data and feedback from both experiments to optimize the vest, define operational use-cases, and improve AstroRad Vest ergonomics and function. By improving crew member safety, AstroRad Vest is a key enabler of deep space exploration missions.
-SPACE APPLICATIONS
-AstroRad Vest provides personal radiation protection for astronauts beyond low-Earth orbit, reducing their exposure to unpredictable solar particle events that can deliver high radiation doses in a few hours. Wearing AstroRad Vest reduces the chance of radiation exposure-induced death from radiation-induced fatal cancers and other short- and long-term adverse health effects. Garment shielding protects specific radiation-sensitive organs, tissues and stem cell concentrations. Three-dimensional selective protection by variable thickness shielding complements the body’s self-shielding.
-EARTH APPLICATIONS
-AstroRad Vest builds on a commercial product used for protection from exposure to nuclear radiation on Earth, which has different spectrum and energy levels than radiation in space. Data on how easy the vest is to put on and how comfortable it is to wear may inform improvements to radiation protection garments on Earth.
+The team of scientists had set up a large lab in the nearby Hangar L; and for the past month they all had been living and working here at the Cape, honing to perfection a rapid, assembly-line process of experimentation. “As soon as the animals came off the shuttle, one group would harvest the brains; and they’d hand off the animals to the next group, which would dissect out the livers; and then they’d hand it off to us so we could look at our part of the vascular system,” remembers Berkowitz.
+
+But … where was the shuttle?
+
+A few minutes before, it had been a dim white streak moving at Mach 19—40 miles above the southwestern United States. Mission Control had noted that the left landing gear’s tire pressure gauge had gone to zero, and the shuttle commander had begun to acknowledge the message—but then had been cut off in mid-sentence.
+
+Brief communication outages often occurred during re-entry, and among the tens of thousands of telemetered gauges on the shuttle, there always seemed to be one or two that went fluky in the course of a mission. No one in the viewing grandstand with Berkowitz showed any sense of alarm. The atmosphere was festive! The moment that he and his colleagues and students had spent months preparing for was now at hand.
+
+At two minutes before the scheduled landing, a high-ranking military officer arrived and quietly took away some of the people standing in front of Berkowitz. “Again, we didn’t make much of it,” he says. “But the mission clock kept counting down, and still we didn’t hear anything, didn’t see anything.”
+
+And finally the clock ran out.
+
+The Hazards of Space
+
+Holed in the left wing by a piece of debris at takeoff, Columbia had been doomed from the start. In its attempted re-entry it had made it only as far as the thin air above Texas before disintegrating, along with everyone and everything it carried.
+
+Eight years later, as he sits in his office in East Baltimore recalling the tragedy, Berkowitz acknowledges that the shock of it still hasn’t quite worn off. His branch of space biomedicine, though, has mostly moved away from orbital experiments. “There’s just too much effort and too much risk,” he says. “And of course, the shuttle program is about to end.”
+
+The orthostatic hypotension issue is also considered somewhat manageable now, with exercise routines, vasoconstrictive drugs, and even special suits that constrict peripheral vessels by cooling the skin. Berkowitz, who in December was named an associate leader for the Cardiovascular Alterations Team at the NASA-supported National Space Biomedical Research Institute (NSBRI), has set his sights on a new and arguably tougher challenge: how to protect astronauts from the effects of space radiation on the heart and its vessels—effects that otherwise could sharply increase the risk of heart attacks and strokes on a three-year Mars mission.
+
+But before that—how did Berkowitz, who was born in South Africa, get into space medicine in the first place?
+
+“Slowly and circuitously,” he says with a laugh. His interest in space travel began when he was a schoolboy in Johannesburg in the late 1960s—the heyday of manned spaceflight. He kept scrapbooks with clippings on various NASA missions, and often wrote to the U.S. space agency to request public information packets full of glossy photos.
+
+Though he considered an engineering career, he went into medicine instead, and as a young physician came to the United States in 1987—a time when South Africa’s future seemed particularly uncertain. He joined Johns Hopkins Medicine as a cardiac anesthesia specialist in 1994, and soon began researching anesthesia-related questions in vascular biology.
+
+About a year into his Hopkins career, Berkowitz encountered a neurology patient with a complicated case of orthostatic hypotension. The condition seemed to be caused by an unusual factor in the patient’s blood that partly blocked adrenergic receptors on vascular smooth-muscle cells. Drugs that should bind to those receptors and force vessels to constrict failed to work.
+
+“As a result of that case, I started looking into orthostatic hypotension more generally,” says Berkowitz. He soon began collaborating with Artin Shoukas, an experienced biomedical engineer and venous-system expert at Hopkins’ Whiting School of Engineering, who became his research mentor. When NASA started up NSBRI in 1997, essentially as a conduit for space medicine funding, Shoukas and Berkowitz received one of its first grant awards to investigate mechanisms of astronaut orthostatic hypotension, in addition to direct funding from NASA that led to their experiments aboard Columbia.
+
+“We’ve been working together since then,” says Shoukas.  “And it’s been very synergistic; I’ve worked more at the systems and organ function level, and Dan brings expertise at the molecular level.”
+
+Heavy Metal
+
+Lately that expertise has been directed at what is arguably the greatest problem facing a manned Mars mission: the high-speed particle radiation of interplanetary space, also known as cosmic radiation.
+
+The Earth shields us from cosmic radiation with her blue skies and magnetic field, but outside this protective zone—en route to Mars, for example—the long-term exposure may be too much for astronauts to bear. Even those who ventured briefly to the Moon and back experienced visual flashes from cosmic ray hits on their retinas or optic nerves.
+
+Most of the cosmic-ray flux comes in the form of simple protons ejected from the sun’s stormy surface, but researchers are more worried about the heavier particles that scream in at near light-speed from elsewhere in the galaxy. The most feared of these, due to their high mass and relative abundance, are nuclei of the element iron— intensely charged nano-cannonballs that leave a thick trail of damage whenever they hit flesh and blood. Even if they first collide with atoms in a ship’s protective skin, they are apt to emit showers of damaging secondary radiation. “You really can’t shield against them effectively on the lightweight spacecraft we have now,” says Berkowitz.
+
+For the roughly 1,000-day Mars mission that NASA planners imagine, bombardment with all this cosmic radiation would certainly increase an astronaut’s long-term risk of cancer. But there could be more acute, mission-endangering effects on other organ systems, including the heart and vascular system. Animal experiments and studies of cancer patients who’ve received radiation therapy have made clear that radiation damage to endothelial cells in coronary blood vessels can promote an accelerated form of atherosclerosis and heart disease.
+
+So how to protect against this, if physical shielding isn’t possible?
+
+It turns out that a high-speed particle’s traversal of a cell doesn’t usually kill or mutate it outright; instead it triggers a slow process of secondary and collateral damage, driven partly by the overproduction of hydrogen peroxide and other cell-damaging “reactive oxygen species” (ROS).  Stop this excessive ROS production with a drug, explains Berkowitz, and you might be able to solve much of the problem.
+
+Several years ago, Berkowitz began investigating an enzyme known as xanthine oxidase, which is known to be upregulated during tissue injury and inflammation, and catalytically boosts ROS levels wherever it appears. In studies reported in 2007, in the journal Radiation and Environmental Biophysics, and in 2010 in the Journal of Applied Physiology, he and his team found that the aortas of rats exposed to gamma rays show marked increases in xanthine oxidase levels as well as signs of endothelial cell dysfunction. In more recent, soon-to-be-published work, using a NASA particle beam facility located at Brookhaven National Laboratory in New York, Berkowitz and colleagues demonstrated that a similar process happens after irradiation by high-speed iron nuclei. Most importantly, for both the gamma ray and particle experiments the degenerative arterial effects were mostly blocked when Berkowitz’s team gave the rats a drug that inhibits the production of xanthine oxidase.
+
+“One of the nice things about targeting xanthine oxidase is that inhibitors already exist and are FDA approved,” Berkowitz explains. These inhibitors are used to prevent the over-accumulation of uric acid—a condition, known as gout, that is partly mediated by xanthine oxidase activity.
+
+Arginase and Aging
+
+“Dan has made a big contribution here by showing that there are drugs that might well protect astronauts against cardiovascular radiation damage,” says Shoukas.
+
+“He’s really been a pioneer in this area,” says Brookhaven researcher and radiation-effects expert Marcelo Vazquez. “The risk to the cardiovascular system from space radiation had been overlooked for many years.”
+
+Yet Berkowitz notes that this is an area of research where definitive, clinical-trial-type answers can be elusive. “We clearly can’t irradiate human subjects with iron nuclei to see whether xanthine oxidase inhibitors protect them; and there is no natural population that would have cosmic-ray exposures like those on a Mars mission,” he says. Even with animals, he says, it would be impractical to subject them to continuous, years-long radiation exposures, so he and other researchers tend to use single-dose approximations instead.
+
+Partly because of this uncertainty, Berkowitz has been expanding his research focus to include other factors that could contribute to space-radiation vascular damage. One of these is arginase, an enzyme that when produced in higher amounts in vascular endothelial cells causes a decline in healthy nitric oxide signaling, an accumulation of ROS, and an increase in the vascular stiffness and degeneration that promotes atherosclerosis.
+
+“We’ve also found that rising arginase levels are associated with the vascular aging process in rodents, so we’re looking at arginase inhibitors as possibly being broadly useful down here on Earth,” he says.
+
+Nowadays in two labs near his office, Berkowitz’s postdocs and PhD students are doing both radiation-related and basic vascular biology work. Their lab benches are covered with arrays of delicate instruments that help them measure the flexibility of rodent blood vessels—by applying tension to the tiny, tubular bits of tissue or inflating them with bloodlike fluid.
+
+Most researchers could keep entirely busy supervising all this lab activity, the associated grant-proposal paperwork, and the duties of being an NSBRI associate team leader, which includes oversight of several other vascular-related projects in U.S. universities. But for Berkowitz these research pursuits occur in addition to his primary job as a critical-care anesthesiologist. The night before he sat for an interview, he assisted in what turned out to be an eight-hour open-heart surgery, involving the implantation of a ventricular-assist pump to keep a man with a failing heart alive.
+
+“Critical-care anesthesia often amounts to vascular-system management, so it definitely has a connection to my vascular biology research,” says Berkowitz.
+
+Would he ever consider taking his research and clinical practice into space, on a Mars mission perhaps?
+
+He laughs. “Space exploration is one of the most noble and unifying pursuits of mankind, and I’m glad to be able to make a contribution. But the truth is, I’m very prone to motion sickness, so as an astronaut in a zero-g environment, I’d be pretty useless.” *

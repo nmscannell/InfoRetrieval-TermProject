@@ -1,58 +1,15 @@
-https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1125
+https://www.space.com/nasa-coronavirus-astronaut-prelaunch-quarantine-health-plans.html
 article
-Individualized Real-Time Neurocognitive Assessment Toolkit for Space Flight Fatigue
-*
-Individualized Real-Time Neurocognitive Assessment Toolkit for Space Flight Fatigue (Cognition) is a battery of tests that measure how spaceflight-related physical changes, such as microgravity and lack of sleep, can affect cognitive performance. Cognition includes ten brief computerized tests that cover a wide range of cognitive functions, and provides immediate feedback on current and past test results. The software allows for real-time measurement of cognitive performance while in space.
-
-Detailed Research Description
-
-		Human exploration of space requires astronauts to maintain a high level of effective cognitive performance in the presence of a range of fatigue-related conditions associated with perturbations of sleep and circadian neurobiology, excessive cognitive and physical workloads (e.g., EVAs), and environmental stressors (e.g., CO2, hypoxia , radiation). It is unknown to what extend fatigue is a result of (or interacts with) other occult neurobehavioral risks in space flight (e.g., reports of cognitive space fog; symptom reports of neurasthenia (nervous exhaustion); visual field deficits from papilledema (edema of the optic disk) and/or the possibility of elevated intracranial pressure (ICP) in space). Given the breadth of neurocognitive functions required for effective performance in space, the need to medically manage sleep and fatigue in space, the very limited neurocognitive assessment tools currently in space flight, and the often anecdotal nature of cognitive complaints from space flight, there is a critical need for rapid objective assessment of a range of neurocognitive performance functions in space flight. This project achieves this goal by developing a much-needed practical, yet comprehensive cognitive test battery; validating its sensitivity to fatigue and fatigue countermeasures; determining astronaut norms for the test battery; and establishing space-flight feasibility of the battery. The result is a software-based Neurocognitive Assessment Toolkit for Spaceflight (Cognition) that permits rapid, real-time measurement of astronaut cognitive performance across a much broader range of neurocognitive functions than can be currently assessed in space.
-
-
-
-		Cognition Test Battery Description
-		The Cognition battery is a 20-30 minute computerized test battery of cognitive tests. Besides a sleep questionnaire and brief subjective evaluations at the beginning, Cognition contains the following 10 tests (each test is mentioned with the primary cognitive domains covered):
-
-
-
-				Motor Praxis (MPraxis): Sensory-motor ability
-
-				Visual Object Learning (VOLT): Visual object learning and memory
-
-				Fractal 2-Back (F2B): Attention and working memory
-
-				Abstract Matching Task (AMT): Abstraction
-
-				Line Orientation (LOT): Spatial orientation
-
-				Emotion Recognition (ER): Emotion recognition
-
-				Matrix Reasoning (MRsT): Abstract reasoning
-
-				Digit Symbol Substitution (DSST): Complex scanning, visual tracking, attention
-
-				Balloon Analog Risk (BART): Risk decision making
-
-				Psychomotor Vigilance (PVT): Vigilant attention and psychomotor speed.
-
-
-
-
-
-
-BriefResearchOperations
-
-		A minimum of 6 ISS crew members with mission durations of six months or one year are needed as subjects for this experiment.
-
-		Cognition is completed four times pre-flight (at the familiarization, L-90, L-60 and L-10) and three times post-flight (at R+10, R+60 and R+90) on the subject&rsquo;s laptop. Each session is expected to take 30 minutes.
-
-		For a mission duration of six months, Cognition will be completed 11 times in-flight at varied time points throughout the mission on the Human Research Facility Laptops. They will be completed weekly at the beginning of the mission then once every few weeks for the remainder of the mission.
-
-		For a mission duration of one year, Cognition will be completed 11 times in-flight at varied time points throughout the mission on the Human Research Facility Laptops. The test battery will be completed on FD 6 and subsequent tests will be performed at 34 day intervals.
-
-
-Space Applications
-	While living and working in orbit, astronauts must be able to perform complex tasks despite fatigue and stress. Cognition provides a way to test crew members&rsquo; cognitive performance by using a battery of tests. The experiment validates the sensitivity of the battery to fatigue and its effectiveness for use in space. Future missions could use Cognition software to measure crew members&rsquo; performance more effectively than current tests.
-
-Earth Applications
-	Cognition includes a wide range of computerized cognitive tests, which could be used in a variety of situations on Earth. The tests could determine whether fatigue or other stress factors are compromising a person&rsquo;s ability to think and act clearly. The tests are brief and can be completed on a computer in virtually any setting.
+With coronavirus spreading, NASA may tweak astronaut prelaunch quarantine plans
+3-14-2020
+The procedure to ensure that astronauts don't bring an illness to the International Space Station is under evaluation as NASA enacts tactics to help slow the spread of the novel-coronavirus disease COVID-19.
+Governments and agencies around the world have been enacting measures meant to contain the spread of the novel coronavirus; those measures include social distancing and quarantines for people who think they may have been exposed to the virus. But these tactics aren't new territory for NASA astronauts, who take such measures to prepare for close-quarter, secluded living that can last six months or longer.
+NASA and its international partners mandate that soon-to-be spacefarers stay in quarantine for two weeks before launching into space. This is done in order to ensure that they are not sick or incubating an illness when they reach the orbiting lab.
+As Brandi Dean from NASA's Public Affairs Office explained in an email to Space.com, this procedure is called "health stabilization."
+The procedure is especially important for astronauts because day-to-day living in microgravity can affect the immune system.
+Dean said there are no astronauts currently close enough to their launch for standard prelaunch quarantine. (The next crew, comprising NASA astronaut Chris Cassidy and Russian cosmonauts Anatoly Ivanishin and Ivan Vagner, is scheduled to launch on April 9.)
+Beyond the typical spaceflight health measures, NASA is "closely adhering" to the infection-control recommendations made by the Centers for Disease Control and Prevention (CDC) to combat the spread of the novel coronavirus that causes the disease COVID-19, Dean said.
+"This includes cleaning of surfaces, social distancing, emphasizing hand hygiene, encouraging NASA team members who are sick to stay home and limiting contact with crewmembers," Dean said.
+Due to COVID-19, the space agency is currently evaluating changes to the standard health-stabilization plan. According to SpaceNews, Russia's space agency has suggested lengthening the quarantine for the trio launching in April, and NASA officials are discussing the measure with their counterparts.
+"We expect them to take additional measures to make sure that quarantine is a little tighter," Kirk Shireman, ISS program manager at NASA, told Space News. "We're ready to deal with that if it happens."
+NASA's virus-slowing measures extend beyond the astronaut corps. Most notably, the agency's Ames Research Center in California is "temporarily on mandatory telework status, with restricted access to the center until further notice," according to a NASA statement issued on Monday (March 9). That statement came after the agency received confirmation that an employee at Ames tested positive for COVID-19.

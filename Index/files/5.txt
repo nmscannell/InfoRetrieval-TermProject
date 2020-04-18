@@ -1,16 +1,141 @@
-https://www.nasa.gov/feature/novel-techniques-to-examine-crew-health-in-orbit-providing-insight-into-eye-problems
-article
-Novel Techniques To Examine Crew Health In Orbit Providing Insight Into Eye Problems
-10-3-2016
-The reason why some International Space Station astronauts have returned to Earth with changes in their vision has been a mystery, but new noninvasive techniques to examine crew health in orbit may provide researchers with much needed insight into the problem.
-A number of astronauts who have returned to Earth after long stays aboard the space station have reported a subjective change in their eyesight. A dozen or more had documented anatomical eye changes post mission. Ultrasound exams have revealed that the backs of their eyeballs had become flattened, and optical coherence tomography has shown optic nerve swelling and structural changes to the retina and choroid while in space. The term coined for these structural and function changes of the eye is visual impairment and intracranial pressure (VIIP).
-Much research has been done into why these vision problems happen, and many theories exist. One theory postulates that the upward fluid shift that occurs in the body in space is causing pressure to be applied to the optic nerve and the back of the eye, thereby resulting in anatomical changes that affect the person’s eyesight.
-Invasive measurements of intracranial pressure (ICP) have never been measured in a human subject in space, but a noninvasive estimate was recently conducted for the first time aboard the orbiting laboratory. Researchers needed to determine if ICP is elevated to gain a better understanding of the root cause of the vision problems and develop effective countermeasures. So, during the one-year mission in 2015, several noninvasive techniques were used to estimate ICP in crew members.
-One technique used a device to check fluid pressure in the ear to estimate a change in ICP compared to on Earth. The use of tympanic membrane displacement measurements to assess inner-ear pressure has been the subject of research for more than 15 years. In most people, inner-ear fluids are connected through to intracranial fluids, meaning that a change in ICP is reflected by a corresponding change in inner-ear pressure. Another device operating under a similar audiology-based concept estimated otoacoustic emissions—low-intensity sound waves produced in the inner ear—to estimate ICP.
-Data from the one-year mission is still being analyzed, but preliminary results suggest that there is not a pathologically large increase in ICP during spaceflight.
-“The name VIIP was originally coined because of the similarity in physical findings between patients on Earth with elevated ICP and astronauts returning from long-duration spaceflight,” said Dr. Steven Laurie, VIIP deputy discipline scientist with KBRwyle. “However, our preliminary data suggest that estimates of ICP in astronauts during spaceflight do not appear to be in a pathologically elevated range.”
-Dr. Michael Stenger, lead VIIP discipline scientist with KBRwyle, cautions that ICP may still be a contributing factor to VIIP, albeit at a mild, chronically elevated level.
-“There is definitely an accumulation of cerebral spinal fluid within the space behind the eye, but we don’t understand what is causing that,” Stenger said. “Elevated venous pressure or a change in lymphatic drainage may sequester fluid behind the eye, thus causing a compartment syndrome.”
-Additional noninvasive devices and techniques using ultrasound are being used aboard the space station to further research in this area. Ultrasound is being used to scan the diameter of the optic nerve sheath and to measure the pulsatility index of the middle cerebral artery to monitor ICP. Both of these measures have been correlated with high ICP in patients on Earth, but more research is needed to understand how accurate these noninvasive techniques are in a more normal ICP range.
-Use of these noninvasive techniques in space could have huge benefits for medicine on Earth.
-“If the noninvasive ICP devices can reliably and accurately estimate differences between high and low ICP, then in a clinical setting it may be possible to use these noninvasive techniques instead of highly invasive methods that are currently required when elevated ICP is suspected,” Stenger said. “We are not there yet, but may get there one day.”
+https://srag.jsc.nasa.gov/SRAGFiles/Publications/COSPAR2002-ASJ.txt
+research
+Minimizing Space Radiation Exposure During Extra-Vehicular Activity
+*
+Continued assembly of the International Space Station (ISS) requires numerous Extra-Vehicular
+Activities (EVAs).  Prudent radiological safety practices require minimizing additional
+exposures to crewmen during these periods1.  The spatial distribution of the “normal” trapped
+proton and electron radiation sources in low Earth orbit is strongly governed by the geomagnetic
+field.  It is possible to use ISS trajectory information to estimate crew exposures during EVAs
+and to identify periods that can result in minimal EVA crew exposures through avoidance of
+these trapped radiation regions.  Such exposure minimization planning can also accommodate
+the unforeseen development of a solar proton event.  An EVA exposure estimation tool,
+EVADOSE, is described and applied to various EVA exposure scenarios.	Procedures and
+parameters that influence EVA exposures are discussed along with techniques to minimize crew
+exposures.
+Astronauts are radiation workers.  Special exposure limits are applied that can allow astronauts
+to receive exposures greater than that allowed for terrestrial radiation workers.  As a condition of
+implementing the higher exposure limits, NASA is required to perform ALARA (As Low As
+Reasonably Achievable) assessments to maintain crew exposures as low as reasonably possible.
+The radiation fluences found in low Earth orbit are spatially non-uniform as a result of the
+geomagnetic field which both protects and adds to the radiation environment.  On one hand, the
+geomagnetic field provides some shielding against the background galactic cosmic radiation
+(GCR), while on the other hand traps protons and electrons into regions where localized and
+significantly increased radiation levels are found.  This non-uniform distribution of radiation
+levels causes internal radiation levels to typically vary by a factor of 1000; the range of external
+levels is even higher.  The crew exposure during an extra-vehicular activity (EVA), or space
+walk, is very dependent upon the amount of time spent in the areas of higher radiation levels.
+Assessing the spacecraft trajectory against the spatial distribution of the radiation environment
+presents an opportunity to evaluate and make recommendations to potentially lower the EVA
+exposure.
+Figure 1 illustrates the basic distribution of the radiation environment at a typical ISS altitude.
+Dose data from an internal radiation monitor, Tissue Equivalent Proportional Counter (TEPC), is
+plotted against the spacecraft ground track.  This distribution is representative of the ‘normal’
+radiation environment.  The tilt and offset of the geomagnetic field relative to the Earth’s spin
+axis creates the South Atlantic Anomaly (SAA), which appears as the “bulls-eye” over South
+America. One third to half the daily dose is encountered in this region.  In this chart, the
+remaining radiation is from GCR.  The lowest levels are encountered at the geomagnetic equator
+due to the protection of the Earth’s field.  Geomagnetic protection decreases as the spacecraft
+moves away from the equator.  Due to the tilt of the magnetic field, geomagnetic field lines with
+large dipoles are found over North America and near Australia and provide little protection from
+the free space environment.  These are referred to as ‘low cutoff zones’.  The yellow areas
+indicate the GCR reaching maximum levels.  Although not measurable inside, trapped electron
+belts dip to low Earth orbit (LEO) altitudes and are found near these low cutoff zones.  Thus, the
+EVA ‘normal’ radiation hazards are summarized as 1) GCR, 2) SAA protons and electrons and
+3) trapped belt electrons at high latitudes.  During off normal situations, additional exposure can
+occur from Solar proton Events (SPE) or from temporary increases in trapped radiation belts
+resulting transient magnetic storms.
+In order to estimate the exposure to the crew the program called EVADOSE was developed to
+assess the trajectory of the EVA spacewalker against the projected external radiation levels
+encountered during the course of the EVA.  EVADOSE is designed to evaluate the difference in
+exposure between what the crew receives during an EVA and what would have been received if
+the crewmember remained inside the spacecraft.  GCR exposure inside or outside of the
+spacecraft is very similar and therefore neglected in the analysis.  Trapped exposures, however,
+differ greatly between inside and outside.  Transport of protons and electrons through the
+spacecraft structure and the EVA Suit are evaluated using separate shield files to determine the
+exposures inside the spacecraft and inside the EVA suit.
+Four options for trajectory assessment are provided.
+1.   Trajectory file – data file of latitude, longitude, altitude, B and L-Shell as a function
+of time (once per minute).
+2.   User-supplied State Vector – M50 state vector and associated time of vector to
+generate a trajectory file.
+3.   Real-time STS State Vector – current Shuttle state vector and time extracted by
+polling local Mission Control data Servers to generate a trajectory file.
+4.   Real-time ISS State Vector – current Space Station state vector and time extracted by
+polling local Mission Control data Servers to generate a trajectory file.
+The input trajectory file serves as an input source of B and L-shell computational routines in
+conjunction with the source models to determine the flux at any location as a function of time.
+AP8 & AE8 trapped proton and electron models are used with options to select from either the
+solar maximum model or the solar minimum version of the trapped models.  The differential
+proton & electron flux at each minute of the EVA is determined.  The differential fluxes are
+summed for the duration of the EVA and used with two radiation transport codes, PDOSE for
+protons and EDOSE for the electrons to compute the resulting dose.2   A summary output is
+provided along with a proton and electron flux vs. time file for EVA exposure optimization.
+Specific parameters may be input to produce an estimation of any particular EVA.  Generally,
+before the EVA starts, several cases have been run to estimate the result of starting an EVA early
+or late.  By combining the proton and electron flux versus time output files, a rolling integration
+of a specific EVA duration is possible.  Figure 3 is an example of  EVA dose projections for a
+high inclination Space Station mission.  The top half of the graphic depicts the dose rate vs. time.
+These spikes are due to passes through the SAA or the electron belts.  Figure 4 depicts the result
+from STS-109 a low inclination, high altitude flight which only passes through the SAA.
+Planned EVAs are marked by green triangles.  For any given start time, the lower curve reflects
+an estimate of the EVA exposure for the targeted duration.  In order to minimize exposures,
+optimal EVA exposure start times should be scheduled in the bottom of ‘valleys’ of the lower
+curve.  Once a day there is a time when the additional dose is at a minimum and it is possible to
+receive very little extra exposure for the EVA.  However, EVA schedules are driven by a large
+number of requirements so it is not always possible to schedule them for optimally minimum
+exposure.
+This type of temporal pattern of EVA exposure vs. EVA start time provides a quick means to
+advise the mission control team on the impacts of changes in the planned EVA start time on
+EVA exposures.  EVAs have been replanned on occasion based on similar analysis.  Although
+the primary operational focus is on finding the minimum dose levels, the start times and
+magnitude of the worst case exposures also can be determined.
+The above method describes how, based on timing,  EVA exposures can be minimized.  It is also
+possible to relate the dose at any given time to a ground track location.  The repeating structure
+of the integral doses above reflects the repeating nature of the trajectory.  If the ground track
+exactly repeated each day, the optimal exposure EVA start time would be the same time each
+day.  Usually, there is a slight precession in the ground track leading to slightly earlier start times
+each day.  Since each EVA start time has an associated trajectory location, it is also possible to
+associate EVA doses with ground track locations.	Figure 5 depicts the ground track start
+location of EVA below 30 mrem.  This information can also be used by planners to locate the
+trajectory the position for optimal initiation of EVAs.  Generally, the optimum locations will
+start as the spacecraft exits the last daily SAA pass. Such a trajectory will miss the SAA protons
+and electrons and will be complete before the outer electron belts are encountered.  Starting an
+EVA outside the optimum ground track shown in figure 5 will result in exposures greater than 30
+mrem.
+Solar proton events (SPE) can also contribute to an EVA exposure.  However, EVADOSE is not
+configured with making dose projections based on SPE fluences.  However, when SPEs do
+occur, the resulting protons intercept typical spacecraft altitudes in the low cut-off areas shown
+in Figure 1.  These two regions also roughly correspond to the trapped electron belts.  An EVA
+planned to miss the electron horns may also avoid SPE exposures.  To compare the relative
+phasing of SPE exposures during a potential EVA, an SPE projection code2 was used to generate
+6.5 hour EVA doses (See Figure 6).  A constant flux value approximately one fifth of the
+maximum flux for the October 1989 event was used with quiet geomagnetic conditions to
+generate the doses inside the vehicle.  Although the calculation is for internal doses, the relative
+phasing will be the same EVA Exposures.  As can be seen in the figure, in a normal day there is
+about an approximately 4 hour window that will result in a low EVA exposure.  A window of
+time exists such that an EVA can be executed and receive little exposure, even during a large
+SPE.	In this example a simulated very large event was used, resulting in a narrow window to
+execute a 6.5 hour EVA at minimum exposure.  SPE events that are smaller may yield a wider
+gap depending on many factors such as the magnetic field conditions (Kp), proton rise times, etc.
+Due to the large variation in SPE events, these situations must be evaluated on a case by case
+basis.  This case is provided to illustrate how EVADOSE can be used in conjunction with other
+models and not necessarily to represent exact EVA doses from an SPE.   Shortening the planned
+EVA duration will always increase width of the low dose window and lower the corresponding
+EVA exposures at any given time.
+EVADOSE is limited by the accuracy of the AP8 and AE8 models, the basis for estimating the
+exposure levels from the trapped radiation.  While the accuracy of the trapped models introduces
+errors in the absolute exposure magnitudes, the temporal location of the exposure minima which
+results from spatial avoidance is fairly well defined and useful for ALARA planning.  Another
+limitation resulting from the use of the AP8/AE8 models is that they represent long term static
+averages.  In reality, changes in the geomagnetic field during storm conditions can cause
+dramatic change in the low altitude spatial extent and intensity of the electron belts, but
+generally, the optimal exposure trajectories will remain unchanged because the regions will
+broaden.  Other methods can be used to adjust the dose projections during enhanced electron belt
+conditions.
+EVADOSE provides an easy method to assess potential EVA exposures.   This tool provides an
+effective preflight assessment for EVA scheduling and may be used to guide EVA scheduling to
+minimize crew exposures and meet ALARA guidelines.  Although the impacts of SPEs are not
+included in EVADOSE’s capabilities and must be analyzed on a case basis, the results of
+EVADOSE can be used in conjunction with other tools to evaluate these enhanced radiation
+conditions.

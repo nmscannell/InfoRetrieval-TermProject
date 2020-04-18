@@ -1,0 +1,44 @@
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=52
+research
+Clinical Nutrition Assessment of ISS Astronauts, SMO-016E
+*
+SCIENCE OBJECTIVES FOR EVERYONE
+Nutritional assessments of astronauts before, during, and after spaceflight ensure adequate intake of energy, protein, and vitamins during missions. Scientists use the information to understand the connections between nutrition and human health during space flight, and to develop effective dietary strategies to reduce adverse health impacts.
+
+SCIENCE RESULTS FOR EVERYONE
+Feel it in your bones. Data from this investigation found crewmember bone biochemistry consistent with previous studies. Bone and calcium regulation appears intact during space flight, regardless of an individual’s sex. Diet, exercise devices, and pharmacological countermeasures can help to mitigate the weightlessness-induced bone loss. Despite consistent, significant decreases in serum and urinary magnesium immediately after space flight, tissue stores of the mineral are maintained after flight, and serum and urinary magnesium actually increased when measured in inflight samples. This suggests there is no general cause for concern about magnesium deficiency during long-duration space exploration, but questions remain about the effect of exercise on bone strength and fracture risk and the role of magnesium and how much of it crewmembers need in their diet.
+RESEARCH OVERVIEW
+The Clinical Nutritional Status Assessment measures dietary intake, body composition, protein, bone, iron, mineral, vitamin, and antioxidant status. Currently, it is a medical requirement for U.S. crewmembers on-board the ISS.
+
+
+Blood and urine samples are collected pre and postflight from the astronauts and analyzed for over 60 diagnostic compounds, vitamins, and minerals. Weekly dietary intake and body mass are measured in-flight; these measurements are used by the crew flight surgeon to adjust the astronauts' food intake.
+
+
+The results of data analysis are used both to understand the connections between nutrition and human health during space flight, and to develop effective dietary strategies to reduce adverse health impacts (including bone loss, loss of important vitamins and minerals, and increased genetic damage from radiation).
+DESCRIPTION
+To provide nutritional recommendations to crew members for long-duration space travel, we need to better understand how nutritional status and general physiology are affected by the microgravity environment. Dietary intake during space flight has often been inadequate, and this can greatly compromise nutritional status. Data from both short- and long-duration space flights provide evidence that energy intake is typically 30-40% below World Health Organization recommendations, but energy expenditure is typically unchanged or even increased. This imbalance may explain some of the observed negative changes in overall nutritional status during flight. However, blood concentrations of some nutrients, such as vitamin D, continue to be low even when astronauts receive supplements during flight. The space environment itself results in physiologic changes that can alter nutritional status. For example, changes in iron metabolism are closely associated with blood chemistry alterations during space flight. Similarly, increased levels of radiation and oxidative stress during flight likely contribute to decreased antioxidant status and genetic damage during or after space flight.
+
+There are six components to the research program.
+
+The food system provides a six to ten-day menu cycle; before each mission, crew members participate in food-tasting sessions, and dietitians plan menus that will use crew choices and best fulfill the defined nutritional requirements for space flight.
+
+
+During flight, crew members are asked to record their dietary intake once per week using a Food Frequency Questionnaire (FFQ) designed for use with the space flight food system. The FFQ is designed to obtain a near real-time estimate of intakes of energy, protein, water, sodium, calcium, and iron, as well as to collect information about vitamin supplement use and any crew comments. The questionnaire inputs from the astronauts are transmitted to the ground and results are calculated and reported to the flight surgeon within 24 to 48 hours.
+
+
+Body mass is determined pre, post, and inflight, while body composition is determined pre and postflight using laboratory measurements.
+
+
+Blood and urine samples are collected pre and postflight for analysis of whole blood, plasma, serum, and various analytes; blood pH and ionized calcium levels are measured inflight using finger sticks.
+
+
+Biochemical analysis of the blood and urine samples are performed at Johnson Space Center using standard laboratory methods.
+
+
+Statistical analysis of the analytical results is performed to detect differences in nutritional status from preflight to postflight.
+Body mass and body composition analyses were performed using an X-ray absorptiometer that was equipped with a fan beam densitometer. In-flight body mass measurements require two astronauts, one to take measurements and the other to record the data. The measurements were obtained using a body-mass measuring device; this device exerts a known force on the body and measures body acceleration. Body mass was then calculated. Standard medical finger sticks and capillary tubes were used to obtain blood samples for input into an analyzer unit onboard. A single astronaut performed the blood collection and analysis procedure. The FFQ program, which was loaded on station computers, was used to input food consumption information on a weekly basis.
+SPACE APPLICATIONS
+Nutritional monitoring is vital to ensuring crew health during long-duration space flight. The results are being used to identify specific effects of microgravity on nutrient-depended processes such as vitamin uptake, antioxidant production, and metabolism of iron. Alterations to nutrient assimilation in microgravity are also important for studies of bone loss while in microgravity.
+
+EARTH APPLICATIONS
+Increased understanding of the connections between nutrition and bone loss has potential value for patients suffering bone loss on Earth.

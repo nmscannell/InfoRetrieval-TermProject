@@ -1,33 +1,19 @@
-https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1545
-research
-Effects of Long-Duration Microgravity on Fine Motor Skills: 1 year ISS Investigation
-*
-	Fine motor skills are crucial for successfully interacting with touch-based technologies, repairing sensitive equipment, and a variety of other tasks. In the Effects of Long-Duration Microgravity on Fine Motor Skills: 1 year ISS Investigation (Fine Motor Skills), crew members perform a series of interactive tasks on a touchscreen tablet. The investigation (for which data collection is now complete) is the first fine motor skills study to measure long-term microgravity exposure, different phases of microgravity adaptation, and sensorimotor recovery after returning to Earth gravity.
-
-Detailed Research Description
-	The aim of the study (for which data collection is now complete) is to determine the effects of long-duration microgravity and of different gravitational transitions on fine motor performance. Specifically:
-
-
-		How does fine motor performance in microgravity trend/vary over the duration of a six-month and year-long space mission?
-
-		How does fine motor performance on orbit compare with that of a closely matched participant on Earth?
-
-		How does performance trend/vary before and after gravitational transitions, including the periods of early flight adaptation, and very early/near immediate post-flight periods?
-
-
-	Data are obtained through software developed for measurement of fine motor function. This software utilizes a test battery of four tasks which examine speed/response time, and accuracy. The tasks include a multidirectional pointing task, a dragging task, a shape tracing task, and a pinch-rotate task.
-
-BriefResearchOperations
-
-		Subject unstows tablet computer and associated hardware.
-
-		Subject performs Fine Motor Skills session on tablet.
-
-		Subject stows tablet and associated hardware.
-
-
-Space Applications
-	Fine motor skills are critical during long-duration space missions, especially for working with next-generation space vehicles, spacesuits, and habitats. This is the first investigation to systematically study how microgravity affects crew members&rsquo; fine motor skills, especially over a long-duration mission. Changes in crewmember sensorimotor skills could require countermeasures to protect crew safety and efficiency on future missions.
-
-Earth Applications
-	Computer-based games and tasks are frequently used to measure and improve fine motor abilities in elderly patients, people with motor disorders, and patients with brain injuries. The tasks developed for the Fine Motor Skills investigation could also benefit patients on Earth undergoing rehabilitation for conditions that impair fine motor control.
+https://www.space.com/34108-nasa-astronaut-sequences-dna-first-time.html
+article
+DNA Sequencing in Space Could Protect Astronaut Health
+9-19-2016
+NASA astronauts are opening new doors in the worlds of science and medicine by sequencing DNA in all sorts of extreme environments, including, for the first time, the microgravity of the International Space Station.
+NASA astronaut and biologist Kate Rubins has sequenced DNA in space, marking the first time this has been done. She used a miniature device called MinION, which the SpaceX Dragon capsule delivered to the space station on July 20. (The project is described in a video here.)
+"Welcome to systems biology in space," Rubins said in a statement after the first few DNA molecules had been sequenced successfully. "It is very exciting to be with you guys together at the dawn of genomics biology and systems biology in space." [6 Coolest Space Shuttle Science Experiments]
+But space is not the only extreme environment in which DNA is being tested. In July, "aquanauts" living 62 feet (19 meters) below the surface at NASA's underwater habitat called Aquarius sequenced DNA underwater for the first time ever. They used the same device as Rubins.
+The band of aquanauts — including members of NASA and the European Space Agency (ESA) — participated in a 16-day underwater expedition known as the NASA Extreme Environment Mission Operations (NEEMO) 21. The aquanauts first tested the palm-size MinION DNA sequencer, built by Oxford Nanopore Technologies, underwater to "minimize unknowns and see how the device worked in various extreme environments," NASA officials said in a statement.
+Now that the device has successfully been used on the orbiting lab, MinION has broader potential uses, such as diagnosing illness in astronauts or identifying microbes growing on the space station.
+"A space-based DNA sequencer would be an important tool to help protect astronaut health during long-duration missions on the journey to Mars, and future explorers could also potentially use the technology to identify DNA-based life-forms [found] beyond Earth," NASA officials said in the statement.
+In addition, astronauts could sequence DNA to learn more about how space radiation might affect the genes of Earthly organisms or the degree to which the weightlessness of microgravity causes bone and muscle degeneration, Rubins said in a live interview with ABC News on Aug. 23.
+When using the MinION sequencer for the first time in space, Rubins analyzed prepared DNA samples from a mouse, a bacterium and a virus, while identical samples were simultaneously sequenced by researchers on Earth. This experiment was designed specifically so that spaceflight conditions were the only variable, NASA officials said. In the results, the sequences taken in microgravity and on Earth appear to match up, the officials said.
+However, using the MinION in microgravity can be challenging, Aaron Burton, NASA planetary scientist and principal investigator of the DNA sequencing project, said in the statement."In space, if an air bubble is introduced, we don't know how it will behave," he said.
+For comparison, when air bubbles form in a fluid being studied on Earth, they rise to the top of the liquid solution and can be removed by centrifuge. The biggest concern surrounding the use of MinION on the space station is that air bubbles could damage microscopic pores, or nanopores, embedded in membranes inside the device, Burton explained.
+The recent experiment conducted by Rubins also served as a test of whether the MinION device could function properly in the microgravity of the space station. The experiment also checked whether MinION could make the trip there; while the device is small enough to travel to the orbiting lab, it is fragile and susceptible to damage caused by vibrations during launch. Many other factors could also complicate the process, and NASA will be looking for additional errors that may arise in future experiments, officials said in the statement.
+So far, however, the small device has proved to be a strong spacefarer and performed as expected when exposed to several variables — including differences in temperature, humidity and pressure — when used underwater at Aquarius, the researchers said.
+The next phase of research on board the space station will involve not only sequencing samples of DNA, but also preparing those samples in space, rather than on the ground.
+"Onboard sequencing makes it possible for the crew to know what is in their environment at any time," Sarah Castro-Wallace, MinION project manager and NASA microbiologist, said in the statement. "That allows us on the ground to take appropriate action — do we need to clean this up right away, or will taking antibiotics help or not? We can resupply the station with disinfectants and antibiotics now, but once crews move beyond the station's low Earth orbit, we need to know when to save those precious resources and when to use them."

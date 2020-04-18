@@ -1,0 +1,16 @@
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=289
+research
+Cognitive Cardiovascular Experiment
+*
+SCIENCE OBJECTIVES FOR EVERYONE
+The Cardiocog-2 experiment studies the impacts of microgravity (weightlessness) on the cardiovascular system and the respiratory system. This investigation will examine the stress as well as the cognitive and physiological reactions of crewmembers during long-duration space missions.
+
+SCIENCE RESULTS FOR EVERYONE
+This study recorded cardiovascular data from six astronauts on long-duration flights on the space station, adding to a previous study, Cardiog-1.  It is confirmed that heart rate and blood pressure do not change significantly on short space flights, but that long-term flights seem to slightly reduce blood pressure. One interesting and unexpected result was that nervous system feedback of blood pressure linked to controlling heart rate appeared to slow significantly in space. The causes are unclear and need further investigation. Post-flight symptoms strongly supported use of effective exercise countermeasures in adaptation to prolonged missions. Individual performance on countermeasures should be shared among scientists to improve the data from these studies.
+RESEARCH OVERVIEW
+Cardiocog-2 will determine the impact of weightlessness on the cardiovascular system and respiratory system and the cognitive reactions of crewmembers.
+
+
+The results of this study will be used to develop additional countermeasures that will continue to keep crewmembers healthy during long-duration space exploration.
+DESCRIPTION
+On four occasions over the course of the mission the astronaut will undertake a half-hour protocol of normal and controlled breathing together with a stress test. Cardiac activity, respiration and blood pressure will be measured continuously during this activity using the Cardioscience equipment already aboard the International Space Station (ISS). This will be compared against additional ground tests where ECG (electrocardiogram), blood pressure, respiration and ultrasound measurements are taken. This is a continuation of the previous Cardiocog experiment and is proposed to continue with three additional long-term crewmembers. This experiment will increase the understanding of orthostatic intolerance (proneness for fainting), a common clinical problem.

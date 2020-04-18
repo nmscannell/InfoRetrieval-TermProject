@@ -1,44 +1,39 @@
-https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=52
-research
-Clinical Nutrition Assessment of ISS Astronauts, SMO-016E
+https://www.bcm.edu/centers/space-medicine/translational-research-institute/research/microbe-therapy-for-deep-space
+article
+Microbe Therapy for Deep Space
 *
-SCIENCE OBJECTIVES FOR EVERYONE
-Nutritional assessments of astronauts before, during, and after spaceflight ensure adequate intake of energy, protein, and vitamins during missions. Scientists use the information to understand the connections between nutrition and human health during space flight, and to develop effective dietary strategies to reduce adverse health impacts.
+For the Translational Research Institute of Space Health (TRISH), solving the human health challenges of deep space exploration requires novel approaches and promising therapeutics.
 
-SCIENCE RESULTS FOR EVERYONE
-Feel it in your bones. Data from this investigation found crewmember bone biochemistry consistent with previous studies. Bone and calcium regulation appears intact during space flight, regardless of an individual’s sex. Diet, exercise devices, and pharmacological countermeasures can help to mitigate the weightlessness-induced bone loss. Despite consistent, significant decreases in serum and urinary magnesium immediately after space flight, tissue stores of the mineral are maintained after flight, and serum and urinary magnesium actually increased when measured in inflight samples. This suggests there is no general cause for concern about magnesium deficiency during long-duration space exploration, but questions remain about the effect of exercise on bone strength and fracture risk and the role of magnesium and how much of it crewmembers need in their diet.
-RESEARCH OVERVIEW
-The Clinical Nutritional Status Assessment measures dietary intake, body composition, protein, bone, iron, mineral, vitamin, and antioxidant status. Currently, it is a medical requirement for U.S. crewmembers on-board the ISS.
+A successful journey to deep space and Mars present many challenges that must be overcome: harmful radiation, long-term exposure to a microgravity environment, minimal access to healthcare equipment and supplies, isolation and confinement, and more. Healthcare in space takes place in a hostile environment entirely unlike doctors’ offices and hospitals on earth.
 
+To uncover solutions to these problems, TRISH supports research into novel yet promising health technologies and new approaches to drug delivery. One avenue of research that TRISH is supporting is microbial therapeutics. This rapidly developing field is focused on using bacteria or other microorganisms to treat diseases. TRISH has funded a team at the Massachusetts Institute of Technology led by National Medal of Science recipient Prof. Robert Langer and his collaborator Prof. Giovanni Traverso, with work carried out by postdoctoral associate Dr. Miguel Jimenez and technical associate Johanna L’Heureux.
 
-Blood and urine samples are collected pre and postflight from the astronauts and analyzed for over 60 diagnostic compounds, vitamins, and minerals. Weekly dietary intake and body mass are measured in-flight; these measurements are used by the crew flight surgeon to adjust the astronauts' food intake.
+The team is exploring ways to improve microbial therapies that reveal opportunities for caring for astronaut health in space, and the TRISH-supported investigation was published in the Journal of Experimental Medicine.
 
+Microbe Therapy for Deep Space
 
-The results of data analysis are used both to understand the connections between nutrition and human health during space flight, and to develop effective dietary strategies to reduce adverse health impacts (including bone loss, loss of important vitamins and minerals, and increased genetic damage from radiation).
-DESCRIPTION
-To provide nutritional recommendations to crew members for long-duration space travel, we need to better understand how nutritional status and general physiology are affected by the microgravity environment. Dietary intake during space flight has often been inadequate, and this can greatly compromise nutritional status. Data from both short- and long-duration space flights provide evidence that energy intake is typically 30-40% below World Health Organization recommendations, but energy expenditure is typically unchanged or even increased. This imbalance may explain some of the observed negative changes in overall nutritional status during flight. However, blood concentrations of some nutrients, such as vitamin D, continue to be low even when astronauts receive supplements during flight. The space environment itself results in physiologic changes that can alter nutritional status. For example, changes in iron metabolism are closely associated with blood chemistry alterations during space flight. Similarly, increased levels of radiation and oxidative stress during flight likely contribute to decreased antioxidant status and genetic damage during or after space flight.
+Microbial therapies can work in a few different ways.  First, in their natural ecosystem, beneficial microbes can compete with pathogenic microbes to prevent disease and modulate the immune system.  Alternatively, microbes can be engineered to scavenge toxins or produce needed compounds or therapeutics.
 
-There are six components to the research program.
+There are microbial therapeutics in all stages of development for terrestrial healthcare. Engineered microbes that can remove toxins, express proteins, or modulate the immune system are being tested for treatment of a wide range of diseases and conditions such as diabetes, cancer, obesity, asthma, and autism.
 
-The food system provides a six to ten-day menu cycle; before each mission, crew members participate in food-tasting sessions, and dietitians plan menus that will use crew choices and best fulfill the defined nutritional requirements for space flight.
+TRISH funded the MIT team to dig deeper into microbial therapies for space applications. The team is developing microbe formulations that have long-term stability as well as a device that can administer them to the gastrointestinal system. This work will address critical delivery challenges for microbes, particularly in space travel where microbes may have to be stored at less than optimal conditions for long periods of time and where equipment and healthcare specialists that would be used in a traditional healthcare setting are not available.
 
+Benefits of Good Bacteria
 
-During flight, crew members are asked to record their dietary intake once per week using a Food Frequency Questionnaire (FFQ) designed for use with the space flight food system. The FFQ is designed to obtain a near real-time estimate of intakes of energy, protein, water, sodium, calcium, and iron, as well as to collect information about vitamin supplement use and any crew comments. The questionnaire inputs from the astronauts are transmitted to the ground and results are calculated and reported to the flight surgeon within 24 to 48 hours.
+Microbial therapeutics hold several advantages over traditional drug-based therapies. Because they use living organisms that can reproduce, microbial therapeutics have the potential for self-renewal and may only need to be administered once.  This can reduce costs and trips to a healthcare provider.  In the spaceflight setting, limited storage availability and no refrigeration makes these therapies ideal for astronauts.
 
+Another advantage is that the microbes can be genetically engineered to encode an almost endless range of compounds.  For example, bacteria can be engineered to express proteins that may be lacking or defective in a certain disease.  There are already well-developed tools and techniques for modifying bacterial genetic code; therefore, the engineering process can be rather straightforward and offers scalability.
 
-Body mass is determined pre, post, and inflight, while body composition is determined pre and postflight using laboratory measurements.
+Finally, microbial therapeutics have the ability to adapt to different environments, which could allow them to respond to different triggers.  This feature could be exploited to engineer control of the desired therapeutic under specific circumstances, such as low or high blood sugar, presence of metabolites, and other possibilities.
 
+The unique benefits of using a living microorganism for targeted therapy comes with unique challenges. For example, as the microbes reproduce, there is a possibility that non-patients could be exposed or replication could introduce genetic mutations that lead to unanticipated side effects. This could introduce errors in the therapeutic product and could also “spread” the therapeutic gene beyond the intended patient. Additionally, as living organisms, the microbes produce myriad compounds (carbohydrates, proteins, nucleic acids, etc.), and these could have unintended side effects or host interactions.
 
-Blood and urine samples are collected pre and postflight for analysis of whole blood, plasma, serum, and various analytes; blood pH and ionized calcium levels are measured inflight using finger sticks.
+The work funded by TRISH is focused on stabilizing microbes that can survive pharmaceutical formulation into a tablet format, endure residence in the stomach, and remain effective through long-duration space flight. So far, the research is showing promise. Their synthetic bacteria have shown ability to remain viable after being crushed, powdered and granulated and reformed into a tablet. Next, the team will integrate these tablets into their delivery device and compare the effects with commercial probiotics.
 
+A Promising Approach for Space Exploration
 
-Biochemical analysis of the blood and urine samples are performed at Johnson Space Center using standard laboratory methods.
+The team’s research into microbial therapeutics is helping address several of the unique challenges long-duration space travel presents for healthcare.  Because of their ability to self-replicate, it may be possible to administer a specific therapeutic to astronauts prior to leaving Earth. This could reduce medical mass and volume requirements and allow terrestrial doctors to ensure the desired effect of the therapeutic before their patient blasts off to Mars and deep space.
 
+Additionally, long-term storage of live microbes is well established, making it possible for microbial therapeutics to be stored on a spacecraft until they may be needed for a specific condition. Because of their self-renewal potential, they may only need to be taken for a limited period of time, which reduces the need to bring months- or years-long supplies of medications that could be needed for chronic conditions.
 
-Statistical analysis of the analytical results is performed to detect differences in nutritional status from preflight to postflight.
-Body mass and body composition analyses were performed using an X-ray absorptiometer that was equipped with a fan beam densitometer. In-flight body mass measurements require two astronauts, one to take measurements and the other to record the data. The measurements were obtained using a body-mass measuring device; this device exerts a known force on the body and measures body acceleration. Body mass was then calculated. Standard medical finger sticks and capillary tubes were used to obtain blood samples for input into an analyzer unit onboard. A single astronaut performed the blood collection and analysis procedure. The FFQ program, which was loaded on station computers, was used to input food consumption information on a weekly basis.
-SPACE APPLICATIONS
-Nutritional monitoring is vital to ensuring crew health during long-duration space flight. The results are being used to identify specific effects of microgravity on nutrient-depended processes such as vitamin uptake, antioxidant production, and metabolism of iron. Alterations to nutrient assimilation in microgravity are also important for studies of bone loss while in microgravity.
-
-EARTH APPLICATIONS
-Increased understanding of the connections between nutrition and bone loss has potential value for patients suffering bone loss on Earth.
+TRISH is exploring new frontiers in astronaut health. Advancing knowledge of microbial therapies brings us one step closer to solving the challenges of long-duration and deep space travel.

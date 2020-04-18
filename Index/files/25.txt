@@ -1,30 +1,27 @@
-https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=264
-research
-Chromosomal Aberrations in Blood Lymphocytes of Astronauts-1
-*
-SCIENCE OBJECTIVES FOR EVERYONE
-Chromosomal Aberrations in Blood Lymphocytes of Astronauts-1 (Chromosome-1) studies space radiation on humans. The expected results will provide a better knowledge of the genetic risk of astronauts in space and can help to optimize radiation shielding.
+https://www.seeker.com/eye-problems-common-in-astronauts-discovery-news-1765683408.html
+article
+Eye Problems Common in Astronauts : Discovery News
+3-13-2012
+Brain and eye problems have surfaced in astronauts who spent more than a month in space, marking a potential setback to plans for longer deep space missions, according to a study.
 
-SCIENCE RESULTS FOR EVERYONE
-Chromosome-1 is a long-term investigation of chromosomal damage, an indicator of radiation exposure, in astronauts’ blood lymphocytes on long and short-duration space missions. Results show significant change mainly in only one type of chromosomal damage after long-term flight, with subsequent missions appearing to lead to fewer chromosomal alterations. Further study is needed to determine the mechanism for this adaptation. Other studies found no correlation between chromosome damage and duration or number of flights or extra-vehicular activity.   Basic research into how radiation affect cells and tissue can lead to better  countermeasure, such as spacecraft shielding or protective drugs.
-RESEARCH OVERVIEW
-This study will assess changes in the morphology of chromosomes, particularly chromosomal aberrations. The frequency and the type of chromosomal aberrations depend on characteristics and doses of ionizing radiation the crewmembers are exposed to while in orbit.
+The research in the journal Radiology analyzed magnetic resonance imaging (MRI) scans of 27 astronauts with an average of 108 days in space, either on space shuttle missions or aboard the International Space Station.
 
+Shuttle missions typically lasted a couple of weeks, while ISS stints can last more than six months. A Mars mission to bring astronauts to the red planet in the coming decades could last a year and a half.
 
-Chromosomes collected from blood lymphocytes are scored for different types of abnormalities before and after a stay on ISS. Some of the analysis methods are new, and will provide a new way of visualizing all changes, particularly those increasing the risk of cancer.
-DESCRIPTION
-Crewmembers are exposed to radiation when they leave the protection of Earth's atmosphere. Ionizing radiation in particular can damage chromosomes, causing mutations such as chromosome aberrations. To assess the genetic impact of this radiation, blood is drawn before and immediately after flight by venous puncture. The blood is then cultured and the lymphocytes are stimulated to undergo mitosis (the process of cell division). In the first mitosis, at about 48 hours of incubation, the process is stopped and the chromosomes are prepared and stained using three different methods of microscopic analysis to assess all types of aberrations induced by ionizing radiations. These methods are:
+Among the astronauts who spent more than a month in space over their lifetimes, researchers found a variety of complications that appear similar to a syndrome caused by unexplained pressure on the brain.
 
-Classic Giesma staining, which allows the researcher to investigate changes in the morphology of the chromosomes. Chromosomes have a natural x-shape. Structural changes detected using Giesma include dicentric (the two chromatids of each chromosome are attached twice) and ring chromosomes or fragments (chromosome pieces without a centromere).
+These symptoms included excess cerebral-spinal fluid around the optic nerve in 33 percent of the astronauts studied and flattening of the back of the eyeball in 22 percent of them.
 
+Fifteen percent had a bulging optic nerve and 11 percent showed changes to the pituitary gland -- which is located between the optic nerves, secreting sex hormones and regulating the thyroid -- and its connection to the brain.
 
-Multicolor Fluorescence In-Situ Hybridization (mFISH), which scores reciprocal translocations and insertions (exchange of parts between different chromosomes).
+Similar effects, which can lead to problems with vision, have been observed in non-space travelers who suffer from unexplained pressure buildup in the brain, a condition known as intracranial hypertension.
 
+"Microgravity-induced intracranial hypertension represents a hypothetical risk factor and a potential limitation to long-duration space travel," said lead author Larry Kramer, professor of diagnostic and interventional imaging at The University of Texas Medical School at Houston.
 
-Multicolor Banding Fluorescence In-Situ Hybridization (mBAND) of the selected chromosome pair 5, which scores for inversions and translocations between homologous chromosomes (exchange or relocation of deoxyribonucleic acid (DNA) parts within the same chromosome pair).
-A quantitative comparison between preflight and postflight aberration values will give information about the chromosome-breaking effects of cosmic radiation in blood lymphocytes of space travelers. Information will be generated concerning the participation of each chromosome pair in aberration formation as well as the interchromosomal and intrachromosomal distribution of different aberration types. The association of chromosomal aberrations with an enhanced cancer risk stresses the importance of the planned research.
-SPACE APPLICATIONS
-From this study scientists may be able to better assess risk factors for genetic damage in space and help develop new methods for protecting crewmembers. Understanding and reducing the risk of radiation is important for safe long duration travel in space, including stays on the Moon and travel to Mars.
+"The MRI findings revealed various combinations of abnormalities following both short- and long-term cumulative exposure to microgravity also seen with idiopathic intracranial hypertension."
 
-EARTH APPLICATIONS
-The knowledge gained from this investigation will give scientist's insight into the exact chromosome from which particular mutations arise.
+While bone loss and temporary muscular aches and nerve abnormalities have been known to afflict astronauts in the past, the new data on eye problems has many at NASA concerned about the health of its spaceflight corps.
+
+"NASA has placed this problem high on its list of human risks, has initiated a comprehensive program to study its mechanisms and implications, and will continue to closely monitor the situation," said William Tarver, chief of the flight medicine clinic at NASA's Johnson Space Center.
+
+He said the findings are suspicious but not conclusive of intracranial hypertension, and said no astronauts have been rendered ineligible for future spaceflight as a result of the findings.

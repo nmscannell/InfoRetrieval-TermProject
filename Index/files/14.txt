@@ -1,88 +1,16 @@
-https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=979
-research
-Spaceflight Effects on Neurocognitive Performance: Extent, Longevity, and Neural Bases
-*
-Spaceflight Effects on Neurocognitive Performance: Extent, Longevity, and Neural Bases (NeuroMapping) studies whether long-duration spaceflight causes any changes to the brain, including brain structure and function, motor control, and multi-tasking abilities. It also measures how long it would take for the brain and body to recover from possible changes. Previous research and anecdotal evidence from astronauts suggests movement control and cognition can be affected in microgravity. The NeuroMapping investigation performs structural and functional magnetic resonance brain imaging (MRI and fMRI) to assess any changes that occur after spending months on the International Space Station.
-RESEARCH OVERVIEW
-This study is needed to assess changes in elemental neurocognitive functions such as perception, motor control, memory, attention, and executive function following long duration spaceflight using both behavioral assessments and brain imaging technologies, such as functional MRI. Structural and functional MR brain imaging are used to identify the relationship between changes in crewmember neurocognitive function, neural structural alterations and its impact on indices of cognitive, sensory, and motor function in a neuroanatomically selective fashion during and following a six month International Space Station mission.
-This interdisciplinary approach utilizes cutting edge neuroimaging techniques and a broad ranging battery of sensory, motor, and cognitive assessments that are conducted pre-flight, during flight, and post-flight to investigate neuroplastic and maladaptive brain changes in crewmembers following long duration spaceflight. Success in this endeavor would 1) result in identification of the underlying neural mechanisms and operational risks of spaceflight-induced changes in behavior, and 2) identify whether a return to normative behavioral function following re-adaptation to Earth’s gravitational environment is associated with a restitution of brain structure and function or instead is supported by substitution with compensatory brain processes.
-The results of this project have relevance not only to understanding the effects of spaceflight on the human brain and behavior, but also for delineating the capacity of the brain to remodel in response to exposure to microgravity, and how long it may take to recover as a result after a long duration space flight. As such, the results are important for understanding the neural mechanisms of rehabilitation and adaptive behavioral change. This may have direct impacts on the designing of targeted cognitive and behavioral countermeasures for upcoming human spaceflight exploration missions in the future.
-
-DESCRIPTION
-During spaceflight, the control of movement is altered to account for the fundamental change in gravity. This can lead to motion disturbances and difficulty controlling motion following transitions in gravity levels (e.g., transition to Earth, lunar or Martian surfaces). Spaceflight has also been anecdotally reported to affect cognition. This investigation proposes to perform structural and functional magnetic resonance brain imaging (MRI and fMRI) to identify the relationship between changes in crewmember neurocognitive function, and neural structural alterations, following a six month International Space Station (ISS) mission. The interdisciplinary approach utilizes cutting-edge neuroimaging techniques and a broad ranging battery of sensory, motor, and cognitive assessments that are conducted pre-flight, during flight, and post-flight to investigate neuroplastic and maladaptive brain changes in crewmembers following long-duration spaceflight. Success in this endeavor may result in identification of the underlying neural mechanisms and operational risks of spaceflight-induced changes in behavior, and also identify whether a return to normative behavioral function following re-adaptation to Earth's gravitational environment is associated with a restitution of brain structure and function or instead is supported by substitution with compensatory brain processes.
-
-Each BDC session (pre- and post-flight) consists of non-invasive brain structural and functional imaging tests in a magnetic resonance imaging (MRI) scanner (neuroimaging assessment), as well as several laboratory tests of sensory, motor, and cognitive function (behavioral assessment). The details of the tests are listed below.
-Pre- and Post-flight Behavioral Assessment Tests include:
-
-Assessments of spatial transformation:
-
-Card rotation: This is a timed pencil and paper test requiring participants to mentally rotate target shapes and indicate whether they are the same or different from a standard shape
-
-Mental rotation: Subjects need to memorize and subsequently identify a match to a re-oriented 3D cube assemblage.
-
-Rod and Frame test: Subjects align a rod to vertical within a tilted frame
-
-
-
-Assessments of processing speed:
-
-Digit-symbol substitution task: This is a timed pencil and paper test requiring participants to decode shapes into numbers using a presented key
-
-
-
-Assessments of motor control:
-
-Functional Mobility Test : Navigate obstacle course on a medium density foam surface.
-
-Bimanual Motor Control: Place 25 keyed pegs into their corresponding slots using both hands while seated.
-
-
-
-Assessments of vestibular function:
-
-Vestibular Evoked Myogenic Potential (VEMP) test : A surface potential in response to otolith (auditory) stimulation is recorded from the muscle under the eyes (ocular VEMP) and from neck muscle while it is being contracted (colic VEMP).
-
-Vestibular contribution to Postural Stability: Maintain balance on sway-referenced support surface with eyes closed. This test is performed with and without head movements.
-
-Pre-and Post-Flight Neuroimaging Assessments include:
-
-Passive structural and functional scans (during which participants lay still and do not perform a task)
-
-Structural MRI scan: High-resolution anatomical images covering the whole brain including the cerebellum
-
-Resting state functional connectivity MRI: Strength of communications between “hubs” in the brain’s networks
-
-Diffusion weighted imaging: Quantify large white matter pathways in the brain and calculate their structural integrity specifically the corticospinal tract connecting motor brain regions and the spinal cord, in addition to other pathways.
-
-
-
-Active structural and functional scans (during which participants perform a task)
-
-fMRI during auditory click-induced VEMP: Identify brain regions processing vestibular information which undergo plasticity as a function of microgravity exposure. Subjects listen to auditory clicks.
-
-fMRI during manual sensorimotor adaptation task: Identify brain regions supporting visuomotor plasticity. Subjects move a cursor from center to target locations using a joystick under normal, or rotated, visual feedback.
-
-
-fMRI during spatial working memory task: Identify brain regions engaged in spatial cognition. Subjects indicate correct spatial rotation of a triad target set using button clicks.
-
-
-fMRI during dual tasking: Identify brain regions in dual task. Subjects press buttons matched to a pseudo-random pattern of highlighted positions of stimulus boxes, while also monitoring for the occurrence of a target color.
-
-
-In-flight Behavioral Assessments include:
-
-The Behavioral assessments are a subset of the pre / post flight tests and include: mental rotation, sensorimotor adaptation, and motor-cognitive dual tasking
-
-Mental rotation task: Subjects need to memorize and subsequently identify a match to a re-oriented 3D cube assemblage.  Subjects perform this task under both tethered and free-floating conditions.
-
-Sensorimotor adaptation task: Subjects move a cursor from center to target locations using a joystick under normal or rotated visual feedback.
-
-Dual tasking: Subjects press buttons matched to a pseudo-random pattern of highlighted positions of stimulus boxes while also monitoring for the occurrence of a target color.
-
-
-
-Applications
-SPACE APPLICATIONS
-Changes in brain structure and function may be related to reduced sensorimotor and cognitive abilities during spaceflight. Along with affecting performance in orbit, these changes may impact the long-term health of astronauts, especially if the brain changes substantially during a long-duration mission. Identifying which changes occur, and whether they remain after astronauts return to Earth, can help scientists and physicians develop effective countermeasures. The investigation addresses key questions posed by the Human Spaceflight Program, including whether structural changes in the brain can be predicted and mitigated, and which methods can effectively monitor cognitive performance during and after a mission.
-EARTH APPLICATIONS
-Brain plasticity, defined as the ability of the brain to adapt to new circumstances and physical changes, is a key research topic for neuroscientists. Results from the NeuroMapping investigation provide information on the brain's ability to rewire and remodel in response to new stimuli. This may offer additional insight into research on the neural mechanisms associated with behavioral and physiological changes, as well as brain rehabilitation.
+https://www.space.com/mars-radiation-obstacle-crewed-human-missions.html
+article
+Radiation poses major obstacle to future deep-space astronauts bound for Mars
+4-4-2020
+Mars seems to be on everybody's mind in the space industry. There are already several robotic missions to the Red Planet underway, and companies and space agencies are already working to one day send humans there.
+But a crewed mission would present many more challenges. One of these obstacles is radiation, and so researchers are working to find a way to protect a crew against the dangerous radiation of deep space.
+Humans evolved underneath the protective blanket that is the Earth's atmosphere and magnetosphere. Our bodies are not like the robots we shoot into the far reaches of the solar system. We are made of organic matter that needs to be shielded from harmful radiation.
+Radiation comes from waves of energy. There is radiation around us all the time — even bananas, which are rich in potassium, emit radiation — but the amount of radiation we're exposed to on a regular basis is so low that our body copes fine with it. However, some waves of energy can damage our cells and our DNA faster than our body can repair the damage. These harmful waves are part of the electromagnetic spectrum that includes gamma rays, x-rays and some ultraviolet radiation. That's why health officials advise that people use sunscreen and why medical staff use protective blankets when patients receive X-ray exams.
+Tory Bruno, CEO of the spaceflight company United Launch Alliance, spoke about radiation and the challenges it poses to a U.S. Mars-shot during a Feb. 28 presentation held at the Johns Hopkins Applied Physics Laboratory (APL) in Maryland. The chat was part of an all-day event called the Lunar Surface Innovation Consortium, where NASA officials, APL representatives and space industry leaders spoke about how NASA's Artemis program could unfold over the course of the decade.
+Artemis' primary goal is to send a crewed mission back to the moon, with the first woman and the next man to land on the lunar surface on board. In its following chapter, Artemis would help engineers learn more about the deep space environment to safely send humans on long-duration missions to Mars.
+Bruno said that NASA is already getting a head start on these missions by studying the sun more intently. Missions like NASA's Parker Solar Probe, which launched in 2018, and a collaboration with the European Space Agency on the Solar Orbiter, which launched earlier this year, could inform the design and the timing of Mars missions based on the sun's cycles of activity by gauging when the sun is emitting levels of radiation higher than average.
+In the presentation, Bruno outlined the traditional materials —— water, concrete, lead —— that are used as a containment barrier against radiation. But rockets aren't made of this stuff.
+"We're going to need some new materials that are a lot more efficient at shielding out this radiation… but nothing that we could use today to safely send people to the Red Planet and back," Bruno said.
+Although crew capsules have been sending people into space for over half a century, spacefarers haven't had to endure missions as long as what a mission to Mars would require.
+Astronauts on the International Space Station don't have to worry a tremendous amount about radiation because most individual missions last six months to under a year. A roundtrip mission to Mars would require about 180 days, according to Bruno, and sending people to the Red Planet would only be worthwhile if they could spend weeks, months or even a full year there to explore Mars' environment.
+It's hard to study this radiation environment from Earth —— sending experiments to the moon and to Mars and making rigorous observations will be essential to sending the first humans to Mars.

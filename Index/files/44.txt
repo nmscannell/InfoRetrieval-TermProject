@@ -1,0 +1,21 @@
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1837
+research
+HERO Twin Astronaut Study Consortium (TASC): Immunome Changes in Space
+*
+	Although identical twins are genetically almost the same, differences in environment, diet and other outside factors can affect their health in different ways. The Twins Study is an integrated compilation of ten studies at multiple research centers that examines the effects of space travel on twin astronauts, one of whom stays on the International Space Station for one year while his twin remains on Earth. HERO Twin Astronaut Study Consortium (TASC): Immunome Changes in Space (Twins Study - Mignot) characterizes the personalized changes in the immune system of an astronaut, as well as that system&rsquo;s response to a seasonal flu vaccination, before, during, and after return to Earth; the study compares the results to those of his twin brother who remained on Earth, and looks at how they relate to the various changes noted by other Twins Study investigators.
+
+Detailed Research Description
+	NASA&rsquo;s Human Research Program (HRP) and the National Space Biomedical Research Institute have instituted a program to compare the effects of spaceflight accumulated over one year and observe changes in the genetic makeup between twin brothers. This project initiates a pilot demonstration focusing on the use of integrated human analyses to better understand the biomolecular responses to the physical, physiological, and environmental stressors associated with spaceflight. The project emphasis is on the collection of biological specimens and psychological testing from one twin in orbit on the ISS and the collection of corresponding samples and data from his twin on the ground. Sample collection and data analysis occurs before, during and after the one-year mission.
+
+
+
+	The HERO Twin Astronaut Study Consortium (TASC): Immunome Changes in Space (Twins Study - Mignot) portion of the overall Twins Study investigation focuses on changes in the immune system associated with the year-long ISS mission in the space- and earth-bound twin astronauts. This study characterizes personalized changes in baseline immune abnormalities and stimulated immune response in the presence of a trivalent, inactivated, flu vaccination (a safe and benign intervention available over the counter in the US) in space and after return to Earth, as compared to a ground-based control.
+
+BriefResearchOperations
+	See main Twins Study (http://www.nasa.gov/mission_pages/station/research/experiments/1942.html).
+
+Space Applications
+	The immune system is weakened in space, posing a heightened risk of infection for crew members on long-duration missions. This investigation examines how the immune system changes after a seasonal flu vaccine, both in space and on the ground. Results are expected to improve the understanding of how humans adapt to spaceflight and could lead to better countermeasures to protect crew health.
+
+Earth Applications
+	Environmental stress, radiation and diet can cause chemical changes in the body that affect the immune system, as well as cognitive function, metabolism, gut flora, and genetics. This investigation studies how the immune system changes when an astronaut is exposed to a physically challenging environment and how immune response to a seasonal flu vaccination differs between the twin who was in space and the one who remained on Earth. This information may prove useful in the development of new treatments and preventive measures for related health issues on Earth.
