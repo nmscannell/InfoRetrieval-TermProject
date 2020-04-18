@@ -1,25 +1,13 @@
-https://releases.jhu.edu/2013/05/20/new-out-of-this-world-space-stethoscope-valuable-here-on-earth-too/
-article
-New ‘Out of This World’ Space Stethoscope Valuable Here on Earth, Too
-5-20-2013
-A team of students at the Johns Hopkins University’s Whiting School of Engineering has designed for NASA a new stethoscope that delivers accurate heart- and body-sounds to medics who are trying to assess astronauts’ health on long missions in noisy spacecraft.
-
-Space is serene, because no air means no sound. But inside the average spacecraft, with its whirring fans, humming computers and buzzing instruments, is about as raucous as a party filled with laughing, talking people.
-
-Johns Hopkins mechanical engineering students developed these components for a stethoscope that could do a better job of detecting heart sounds within a noisy space vessel. Photo: Will Kirk/homewoodphoto.jhu.edu
-
-“Imagine trying to get a clear stethoscope signal in an environment like that, where the ambient noise contaminates the faint heart signal. That is the problem we set out to solve,” said Elyse Edwards, a senior from Issaquah, Wash., who teamed up on the project with fellow seniors Noah Dennis, a senior from New York City, and Shin Shin Cheng, from Sibu, Sarawak, Malaysia.
-
-The students worked under the guidance of James West, a Johns Hopkins research professor in electrical and computer engineering and co-inventor of the electret microphone used in telephones and in almost 90 percent of the more than two billion microphones produced today.
-
-Together, they developed a stethoscope that uses both electronic and mechanical strategies to help the device’s internal microphone pick up sounds that are clear and discernible – even in the noisy spacecraft, and even when the device is not placed perfectly correctly on the astronaut’s body.
-
-“Considering that during long space missions, there is a pretty good chance an actual doctor won’t be on board, we thought it was important that the stethoscope did its job well, even when an amateur was the one using it,” Dennis said.
-
-The project was developed during a two-semester mechanical engineering senior design course offered by the university’s Whiting School of Engineering. Teams of three or four undergraduates are each given a small budget to design and build a prototype requested by a sponsoring business or organization. This year’s results were unveiled recently at a showcase conducted shortly before the students were scheduled to graduate.
-
-The device also includes many other performance-enhancing improvements, including low power consumption, rechargeable batteries, mechanical exclusion of ambient noise and a suction cup, so that it sticks firmly onto the patient’s chest, says Cheng.
-
-Though developed for NASA’s use in outer space, this improved stethoscope could also be put to use here on Earth in combat situations, where ambient noise is abundant, and in developing countries, where medical care conditions are a bit more primitive.
-
-West also plans to use the device to record infants’ heart and lung sounds in developing countries as part of a project that will attempt to develop a stethoscope that knows how to identify the typical wheezing and crackling breath sounds associated with common diseases. This would allow on-site medics to help make preliminary automated diagnoses.
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=162
+research
+A Study of Radiation Doses Experienced by Astronauts in EVA
+*
+EVA Radiation Monitoring: A Study of Radiation Doses Experienced by Astronauts in EVA (EVARM) characterized the radiation doses experienced by crewmembers during extravehicular (spacewalk) activities. The data determined which parts of the human body are exposed to the highest radiation levels so that routine dosage monitoring in future missions can be done on the appropriate parts of the human body.
+Detailed Research Description 	A Study of Radiation Doses Experienced by Astronauts in EVA (EVA radiation monitoring (EVARM)) was designed to quantify the radiological dose received by astronauts while performing EVAs at the ISS. Extravehicular mobility units (EMUs, or spacesuits), worn by spacewalking astronauts, provide less shielding from radiation than the spacecraft. This means that
+spacewalkers are exposed to higher radiation levels during EVAs than at other times on orbit. When planning EVAs, teams take into account mission
+parameters, estimated duration, ISS altitude and inclination plus information on space weather conditions (e.g., solar activity, geomagnetic field conditions, proton flux) anticipated for that day. In addition to specific lifetime radiation limits, medical standards specify that radiation doses achieved by astronauts should be as low as reasonably achievable (ALARA). To create new and improved shielding for EVAs, researchers must know the type and flux of radiation inside the EMU. EVARM investigates the dose received by different parts of the body (skin, eyes, blood-forming organs) during an EVA by measuring dose rate, based on the time and position of EVAs as compared to the orbit, altitude, and attitude of the ISS.As part of EVARM, spacewalkers wore dosimeters placed in small pockets along the EMU undergarments. Two dosimeters were placed either inside the thermal comfort undergarment or the liquid-cooled ventilation garment, one dosimeter was placed around the calf to measure absorbed dose to skin, and another dosimeter was worn above the eye inside the communications carrier assembly. EVARM used tiny metal oxide semiconductor field effect transistor (MOSFET) dosimeters, a 0.04-in2 silicon chip placed on a badge made of aluminum. When an MOSFET is exposed to ionizing radiation, a positive charge builds up on the silicon surface, creating a negative shift in threshold voltage. Measurements were taken by comparing the change in threshold voltage with the radiation dose, which was recorded using a photodiode. New dosimeters were worn by the crew during each EVA.
+BriefResearchOperations 	Crewmembers will wear three active dosimeter badges during EVA activities (on the leg, torso and near the eye). Badges were read pre- and post EVAs with the electronic reader.The data was downlinked into a file in the Human Research Facility - 1 (HRF-1) computer after EVA activities with the data downlinked to the ground once per week.
+Space Applications 	A complete understanding of the space radiation environment and the potential radiation doses astronauts receive on various parts of their bodies allows space agencies worldwide to plan mission activities such as EVAs, with crew long-term health in mind. EVARM and other space radiation research provide the data necessary to create models and issue recommendations for space radiation protection.
+Earth Applications 	Shielding and countermeasures developed for the space program can also be used on Earth to protect people who work in high-radiation areas.
+PreviousMissions
+	Experiments using MOSFET, a Russian dosimeter similar to EVARM, were conducted in the 1990s on the Russian biosatellites BION-10 and BION-11 as well as on Mir.

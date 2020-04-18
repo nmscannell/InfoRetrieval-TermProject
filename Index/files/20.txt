@@ -1,42 +1,21 @@
-https://www.hopkinsmedicine.org/news/media/releases/some_astronauts_at_risk_for_cognitive_impairment_animal_studies_suggest
-article
-Some Astronauts at Risk for Cognitive Impairment, Animal Studies Suggest
-4-23-2014
- Fast Facts:
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=129
+research
+Advanced Diagnostic Ultrasound in Microgravity
+*
+The Advanced Diagnostic Ultrasound in Microgravity (ADUM) experiment involves crewmembers conducting ultrasound exams on one another to determine the accuracy of ultrasound use to diagnose certain types of on-orbit injuries and illnesses, as well as to assess the feasibility of ultrasound for monitoring in-flight bone alterations.
+Detailed Research Description
+	Advanced Diagnostic Ultrasound in Microgravity (ADUM) tests the accuracy of using ultrasound technology in the novel clinical situation of space flight. This investigation includes assessing health problems in the eyes and bones, as well as sinus infections and abdominal injuries. ADUM further tests the feasibility of in-flight ultrasound use to monitor bone density during long-duration space flights. Another objective of the experiment is to determine how well nonmedical crewmembers can learn to use an ultrasound device via CD ROM training manuals and remote guidance from Earth. The intent of the ADUM investigation is to develop methods by which a medically-untrained individual can use an ultrasound machine with remote diagnostician assistance to evaluate a vast array of medical problems.
 
-    Rats exposed to high-energy particles, simulating conditions astronauts would face on a long-term deep space mission, show lapses in attention and slower reaction times, even with extremely low doses of radiation.
-    The cognitive impairments appear to be linked to protein changes in the brain.
-    When astronauts are outside the Earth’s magnetic field, spaceships provide only limited shielding from radiation exposure.
-    Findings suggest it may be possible to develop a biological marker to predict sensitivity to radiation’s effects on the human brain before deployment to deep space.
-     Johns Hopkins scientists report that rats exposed to high-energy particles, simulating conditions astronauts would face on a long-term deep space mission, show lapses in attention and slower reaction times, even when the radiation exposure is in extremely low dose ranges.
+	Expedition crews use the International Space Station (ISS) Human Research Facility (HRF) ultrasound machine and four scan sets: the cardio/thoracic scan, which focuses on the heart, but also can scan the lungs; the abdominal/retroperitoneal scan, which focuses on the organs of the abdomen, including the liver, spleen, kidneys, and bladder; the dental scan, which can image the mouth, teeth, gums, facial bones and sinuses, and eyes; and the bone scan, which images bones and characterizes bone loss during flight. In addition to the ultrasound machine and probes, another key component of ADUM on ISS is the onboard proficiency enhancer, a software application the crew uses to train on the methods employed for each scan.
+BriefResearchOperations
 
-The cognitive impairments — which affected a large subset, but far from all, of the animals — appear to be linked to protein changes in the brain, the scientists say. The findings, if found to hold true in humans, suggest it may be possible to develop a biological marker to predict sensitivity to radiation’s effects on the human brain before deployment to deep space. The study, funded by NASA’s National Space Biomedical Research Institute, is described in the April issue of the journal Radiation Research.
+		Perform various diagnostic operations with the ultrasound on bone, heart, internal organs, teeth, eyes, and sinuses.
 
-When astronauts are outside of the Earth’s magnetic field, spaceships provide only limited shielding from radiation exposure, explains study leader Robert D. Hienz, Ph.D., an associate professor of behavioral biology at the Johns Hopkins University School of Medicine. If they take space walks or work outside their vehicles, they will be exposed to the full effects of radiation from solar flares and intergalactic cosmic rays, he says, and since neither the moon nor Mars have a planet-wide magnetic field, astronauts will be exposed to relatively high radiation levels, even when they land on these surfaces.
 
-But not everyone will be affected the same way, his experiments suggest. “In our radiated rats, we found that 40 to 45 percent had these attention-related deficits, while the rest were seemingly unaffected,” Hienz says. “If the same proves true in humans and we can identify those more susceptible to radiation’s effects before they are harmfully exposed, we may be able to mitigate the damage.”
-
-If a biomarker can be identified for humans, it could have even broader implications in determining the best course of treatment for patients receiving radiotherapy for brain tumors or identifying which patients may be more at risk from radiation-based medical treatments, the investigators note.
-
-Previous research has tested how well radiation-exposed rats do with basic learning tasks and mazes, but this new Johns Hopkins study focused on tests that closely mimic the self-tests of fitness for duty currently used by astronauts on the International Space Station prior to mission-critical events such as space walks. Similar fitness tests are also used for soldiers, airline pilots and long-haul truckers.
-
-In one such test, an astronaut sees a blank screen on a handheld device and is instructed to tap the screen when an LED counter lights up. The normal reaction time should be less than 300 milliseconds. The rats in the experiment are similarly taught to touch a light-up key with their noses and are then tested to see how quickly they react.
-
-To conduct the new study, rats were first trained for the tests and then taken to Brookhaven National Laboratory on Long Island in Upton, N.Y., where a collider produces the high-energy proton and heavy ion radiation particles that normally occur in space. The rats’ heads were exposed to varying levels of radiation that astronauts would normally receive during long-duration missions, while other rats were given sham exposures.
-
-Once the rats returned to Johns Hopkins, they were tested every day for 250 days. The radiation-sensitive animals (19 of 46) all showed evidence of impairment that began at 50 to 60 days post–exposure and remained through the end of the study.
-
-Lapses in attention occurred in 64 percent of the sensitive animals, elevations in impulsive responding occurred in 45 percent and slower reaction times occurred in 27 percent. The impairments were not dependent on radiation dose. Additionally, some of the rats didn’t recover at all from their deficits over time, while others showed some recovery over time.
-
-The radiation-sensitive rats that received higher doses of radiation had a higher concentration of transporters for the neurotransmitter dopamine, which plays a role in vigilance and attention, says Catherine M. Davis, Ph.D., a postdoctoral fellow in the Department of Psychiatry and Behavioral Sciences and the study’s first author.
-
-The dopamine transport system appears impaired in radiation-sensitive rats because the neurotransmitter is most likely not removed in the manner it should be for the brain to function properly, she says. Humans with genetic differences related to dopamine transport, she adds, have been shown to do worse on the type of mental fitness tests given to the astronauts and rats alike.
-
-Davis says she wouldn’t want to see radiation-sensitive astronauts kept from future missions to the moon or Mars, but she would want those astronauts to be prepared to take special precautions to protect their brains, such as wearing extra shielding or not performing space walks.
-
-“As with other areas of personalized medicine, we would seek to create individual treatment and prevention plans for astronauts we believe would be more susceptible to cognitive deficits from radiation exposure,” she says.
-
-Current astronauts are not as exposed to the damaging effects of radiation, Davis says, because the International Space Station flies in an orbit low enough that the Earth’s magnetic field continues to provide protection.
-
-While the Johns Hopkins team studies the likely effects of radiation on the brain during a deep space mission, other NASA-funded research groups are looking at the potential effects of radiation on other parts of the body and on whether it increases cancer risks.
-
+Space Applications
+	Aboard the ISS, there is not enough room for a fully functioning hospital or staff of doctors. It is also not feasible for a crewmember to return to Earth for a quick medical checkup. This experiment allows for efficient diagnosis of medical problems with minimal use of onboard resources. The ability of crewmembers to use an ultrasound machine with remote instruction, along with ground analysis, promotes timely treatment and averts unnecessary evacuation. Using a modification of this technology, crewmembers as far away as Mars could obtain remote examinations from doctors on Earth. This type of capability is essential for long-term space exploration.
+Earth Applications
+	The use of a relatively small piece of medical equipment to diagnose various health problems, in the absence of nearby specialized medical personnel, could save lives and reduce healthcare costs. Patients could transmit ultrasound information to doctors over great distances, resulting in efficient remote medical diagnosis and treatment to a high degree of confidence. This technology essentially allows anyone in the world the potential to access unique clinical imaging expertise remotely.
+PreviousMissions
+	ADUM is the first formal experiment to examine the use of ultrasound in microgravity. Crewmembers, however, did check out the ultrasound equipment during Increment 5.
+EducationalActivities

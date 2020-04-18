@@ -1,5 +1,16 @@
-https://www.ncbi.nlm.nih.gov/pubmed/19066480?dopt=Abstract
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=421
 research
-New human data versus estimates of effects of inhaling fission product mixtures.
-1-1-2009
-Recently, data on exposures of humans as well as animals to fission products in plumes emitted by underground Soviet tests have been declassified by the Khazakhstan government and published in English. Similar human intakes of gross fission product mixtures that caused acute prodromal symptoms have not been previously reported. Animal experiments with such complex mixtures have not received sufficient support to provide data that could be reliably extrapolated with dose-response models to humans for use in triage of internally exposed persons. This commentary compares some of the acute prodromal effects on humans from the recently released Soviet data with the estimates of Cowan and Kuper, and later estimates by Brodsky and colleagues. The latter estimates are concluded to be safer, and more easily adaptable, for use in triage of persons exposed to internal deposition of fission products of various mixtures.
+Biochemical Status of Humans in Long-term Spaceflight (Biotest)
+*
+Biochemical Status of Humans in Long-term Spaceflight (Biotest) studies metabolic adaptation to extended spaceflight conditions to broaden the existing information base on changes in metabolism and its hormonal regulation in microgravity.
+ResearchDescription
+BriefResearchOperations
+Space Applications 	Biotest data improves medical monitoring, training, and postflight rehabilitation of crew members for long-term spaceflight.
+Earth Applications 	Biotest promotes the development of space and ground medicine.
+PreviousMissions
+EducationalActivities
+OPNOM
+Title 	Biochemical Status of Humans in Long-term Spaceflight (Biotest)
+StudentReflection
+ResultsSummary
+	To better understand how humans adapt to microgravity, researchers measured hormonal, metabolic, and biochemical indicators on the ground and the final stages of long-term spaceflight. They found no changes in some types of hormones, such as those secreted by the adrenal cortex, which controls stress response. They did find changes in hormones that reflect an individual&rsquo;s metabolism and activity, such as thyroid hormones. Some of the indicators varied depending on flight duration and crew member age. The data will be used to assess the physical state of crew members on long-duration space flights and help develop and improve diagnostic tools and preventive measures.

@@ -1,27 +1,26 @@
-https://www.space.com/what-is-quarantine-like-for-astronauts-coronavirus.html
-article
-What quarantine is like for an astronaut
-3-20-2020
-People around the world are currently isolating themselves or in a formal quarantine to prevent the spread of the SARS-CoV-2 coronavirus. But for decades, astronauts have been quarantined to ensure that they were virus-free and ready to fly (or, in the case of Apollo, to make sure they didn't bring home any "moon bugs.")
-This quarantine period "ensures that they aren't sick or incubating an illness when they get to the space station," NASA spokesperson Brandi Dean told Space.com.
-So what is quarantine really like for an astronaut?
-In the early days of NASA's Apollo program, the astronauts of Apollo 7 ended up getting sick in space with colds and quickly ran out of medication and tissues. Although instances of astronauts getting sick in space are few and far between, these early issues led the agency to implement a preflight quarantine. Today, this is a two-week period where only controlled visits from close family are permitted. Implementing a preflight quarantine ensured that there was minimal risk of the astronauts bringing a virus with them to space.
-Later on, NASA quarantined the crews of Apollo 11, 12, 13 and 14 in the mobile quarantine facility (MQF) after their returns from the moon. The agency wasn't exactly sure what might be lurking on the moon and thought that there might be moon bugs, or moon sickness, that the astronauts could track home and contaminate Earth.
-The lunar samples collected by the astronauts were additionally quarantined in protected containers and handled in the controlled quarantine facility known as the Lunar Receiving Laboratory (LRL). Though this was largely to prevent Earth materials from contaminating the lunar samples.
-Following splashdown, these crews spent 21 days in quarantine in the (MQF), a converted Airstream trailer. They had communication devices as well as living and sleeping facilities. The Apollo 11 crew famously spoke with Nixon through a window in the MQF using the communication equipment in the trailer. The astronauts did have a bit of fun while cooped up in the MQF, however.
-Photos of these quarantines have revealed astronauts giggling, acting bored, reading newspapers and chatting. Apollo 11 commander Neil Armstrong even passed some of his time in the facility playing the ukulele.
-The Apollo 11 crew even had a party while in quarantine, as Armstrong celebrated his birthday while still in post-splashdown quarantine.
-In a recent interview with Ars Technica, Apollo 11 astronaut Buzz Aldrin said, about the quarantine experience, "Mike Collins and I used to exercise and jog a little bit around the hallway ... We looked at this one crack in the floor, and there were ants crawling in and out," suggesting that, if ants could get in and out that surely any kind of "moon bugs" or microbes they brought back could as well.
-Aldrin added that, while in the MQF, he spent his time working on mission reports and finishing up paperwork, including a government voucher for $33.31 for his trip to the moon.
-Following Apollo 14, NASA had found no evidence of biological activity in the lunar samples collected, nor any material that officials felt could be harmful. So, while the lunar samples remained quarantined and continued to be handled with care and caution, astronauts returning from the moon were no longer confined to the MQF after splashdown.
-Now while NASA's astronauts today might not get to hang out in the MQF,  they do face preflight quarantines to ensure their health and safety. In addition to quarantine, astronauts typically undergo a physical examination known as the "L-10" 10 days before they launch. This further ensures that the crew members are not sick or infected before launching.
-During the space shuttle program,  the astronauts were quarantined but could have limited contact with other people.
-However, once arriving at the NASA's Kennedy Space Center in Florida where the shuttles would lift off, the astronauts would enter a much stricter quarantine where the crew surgeon would be isolated with the crew. Two days before launch, the astronauts would undergo a second medical exam to make  sure that they were in tip-top shape.
-Today, the preflight quarantine, which is known as "health stabilization," is still an essential safety precaution when it comes to crewed launches. Astronauts spend the two weeks before their flight quarantined in their quarters, which are located in NASA's Kennedy and Johnson space centers, and in Roscosmos' Baikonur Cosmodrome in southern Kazakhstan.
-During this two-week period, the astronauts have no direct contact with anyone who has not been cleared by NASA flight surgeons, Dean said.
-While in quarantine, the astronauts spend their time prepping for the mission ahead of them. They prepare mentally, study up on flight procedures and make sure to both rest and work out to ensure that they're in peak physical and mental condition for their flight. They also spend time making video calls and chatting with friends and family. It is not known if any of the astronauts bring ukuleles with them into quarantine like Armstrong.
-Even with these intense precautions, astronauts have gotten sick in space. However, These cases are especially rare now given that astronauts travel to space with such regularity. In fact, our presence in space has grown so much that, since 2000, the space station has never been without astronauts on board. So those born before 2000 have never lived a day when there were no humans in space.
-Recently, NASA space station program manager Kirk Shireman revealed that, with the upcoming Soyuz launch on April 9, 2020, concerns regarding the coronavirus pandemic will likely extend the preflight quarantine period.
-It is still unknown exactly how quarantine procedures might change for this specific flight or future flights, but NASA is addressing concerns surrounding the illness head-on.
-NASA Administrator Jim Bridenstine has mandated that all nonessential mission personnel at the agency work from home.
-"NASA is closely adhering to the CDC's recommendations on infection control for the coronavirus," Dean said, further adding that this includes "cleaning of surfaces, social distancing, emphasizing hand hygiene, limiting social contact whenever possible and asking NASA team members who are sick to stay home, even if they would otherwise fall into the telework exceptions."
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=964
+research
+Behavioral Issues Associated with isolation and Confinement: Review and Analysis of Astronaut Journals
+*
+Behavioral Issues Associated with Isolation and Confinement: Review and Analysis of Astronaut Journals (Journals) obtains information on behavioral and human issues that are relevant to the design of equipment and procedures and sustained human performance during extended-duration missions. Study results provide information to help prepare for future missions to low-Earth orbit and beyond.
+
+Detailed Research Description
+	A previous content analysis of astronaut journals maintained during ISS expeditions provided quantitative data on which to base a rank-ordering of behavioral issues in terms of importance; participants in that study were members of two and three-person ISS crews. This extension of the Journals Flight Experiment uses the same procedures and techniques as before, but focuses on the journals of astronauts who are members of six-person ISS crews. The objective is to identify equipment, habitat, and procedural features that can help humans when adjusting to isolation and confinement while ensuring they remain effective and productive during future long-duration space operations and expeditions.
+
+
+
+	While on orbit, crewmembers make journal entries at least three times a week in a personal journal; the journal can be either in written form (electronic, using an ISS laptop, or paper) or an audio recording (using a PowerPoint audio application). In addition to the journal entries, participating crewmembers complete a brief electronic questionnaire at the mid-point of their Expeditions.
+
+BriefResearchOperations
+
+		Crewmembers complete a journal (electronic or paper or audio) with their thoughts and experiences for 15 minutes at least three times each week.
+
+		A questionnaire is also completed prior to launch, midway through the expedition and several days following return to Earth.
+
+
+Space Applications
+	Studies conducted on Earth show that analyzing the content of journals and diaries is an effective method for identifying the issues that are most important to a person. The method is based on the reasonable assumption that the frequency that an issue or category of issues is mentioned in a journal reflects the importance of that issue or category to the writer. The tone of each entry (positive, negative, or neutral) and phase of the expedition also are variables of interest. Study results will lead to recommendations for the design of equipment, facilities, procedures, and training to help sustain behavioral adjustment and performance during long-duration space expeditions to the ISS, asteroids, the Moon, Mars, and beyond.
+
+
+Earth Applications
+	Results from this study could help to improve the behavioral performance of people living and working under a variety of conditions here on Earth.

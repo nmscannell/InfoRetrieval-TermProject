@@ -1,16 +1,32 @@
-https://www.space.com/43285-astronaut-health-medicine-in-space.html
-article
-Final Frontier Medicine: Astronauts Use 'Smart Shirt' and Ultrasounds to Monitor Health
-2-9-2019
-OTTAWA, Ontario — Fans of "Star Trek" know of the iconic tricorder that could take the measure of just about any vital sign for the spacefarers. Although astronauts on the International Space Station don't have access to this futuristic technology (yet), they are testing out devices like a shirt that measures heartbeat, temperature and blood pressure, according to an astronaut currently in orbit.
-Canadian astronaut David Saint-Jacques spoke with schoolchildren and media yesterday (Feb. 7) at the Canada Aviation and Space Museum via a brief downlink, answering questions such as how radiation affects spacefarers and how astronauts stay healthy in space. Microgravity is a nasty problem for astronauts, he explained while floating in the Japanese Kibo laboratory. Astronauts must spend roughly 2 hours a day exercising their cardiovascular and muscular systems to stave off weakness and damage.
-While the station isn't full of gee-whiz technology like audiences saw in "Star Trek," Saint-Jacques said, there are a few innovative technologies on the orbiting lab. One is a "smart shirt" called Bio-Monitor, whose development was led by Montreal's Carré Technologies. Its goal is to combine the functions of several devices, while remaining unobtrusive enough for astronauts to wear while sleeping and exercising. The shirt automatically monitors the astronaut's vital signs and then transmits the information to Earth.
-"We hope that [it] will become a very common product," Saint-Jacques told Space.com during a publicly broadcast question-and-answer session with media. And he didn't just mean in space. "It would be very useful for people who are deployed [in the military] … or people who are stuck at home, [where] it is difficult to go to the hospital. They could have their health checked remotely."
-Most of the other ISS medical equipment is "pretty conservative," although sometimes doctors get creative trying to use stuff that's already on the space station to monitor health problems, he added. Then, those creative solutions can get used back on Earth, too.
-"We scratch our heads and we invent new methods on station that we then use on the ground," said Saint-Jacques, who is a medical doctor himself. "For example, a couple of years ago, people started to think, 'Hm, we don't have an X-ray machine here in space. How could we figure out if somebody has a hole in their lungs … without an X-ray machine?'
-"So we figured out a way in space, using an ultrasound machine, because that's what we had," he continued. Now, that's standard practice for many doctors. "Now, that's what we do on Earth to look for punctured lungs. We use an ultrasound machine."
-Saint-Jacques' call from space coincided with the opening of a new exhibit at the museum, "Health in Space: Daring to Explore." The traveling exhibit discusses several Canadian astronauts who journeyed to space. In addition, the attraction includes artifacts such as pictures of Saint-Jacques when he was a doctor working in Canada's north, a sample Bio-Monitor shirt and an example of the Microflow experiment on blood-sampling technology that flew with Canadian astronaut Chris Hadfield during his Expedition 34/35 mission in 2012-13.
-Retired Canadian astronaut Robert Thirsk attended the event and gave a quick tour of the exhibit to a small group of children, explaining how the artifacts on display were used in spaceflight. During the tour, he paused in front of an exhibit talking about how gravity affects astronauts.
-"This is me in space," he said, pointing to a picture of himself in 2009, during Expedition 20/21. "I wear glasses for reading, and my first month in space, I realized I couldn't see as well as I did on the ground. I talked to one of my crew mates, and he said he was also having vision problems. I could see distance, but [when] reading documents up close, I was having difficulty." [The Human Body in Space: 6 Weird Facts]
-The vision problem, which Thirsk played a role in discovering, still troubles NASA a decade later. What the agency knows for sure are the effects: Pressure on the back of the eye pushes the back end of the eye in and causes a change in the focal distance, affecting the astronaut's ability to read in space, among other things. No one knows exactly how the vision problems are happening, but NASA is investigating. One strong suspect is the lack of a day-night pressure cycle inside astronaut skulls when they're in space.
-Saint-Jacques' mission will examine a suite of Canadian medical technologies. These include Bio-Analyzer (which will do near-real-time blood analysis), MARROW (which will investigate whether microgravity causes fat accumulation in blood marrow) and MicroPrep (which samples body fluids to look for macromolecules such as DNA).
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1554
+research
+Assessment of the effect of space flight on bone quality using three-dimensional high resolution peripheral quantitative computed tomography (HR-pQCT)
+*
+Humans develop strong, dense bones in part by supporting the body&rsquo;s weight, but this important bone-building activity is lost in people with limited mobility and crew members living in microgravity. The Assessment of the effect of space flight on bone quality using three-dimensional high resolution peripheral quantitative computed tomography (HR-pQCT) (TBone) investigation studies spaceflight&rsquo;s effects on bone quality using a new technique called three-dimensional high-resolution peripheral quantitative computed tomography (HR-pQCT). This type of bone scan measures bone density and structure, allowing scientists to distinguish changes in bone health and strength that result from microgravity or extended periods of immobilization.
+
+ResearchDescription
+BriefResearchOperations
+	Most of the operations are accomplished pre- and post-flight, and include:
+
+
+		HR-pQCT scanning session, where left and right distal radius, as well as left and right distal tibia, are scanned. Sessions are planned at L-80 days &plusmn; 20 days, R+12 d &plusmn; 9 d, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d.
+
+		Bone density measurement: Dual X-ray absorptiometry (DXA) scans of the whole body, and regional scans of both proximal femurs (hips), spine, calcaneus (heel), and wrist are performed before flight (L-360 d to L-45 d) and post-flight (R+12 d &plusmn; 9 d, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d). Some of these sessions are part of the MedB 1.11 protocol.
+
+		Data on blood and urine biomarkers is obtained before, during, and after flight through data sharing with either the Biochemical profile experiment, or the MedB N3.06 Clinical Nutritional Assessment protocols. Sample Collection schedule as follows:
+
+
+				L-180 d, L-60 d &plusmn; 30 d, R+0, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d.
+
+
+
+		In-flight food intake, medication, supplement, and exercise data is obtained by data sharing.
+
+
+	There are no specific in-flight operations required for this experiment.
+
+Space Applications
+	Crew members experience several changes to their bones during spaceflight, including a loss of bone density and changes to the way bone remakes itself. As a result of these changes, space missions could increase the risk of fractures, even later in life. Bone scanning using HR-pQCT can identify crew members for whom spaceflight poses a greater risk of bone density loss, both immediately after a spaceflight and later in the future. Results from this investigation are compared with existing bone loss measures to determine how at-risk crew members may be identified.
+
+Earth Applications
+	Results from this investigation benefit people on Earth who suffer from bone density loss, a common problem affecting anyone from middle-aged women, to patients on bed rest. Scanning patients with HR-pQCT could identify people who are predisposed to bone loss, leading to personalized treatments. Studying how the microgravity environment affects bone health can also help scientists better understand the process of bone loss and degeneration.

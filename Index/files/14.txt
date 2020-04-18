@@ -1,16 +1,32 @@
-https://www.space.com/mars-radiation-obstacle-crewed-human-missions.html
-article
-Radiation poses major obstacle to future deep-space astronauts bound for Mars
-4-4-2020
-Mars seems to be on everybody's mind in the space industry. There are already several robotic missions to the Red Planet underway, and companies and space agencies are already working to one day send humans there.
-But a crewed mission would present many more challenges. One of these obstacles is radiation, and so researchers are working to find a way to protect a crew against the dangerous radiation of deep space.
-Humans evolved underneath the protective blanket that is the Earth's atmosphere and magnetosphere. Our bodies are not like the robots we shoot into the far reaches of the solar system. We are made of organic matter that needs to be shielded from harmful radiation.
-Radiation comes from waves of energy. There is radiation around us all the time — even bananas, which are rich in potassium, emit radiation — but the amount of radiation we're exposed to on a regular basis is so low that our body copes fine with it. However, some waves of energy can damage our cells and our DNA faster than our body can repair the damage. These harmful waves are part of the electromagnetic spectrum that includes gamma rays, x-rays and some ultraviolet radiation. That's why health officials advise that people use sunscreen and why medical staff use protective blankets when patients receive X-ray exams.
-Tory Bruno, CEO of the spaceflight company United Launch Alliance, spoke about radiation and the challenges it poses to a U.S. Mars-shot during a Feb. 28 presentation held at the Johns Hopkins Applied Physics Laboratory (APL) in Maryland. The chat was part of an all-day event called the Lunar Surface Innovation Consortium, where NASA officials, APL representatives and space industry leaders spoke about how NASA's Artemis program could unfold over the course of the decade.
-Artemis' primary goal is to send a crewed mission back to the moon, with the first woman and the next man to land on the lunar surface on board. In its following chapter, Artemis would help engineers learn more about the deep space environment to safely send humans on long-duration missions to Mars.
-Bruno said that NASA is already getting a head start on these missions by studying the sun more intently. Missions like NASA's Parker Solar Probe, which launched in 2018, and a collaboration with the European Space Agency on the Solar Orbiter, which launched earlier this year, could inform the design and the timing of Mars missions based on the sun's cycles of activity by gauging when the sun is emitting levels of radiation higher than average.
-In the presentation, Bruno outlined the traditional materials —— water, concrete, lead —— that are used as a containment barrier against radiation. But rockets aren't made of this stuff.
-"We're going to need some new materials that are a lot more efficient at shielding out this radiation… but nothing that we could use today to safely send people to the Red Planet and back," Bruno said.
-Although crew capsules have been sending people into space for over half a century, spacefarers haven't had to endure missions as long as what a mission to Mars would require.
-Astronauts on the International Space Station don't have to worry a tremendous amount about radiation because most individual missions last six months to under a year. A roundtrip mission to Mars would require about 180 days, according to Bruno, and sending people to the Red Planet would only be worthwhile if they could spend weeks, months or even a full year there to explore Mars' environment.
-It's hard to study this radiation environment from Earth —— sending experiments to the moon and to Mars and making rigorous observations will be essential to sending the first humans to Mars.
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=830
+research
+Assessment of Operator Proficiency Following Long-Duration Space Flight
+*
+Lack of gravity causes sensorimotor deficits post-landing. This experiment's comprehensive cognitive/sensorimotor test battery will determine the relative contribution of specific mechanisms (including sleepiness and fatigue) underlying decrements in post-flight operator proficiency. These results will be critical in determining whether sensorimotor countermeasures are required for piloted landings and early surface operations, and what functional areas countermeasures should target.
+Detailed Research Description
+	Long-term exposure to microgravity has the potential to negatively impact the ability of crew members to operate complex machinery and perform post-landing EVA. This project directly addresses the 'risk of impaired ability to maintain control of vehicles and other complex systems' identified by NASA's Human Research Program by performing pre- and post-flight assessments of sensorimotor function in ISS astronauts in conjunction with full-motion simulations to gauge the effects of microgravity exposure on operator proficiency.
+
+	The PI team developed a full-motion simulator based on a 6 degree-of-freedom Stewart platform. The single seat cabin utilizes triple scene projection covering 150&deg; horizontal by 50&deg; vertical. Subjects are placed in a racing seat and restrained by a 4-point harness. The control pod includes a steering wheel and joystick, and three pedals (outer pedals used for rudder input during flight; right and middle pedal used for accelerator and brake for driving simulations).
+
+	Based on a review of relevant in- and post-flight studies, the PI team developed a battery of tests to be performed on seated ISS crew members pre- and post-flight. The test battery targets cognitive, oculomotor, fine motor, and vestibular mechanisms potentially underlying post-flight deficits in operator performance. In addition, subjective and objective measures of sleepiness and fatigue will be obtained to control for the cumulative effects of in-flight sleep deprivation and workload on post-flight sensorimotor and operator function. The results from these test batteries will be correlated with astronaut performance on three operationally-relevant full-motion simulator tasks: control of an automobile, operation of a Mars rover, and (for experienced pilot subjects only) T-38A Talon landing simulations.
+
+	The aim is to objectively define the effects of long-duration spaceflight on operator proficiency, and identify microgravity-related sensorimotor or cognitive deficits (or combinations thereof) underlying degradation of operator effectiveness. This study will answer four critical questions:
+1. To what degree does long-duration spaceflight impair a crew member&rsquo;s ability to operate a vehicle or other machinery?
+
+2. What sensorimotor/cognitive functions underlie degradation of operator proficiency?
+
+3. Are sensorimotor countermeasures required for lunar/Martian landings and surface operations?
+
+4. If so, what areas should these countermeasures target?
+BriefResearchOperations 	After an introductory 30 minute overview (first session only), the crew member enters the 6 degree of freedom motion simulator to conduct the following tasks over a 60 minute period:
+
+1) Sensorimotor Test Battery
+2) Driving Simulation
+3) Flight Simulation
+4) Rover Simulation
+
+Four sessionsare conducted prior to flight in the L-120 days to launch timeframe and three sessions are performed after landing (R+0/1, R+4, and R+8 days).
+Space Applications
+	An understanding of the underlying mechanisms for the decrement in post-flight proficiency will help determine whether countermeasures are required for future exploration class missions, and what functional areas the countermeasures should target.
+Earth Applications
+	N/A

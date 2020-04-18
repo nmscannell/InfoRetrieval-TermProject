@@ -1,17 +1,21 @@
-https://www.space.com/6628-routine-quarantine-helps-astronauts-avoid-illness-launch.html
-article
-Routine Quarantine Helps Astronauts Avoid Illness Before Launch
-4-29-2009
-While no one wants to get swine flu, it would beparticularly disastrous for the astronauts preparing to ride the space shuttleAtlantis on May 11 for their mission to upgrade the Hubble Space Telescope.
-So far, there's no indication that any astronauts have been exposed toswine flu, and NASA has not made any changes to operations because of thecurrent situation, officials said.
-But astronauts can get sick in space. In fact, microgravityappears to weakenthe immune system, so NASA is careful to reduce the chances of spaceflyerscatching nasty bugs before they lift off.
-"NASA is cautious about exposing the crew to any andall viruses and bacteria in the preflight phase, whether that be swine flu orthe common cold," said NASA spokesman Bill Jeffs. "NASA does not haveto alter their current posture, because their current posture is already veryconservative, as even a routine adenovirus [cause of the common cold] can beproblematic on a space mission."
-The seven members of Atlantis'sSTS-125 crew are due to enter quarantine in less than a week to avoidcatching any kind of sickness before their flight. This precaution is taken justbefore every mission, since the consequences of an astronaut getting sick areserious.
-"Even a common cold can have a mission impact if acrewmember is not able to clear their ears due to congestion, especially withthe changes in pressure that are required for a spacewalk," Jeffs told SPACE.com.
-Astronauts usually undergo a physical exam called the"L-10" 10 days before launch. This exam includes swabs and other labtests to make sure they're not already infected. After this time, NASA limits astronautcontact with other people, and formal quarantine starts at about seven daysbefore launch.
-Once the crew arrives at NASA’s Kennedy Space Center inCape Canaveral, Fla., where shuttles lift off, the quarantine is strict, andthe crew surgeon is isolated with the crew. The astronauts undergo a secondexam two days prior to launch, and are given a brief medical check just beforethey suit up on launch day. Anyone on the ground who is sick or exhibits anysigns of illness is prohibited from working with the crew.
-Even with such vigilance, astronauts have gotten sick duringpast missions. Wally Schirra came down with a cold in the middle of the 1968 Apollo 7 mission. Though nothingtoo serious resulted, Schirra did reportedly get irritable with MissionControl's requests and felt tired during the mission.
-During 1968's Apollo 8 — the first manned mission tofly around the moon — astronaut Frank Borman suffered what may have beena bad reaction to a sleeping tablet. He discovered that vomit and diarrhea arenot easy to clean up in the weightlessness of space.
-In retrospect, some experts think Borman simply had spaceadaptation syndrome, or space sickness, which affects about a third ofastronauts as their bodies try to adjust to microgravity.
-German astronautHans Schlegel likely had a bad bout of space sickness that forced him toopt out of a scheduled spacewalk during the February 2008 shuttle mission.
-sAndsometimes the atmosphere of the spacecraft can sicken astronauts. In 1999,high carbon dioxide levels in the Zarya module on the International SpaceStation might have been what made some space shuttle Discovery astronauts illwith headaches and nausea. The condition wasn't serious, though, and improvedwhen the astronauts returned to Discovery.
+https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=388
+research
+Astronaut's Energy Requirements for Long-Term Space Flight
+*
+Energy investigation measures an Astronaut's Energy Requirements for Long-Term Space Flight, a crucial factor needed for sending the correct amount of the right types of food with space crews. Nine astronauts will be examined during exercise and rest cycles three months before launch, three months after arriving at space station and adapting to the space environment, and after return to Earth. Physicians will measure metabolic rates, urine content, and bone density to determine energy needs.
+Detailed Research Description
+	Astronaut's Energy Requirements for Long-Term Space Flight (Energy) determines the crew members energy requirements for long-term space flight. There is no compensation for severe negative energy balance during space flight.. This energy deficit affects all physiological functions. Energy measures changes in energy balance after long-term space flight, adaptations in the components of the total energy expenditure, and help to derive an equation for the energy requirements of crew members.
+
+BriefResearchOperations
+
+		A total of 9 male subjects are needed to complete the Energy investigation. A control subject is only required for the first execution.
+
+		Energy utilizes several dedicated meals (2 breakfast meals, 1 lunch and 1 dinner) for the inflight portion of the investigation.
+
+		Energy utilizes the HRF-2/PFS instrument.
+
+		Preflight measurements shall be done anytime between L-5 months and launch and remain valid for 6 months. The subjects should not have large deviations in their body mass (&plusmn;5%) in the period from Baseline Data Collection (BDC) to launch. Preflight measurements consists of 1 day of measurements and urine collection. A body mass measurement and a Dual Energy X-ray Absorptiometry (DEXA) scan occurs before launch. Inflight after L+3 months, and more than 3 weeks before return, a Pulmonary Function System (PFS) measurement, resting metabolic rate (45 minutes), diet induced thermogenesis (4 hours), and urine and water sampling are performed. Post-flight body mass measurement between R+2 and R+7. Except that,no Energy postflight data collection is planned, all data requirements will be obtained from Space Medicine via data sharing.
+
+
+Space Applications 	Astronauts often lose body mass with extended stays in space for reasons that remain unclear, although increased exercise as a microgravity countermeasure may be a factor. Knowing details of astronaut metabolism and activity, combined with other conditions, will help ensure that crews are properly nourished on long missions.
+Earth Applications 	Extended bed rest due to age or illness has some parallels to a proper energy balance. Improved understanding from space missions will help in assessing patient needs on Earth.
