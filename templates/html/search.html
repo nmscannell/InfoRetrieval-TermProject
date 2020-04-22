@@ -2,23 +2,17 @@
 {% load static %}
 
 {% block header %}
-    <h1 id="header">Search</h1>
+    <link rel="stylesheet" type="text/css" href="{% static "search.css" %}">
 {%  endblock %}
 
-{% block content %}<br>
+{% block content %}
 <div class="form-box">
-    <div class="head"><h1>Medical Search Engine</h1></div>
-    <form class="form" method="post" action="results/" id="search-box">
+    <h1>Astronaut Medical Search Engine</h1>
+    <form class="form-wrapper" method="post" action="results/" id="search-box">
         <!--Its super important that action matches the url of the page-->
         {% csrf_token %}
-        <div class="form-group">
-            <label class="label-control">
-                <span class="label-text"></span>
-            </label>
-            <input type="text" name="query" id="query" placeholder="query" required/>
-        </div>
-        <input type="submit" value="search" class="btn"/>
-        <!--<p class="error">{{ message }}</p>-->
+        <input type="text" name="query" id="query" placeholder="query" required/>
+        <button type="submit" id="submit" value="search" class="btn">Search</button>
     </form>
 </div>
 <div class="suggested">

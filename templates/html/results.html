@@ -2,33 +2,22 @@
 {% load static %}
 
 {% block header %}
-    <h1 id="header">Search Results</h1>
+    <link rel="stylesheet" type="text/css" href="{% static "results.css" %}">
 {%  endblock %}
 
-{% block content %}<br>
-    <link rel="stylesheet" type="text/css" href="{% static 'results.css' %}">
-    <div style="overflow-x:auto;">
-    <h3>{{ mes }}</h3>
-
-    <table class="list">
-        <tr class="header">
-             <th>Item</th>
-             <th>Reliability</th>
-        </tr>
+{% block content %}
+<div class="results">
+    <h1>Search Results</h1>
+    <ol class="results_list">
         {% for res in results %}
-            <tr class="item">
-                <td colspan="3" class="item">
-                    <p><a href={{ res.url }} target="_blank">{{ res.title }}</a></p>
-                    <p>{{ res.summary }}</p>
-                </td>
-                <td>
-                    <p>{{ reliability }}</p>
-                </td>
-            </tr>
-         {% endfor %}
-    </table>
-    </div>
-    <div class="foot">
-        <a href="/">Search Again</a>
-    </div>
+            <li class="list_item">
+                <p><a href={{ res.url }} target="_blank">{{ res.title }}</a></p>
+                <p>{{ res.summary }}</p>
+            </li>
+        {% endfor %}
+    </ol>
+</div>
+<div class="foot">
+    <a href="/">Search Again</a>
+</div>
 {% endblock %}

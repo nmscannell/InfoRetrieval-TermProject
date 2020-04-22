@@ -3,11 +3,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Medical Search Engine</title>
+    <title class="base_title">Astronaut Medical Search Engine</title>
     <link rel="stylesheet" href="{% static 'base.css' %}">
+    {% block header %}
+    {% endblock header %}
 </head>
 <body>
-{% block content %}
-{% endblock content %}
+    <div class="page_content">
+    <div class="content">
+    {% block content %}
+    {% endblock content %}
+    </div>
+<!---    <footer class="footer">
+        <ul class="footer_links">
+            <li>Developed by <a href="github.com/nmscannell" target="_blank">Natasha Scannell</a></li>
+            <li>Image Credits to <a href="nasa.gov" target="_blank">NASA</a></li>
+        </ul>
+    </footer>--->
+    </div>
 </body>
 </html>
