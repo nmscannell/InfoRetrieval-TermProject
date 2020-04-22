@@ -6,8 +6,9 @@
 {%  endblock %}
 
 {% block content %}
+<div class="main">
 <div class="form-box">
-    <h1>Astronaut Medical Search Engine</h1>
+    <h1>Astronaut Medical Search</h1>
     <form class="form-wrapper" method="post" action="results/" id="search-box">
         <!--Its super important that action matches the url of the page-->
         {% csrf_token %}
@@ -22,5 +23,6 @@
 
     </tr>
   </table>
+</div>
 </div>
 {% endblock %}

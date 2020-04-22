@@ -1,0 +1,53 @@
+body {
+  background: url("nebula.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+}
+
+.cf:before,
+.cf:after {
+  content: "";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.page_content {
+    position: relative;
+    min-height: 100vh;
+}
+
+.content {
+  padding-bottom: 2.5rem;
+}
+
+footer {
+  bottom: 0;
+  margin-left: -10px;
+  width: 100vw;
+  height: 2.5rem;
+  opacity: .7;
+  background-color: white;
+  position: absolute;
+  font-size: 20px;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer_links {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 8px;
+  list-style: none;
+}
+
+
+.footer_links a {
+  color: inherit;
+}
