@@ -20,6 +20,12 @@ from medsearch import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('results/', views.ResultsView.as_view()),
-    path('', views.SearchView.as_view())
+    path('', views.SearchView.as_view()),
+    path('radiation/', views.RadiationView.as_view()),
+    path('microgravity/', views.MicroView.as_view()),
+    path('vision/', views.VisionView.as_view()),
+    path('dystrophy/', views.DystrophyView.as_view()),
+    path('isolation/', views.IsolationView.as_view()),
+    path('reverse-blood/', views.ReverseView.as_view()),
  #   path('search/', views.SearchView.as_view())
 ]

@@ -18,3 +18,45 @@ class ResultsView(View):
         proc = QueryProcessor(query)
         mes, results = proc.perform_search()
         return render(request, 'results.html', {"results": results})
+
+
+class RadiationView(View):
+    def get(self, request):
+        proc = QueryProcessor("radiation effects")
+        mes, results = proc.perform_search()
+        return render(request, 'results.html', {"results": results})
+
+
+class MicroView(View):
+    def get(self, request):
+        proc = QueryProcessor("microgravity")
+        mes, results = proc.perform_search()
+        return render(request, 'results.html', {"results": results})
+
+
+class VisionView(View):
+    def get(self, request):
+        proc = QueryProcessor("Vision Loss")
+        mes, results = proc.perform_search()
+        return render(request, 'results.html', {"results": results})
+
+
+class DystrophyView(View):
+    def get(self, request):
+        proc = QueryProcessor("muscular dystrophy")
+        mes, results = proc.perform_search()
+        return render(request, 'results.html', {"results": results})
+
+
+class IsolationView(View):
+    def get(self, request):
+        proc = QueryProcessor("psychological effects of isolation")
+        mes, results = proc.perform_search()
+        return render(request, 'results.html', {"results": results})
+
+
+class ReverseView(View):
+    def get(self, request):
+        proc = QueryProcessor("reverse blood flow")
+        mes, results = proc.perform_search()
+        return render(request, 'results.html', {"results": results})
