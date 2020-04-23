@@ -6,7 +6,7 @@ This search bar was adapted from a blog post from Catalin Rosu, a.k.a 'Red'*
 .form-box {
   width: 600px;
   padding: 15px;
-  margin: 75px auto 50px auto;
+  margin:75px auto 50px auto;
 }
 
 .form-box h1 {
@@ -88,6 +88,23 @@ This search bar was adapted from a blog post from Catalin Rosu, a.k.a 'Red'*
   width: 600px;
   padding: 15px;
   margin: 100px auto 50px auto;
-  padding-bottom: 2.5rem;
 }
 
+.suggested h3 {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  table-layout: auto;
+}
+
+td {
+  height: 30px;
+  text-align: center;
+  vertical-align: top;
+}
+
+td:first-child {
+  width: 50%;
+}

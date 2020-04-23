@@ -81,6 +81,8 @@ class QueryProcessor:
         # check what docs the terms have in common
         common_docs = postings[0]
         for i in range(len(common_docs)):
+            if i >= len(common_docs):
+                break
             for j in range(1, len(postings)):
                 if common_docs[i] not in postings[j]:
                     common_docs.remove(common_docs[i])
