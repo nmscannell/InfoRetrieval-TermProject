@@ -7,7 +7,7 @@ class Document(models.Model):
     docID = models.IntegerField(default=0)
     title = models.CharField(default=" ", max_length=150)
     url = models.CharField(default=" ", max_length=150)
-    summary = models.CharField(default=" ", max_length=803)
+    summary = models.TextField(default=" ")
     date = models.CharField(default=" ", max_length=10)
     type = models.CharField(default=" ", max_length=10)
 

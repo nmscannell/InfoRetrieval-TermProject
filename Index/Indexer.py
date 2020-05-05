@@ -51,8 +51,7 @@ class Indexer():
         for i in p_content:
             self.add_to_index(i, doc_id, False)
 
-        if len(content) > 800:
-            content = content[:800] + '...'
+        content = content[:800] + '...'
         self.store_doc(doc_id, url, type, title, content, date)
 
     def add_to_index(self, i, doc_id, title=True):
@@ -144,8 +143,7 @@ class Indexer():
             self.add_to_index(i, doc_id)
         for i in p_content:
             self.add_to_index(i, doc_id, False)
-        if len(content) > 800:
-            content = content[:800] + '...'
+        content = content[:800] + '...'
         self.store_doc(doc_id, url, type, title, content, date)
         self.scraped.append(url)
         Indexer.save_obj(self.scraped, 'scraped')
@@ -181,8 +179,7 @@ class Indexer():
                 for i in p_content:
                     self.add_to_index(i, doc_id, False)
 
-                if len(content) > 800:
-                    content = content[:800] + '...'
+                content = content[:800] + '...'
                 self.store_doc(doc_id, url, type, title, content, date)
                 doc_id += 1
 
