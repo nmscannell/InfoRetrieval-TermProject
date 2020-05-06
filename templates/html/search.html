@@ -2,24 +2,24 @@
 {% load static %}
 
 {% block header %}
-    <link rel="stylesheet" type="text/css" href="{% static "search.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "test.css" %}">
 {%  endblock %}
 
 {% block content %}
 <div class="form-box">
     <h1>Astronaut Medical Search</h1>
     <form class="form-wrapper" method="post" action="results/" id="search-box">
-        <div class="options">
-            <input type="radio" class="radio" id="nasa" name="option" value="nasa">
-            <label class="radio" for="nasa">NASA Research</label>
-            <input type="radio" class="radio" id="article" name="option" value="article">
-            <label class="radio" for="article">News Article</label>
-            <input type="radio" class="radio" name="option" id="medical" value="medical">
-            <label class="radio" for="medical">Medical Journal</label>
-        </div>
+        {% csrf_token %}
 
         <input type="text" name="query" id="query" placeholder="query" required/>
         <button type="submit" id="submit" value="search" class="btn">Search</button>
+        <div class="options">
+            <label class="radio" for="experiment"><input type="radio" class="radio" id="experiment" name="option" value="experiment">NASA Experiments</label>
+            <label class="radio" for="research"><input type="radio" class="radio" id="research" name="option" value="research">Research</label>
+            <label class="radio" for="article"><input type="radio" class="radio" id="article" name="option" value="article">News Article</label>
+            <label class="radio" for="medical"><input type="radio" class="radio" name="option" id="medical" value="medical">Medical Journal</label>
+            <label class="radio" for="all"><input type="radio" class="radio" name="option" id="all" value="all" checked>All</label>
+        </div>
     </form>
 </div>
 <div class="suggested">

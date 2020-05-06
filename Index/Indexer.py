@@ -8,10 +8,11 @@ from bs4 import BeautifulSoup as bs
 
 '''
 Indexer parses and stores data in the database.
-Data pulled from xlsx file or from web scraper.
+Data pulled from txt file or from web scraper.
 All terms are lowercased, punctuation and stop words are removed.
 
-Inverted index contains search terms with postings lists that contains term frequency for each docID
+Inverted index contains search terms with postings lists that contains term frequency for the 
+title, term frequency for the content,  and source/type for each docID
 Inverted index is stored in a dict that is saved and loaded via pickle.
 '''
 
@@ -35,7 +36,7 @@ class Indexer():
     def process_file(self, file, doc_id):
         with open(file) as f:
             url = f.readline().strip('\n')
-            type = f.readline().strip('\n')
+            source = f.readline().strip('\n')
             title = f.readline().strip('\n')
             date = f.readline().strip('\n')
             content = ''
@@ -45,54 +46,77 @@ class Indexer():
         p_content = self.parse_string(content)
         # doc_id = self.num_docs
 
+        prev = None
         for i in p_title:
-            self.add_to_index(i, doc_id)
+            self.add_to_index(i, doc_id, source)
+            if prev is not None:
+                self.add_to_index(prev + ' ' + i, doc_id, source)
+            prev = i
 
+        prev = None
         for i in p_content:
-            self.add_to_index(i, doc_id, False)
+            self.add_to_index(i, doc_id, source, False)
+            if prev is not None:
+                self.add_to_index(prev + ' ' + i, doc_id, source, False)
+            prev = i
 
-        content = content[:800] + '...'
-        self.store_doc(doc_id, url, type, title, content, date)
+        self.store_doc(doc_id, url, source, title, content, date)
 
-    def add_to_index(self, i, doc_id, title=True):
+    def add_to_index(self, i, doc_id, source, title=True):
         if title:
             if i in self.index:
                 if doc_id in self.index[i]:
-                    self.index[i][doc_id][0] = self.index[i][doc_id][0] + 1
+                    if 'title' in self.index[i][doc_id]:
+                        self.index[i][doc_id]['title'] = self.index[i][doc_id]['title'] + 1
+                    else:
+                        self.index[i][doc_id]['title'] = 1
+                        self.index[i][doc_id]['type'] = source
                 else:
-                    self.index[i][doc_id] = [1, 0]
+                    self.index[i][doc_id] = {'title': 1, 'type': source}
             else:
-                self.index[i] = {doc_id: [1, 0]}
+                self.index[i] = {doc_id: {'title': 1, 'type': source}}
         else:
             if i in self.index:
                 if doc_id in self.index[i]:
-                    self.index[i][doc_id][1] = self.index[i][doc_id][1] + 1
+                    if 'body' in self.index[i][doc_id]:
+                        self.index[i][doc_id]['body'] = self.index[i][doc_id]['body'] + 1
+                    else:
+                        self.index[i][doc_id]['body'] = 1
+                        self.index[i][doc_id]['type'] = source
                 else:
-                    self.index[i][doc_id] = [0, 1]
+                    self.index[i][doc_id] = {'body': 1, 'type': source}
             else:
-                self.index[i] = {doc_id: [0, 1]}
+                self.index[i] = {doc_id: {'body': 1, 'type': source}}
 #        self.num_docs += 1
         Indexer.save_obj(self.index, 'index')
 
     def parse_string(self, string):
-        res = nltk.word_tokenize(string.lower())
-        res = [i for i in res if i not in stopwords.words('english') and not any(c.isdigit() for c in i)]
-        res = list(filter(lambda i: i not in self.punct, res))
-        for i in range(len(res)):
-            if res[i] == "n't":
-                res[i] = 'not'
-            res[i] = res[i].strip('.!?",/\\*()-_&;~:[]{}')
-            if res[i].count('/') > 0 and res[i].count('.com') == 0:
-                words = res[i].split('/')
-                res[i] = words[0]
-                for j in range(1, len(words)):
-                    res.append(words[j])
-            if res[i].count('.') > 0 and res[i].count('.com') == 0:
-                words = res[i].split('.')
-                res[i] = words[0]
-                for j in range(1, len(words)):
-                    res.append(words[j])
-        return res
+        doc = string.split()
+        tokens = []
+        prev = None
+        for i in range(len(doc)):
+            doc[i] = doc[i].strip().strip('\u201C').strip('\u201D')
+            if prev is None or prev.count('.') == 1:
+                doc[i] = doc[i].lower()
+            prev = doc[i]
+            doc[i] = doc[i].strip('.\"\'!?,/\\*()-_&;~:[]{}')
+            if len(doc[i]) == 0 or doc[i] in stopwords.words('english') or any(c.isdigit() for c in doc[i]) or doc[i] in self.punct:
+                continue
+            if doc[i].count('/') > 0 and doc[i].count('.com') == 0:
+                words = doc[i].split('/')
+                for j in range(len(words)):
+                    tokens.append(words[j].strip('\u201C').strip('\u201D').strip('.\"\'!?,/\\*()-_&;~:[]{}'))
+            elif doc[i].count('-') > 0 and doc[i].count('.com') == 0:
+                words = doc[i].split('-')
+                for j in range(len(words)):
+                    tokens.append(words[j].strip('\u201C').strip('\u201D').strip('.\"\'!?,/\\*()-_&;~:[]{}'))
+            elif doc[i].count('...') > 0:
+                words = doc[i].split('...')
+                for j in range(len(words)):
+                    tokens.append(words[j].strip('\u201C').strip('\u201D').strip('.\"\'!?,/\\*()-_&;~:[]{}'))
+            else:
+                tokens.append(doc[i])
+        return tokens
 
     def scrape_web(self, url, doc_id):
         if url in self.scraped:
@@ -103,7 +127,7 @@ class Indexer():
         content = ''
         if url.count('nasa.gov') > 0:
             if url.count('/experiments/') > 0:
-                type = 'research'
+                source = 'experiment'
                 date = '*'
                 title = soup.find(class_='inv-title').get_text().strip()
                 content += soup.find(class_='block flagged').get_text().strip() + ' '
@@ -111,7 +135,7 @@ class Indexer():
                 content += soup.find(id='ResearchDescription').get_text().strip() + ' '
                 content += soup.find(id='ApplicationsInSpaceAnger').get_text().strip()
             else:
-                type = 'article'
+                source = 'article'
                 date = soup.find(class_='pr-promo-date-time').get_text()
                 title = soup.find(class_='title-wrap').get_text()
                 text = soup.find(class_='text').find_all('p')
@@ -120,7 +144,7 @@ class Indexer():
                     content += p.get_text().strip() + ' '
         elif url.count('space.com') > 0:
             article = soup.find(class_='news-article')
-            type = 'article'
+            source = 'article'
             title = article.find('header').get_text().strip()
             date = article.find('time').get_text().strip()
             text = article.find(id='article-body').find_all('p')
@@ -135,26 +159,35 @@ class Indexer():
             text = article.find_all('p')
             for p in text:
                 content += p.get_text().strip() + ' '
-            type = 'book'
+            source = 'book'
 
         p_title = self.parse_string(title)
         p_content = self.parse_string(content)
+        prev = None
         for i in p_title:
-            self.add_to_index(i, doc_id)
+            self.add_to_index(i, doc_id, source)
+            if prev is not None:
+                self.add_to_index(prev + ' ' + i, doc_id, source)
+            prev = i
+
+        prev = None
         for i in p_content:
-            self.add_to_index(i, doc_id, False)
-        content = content[:800] + '...'
-        self.store_doc(doc_id, url, type, title, content, date)
+            self.add_to_index(i, doc_id, source, False)
+            if prev is not None:
+                self.add_to_index(prev + ' ' + i, doc_id, source, False)
+            prev = i
+
+        self.store_doc(doc_id, url, source, title, content, date)
         self.scraped.append(url)
         Indexer.save_obj(self.scraped, 'scraped')
 
-    def store_doc(self, doc_id, url, type, title, summary, date):
+    def store_doc(self, doc_id, url, source, title, summary, date):
         if Document.objects.filter(url=url).exists():
             return False
         D = Document()
         D.docID = doc_id
         D.url = url
-        D.type = type
+        D.type = source
         D.title = title
         D.summary = summary
         D.date = date
@@ -169,7 +202,7 @@ class Indexer():
                 title = r.title
                 url = r.link
                 content = r.snippet
-                type = 'misc'
+                source = 'misc'
                 date = '*'
                 p_title = self.parse_string(title)
                 p_content = self.parse_string(content)
@@ -179,8 +212,7 @@ class Indexer():
                 for i in p_content:
                     self.add_to_index(i, doc_id, False)
 
-                content = content[:800] + '...'
-                self.store_doc(doc_id, url, type, title, content, date)
+                self.store_doc(doc_id, url, source, title, content, date)
                 doc_id += 1
 
     @staticmethod

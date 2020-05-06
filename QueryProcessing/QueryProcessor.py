@@ -6,11 +6,13 @@ import more_itertools
 
 
 class QueryProcessor:
-    def __init__(self, query):
+    def __init__(self, query, source):
         self.indexer = Indexer()
         self.query = []
         self.query_string = query
         self.index = self.indexer.index
+        self.source = source
+        print(source)
         self.parse_query()
 
     def parse_query(self):
@@ -93,7 +95,12 @@ class QueryProcessor:
             mes = 'Results contain all terms.'
             docs = []
             for i in common_docs:
-                docs.append(Document.objects.get(docID=i))
+                if self.source == 'all':
+                    docs.append(Document.objects.get(docID=i))
+                else:
+                    d = Document.objects.get(docID=i)
+                    if d.type == self.source:
+                        docs.append(d)
         # otherwise, return docs that only contain one
         else:
             mes = 'No results found containing both terms. Results have one or more of query terms.'
