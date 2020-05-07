@@ -86,21 +86,18 @@ class QueryProcessor:
                         score += source_w * .5
                     rank.append((pair[0], score))
 
+        rank.sort(key=lambda e: e[0])
+        for i in range(len(rank)-1):
+            if i > len(rank)-1:
+                break
+            while i+1 < len(rank) and rank[i][0] == rank[i+1][0]:
+                score = rank[i][1] + rank[i+1][1]
+                rank[i] = (rank[i][0], score)
+                rank.remove(rank[i+1])
 
-        # for each document, calculate the score based on tf-idf for each term in title and content
-
-        for i in range(len(docs)):
-            for j in self.query:
-                if docs[i].docID not in self.index[j]:
-                    continue
-                title_tf = self.index[j][docs[i].docID][0]
-                content_tf = self.index[j][docs[i].docID][1]
-                idf = math.log(self.indexer.num_docs/len(self.index[j]))
-                doc_scores[i] += title_tf * title_w * idf + content_tf * content_w * idf
-
-        # sort docs in descending order using the scores, then return title, url, summary of each doc in a list
-        more_itertools.sort_together([doc_scores, docs], reverse=True)
-        return docs
+        common_rank.sort(reverse=True, key=lambda e: e[1])
+        rank.sort(reverse=True, key=lambda e: e[1])
+        return common_rank, rank
 
     def obtain_docs(self):
         if len(self.query_string) == 0:
@@ -124,10 +121,13 @@ class QueryProcessor:
                 p = []
                 keys = []
                 for k, v in self.index[i].items():
-                    keys.append(k)
-                    p.append((k, v))
-                bi_keys.append(keys)
-                bi_post.append(p)
+                    if self.source == 'all' or self.source == v['source']:
+                        keys.append(k)
+                        p.append((k, v))
+                if len(keys) > 0:
+                    bi_keys.append(keys)
+                if len(p) > 0:
+                    bi_post.append(p)
 
         # do something with bi_post
         common_bi_docs = self.find_common_docs(bi_keys)
@@ -139,19 +139,31 @@ class QueryProcessor:
                 p = []
                 keys = []
                 for k, v in self.index[i].items():
-                    keys.append(k)
-                    p.append((k, v))
-                postings.append(p)
-                p_keys.append(keys)
+                    if self.source == 'all' or self.source == v['source']:
+                        keys.append(k)
+                        p.append((k, v))
+                if len(p) > 0:
+                    postings.append(p)
+                if len(keys) > 0:
+                    p_keys.append(keys)
 
         common_docs = self.find_common_docs(p_keys)
         # check what docs the terms have in common
 
-        bi_ranked = self.rank_docs(common_bi_docs, bi_post)
-        all_ranked = self.rank_docs(common_docs, postings)
+        bi_ranked_c, bi_ranked_n = self.rank_docs(common_bi_docs, bi_post)
+        all_ranked_c, all_ranked_n = self.rank_docs(common_docs, postings)
 
         # get ranked docs and return
         docs = []
+        for pair in bi_ranked_c:
+            docs.append(Document.objects.get(docID=pair[0]))
+        for pair in all_ranked_c:
+            docs.append(Document.objects.get(docID=pair[0]))
+        for pair in bi_ranked_n:
+            docs.append(Document.objects.get(docID=pair[0]))
+        for pair in all_ranked_n:
+            docs.append(Document.objects.get(docID=pair[0]))
+
         '''
         # if there are common terms, we will return results with both terms
         if len(common_docs) > 0:
@@ -172,7 +184,7 @@ class QueryProcessor:
                 for j in i:
                     docs.append(Document.objects.get(docID=j))
         '''
-        return docs
+        return docs[:20]
 
     @staticmethod
     def find_common_docs(postings):
