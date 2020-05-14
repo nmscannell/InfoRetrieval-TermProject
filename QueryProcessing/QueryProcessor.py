@@ -1,6 +1,5 @@
 from Index.Indexer import Indexer
 from medsearch.models import Document
-from QueryProcessing import search
 import math
 
 

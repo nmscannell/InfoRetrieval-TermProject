@@ -27,5 +27,4 @@ urlpatterns = [
     path('dystrophy/', views.DystrophyView.as_view()),
     path('isolation/', views.IsolationView.as_view()),
     path('reverse-blood/', views.ReverseView.as_view()),
- #   path('search/', views.SearchView.as_view())
 ]

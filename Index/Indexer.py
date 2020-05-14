@@ -85,7 +85,6 @@ class Indexer:
                     self.index[i][doc_id] = {'body': 1, 'type': source}
             else:
                 self.index[i] = {doc_id: {'body': 1, 'type': source}}
-#        self.num_docs += 1
         Indexer.save_obj(self.index, 'index')
 
     def parse_string(self, string):
@@ -119,7 +118,6 @@ class Indexer:
     def scrape_web(self, url, doc_id):
         if url in self.scraped:
             return
-#        doc_id = self.num_docs
         page = requests.get(url)
         soup = bs(page.content, 'html.parser')
         content = ''
@@ -193,26 +191,6 @@ class Indexer:
         D.save()
         self.num_docs += 1
         return True
-
-    def index_google_results(self, results):
-        doc_id = self.num_docs
-        for res in results:
-            for r in res:
-                title = r.title
-                url = r.link
-                content = r.snippet
-                source = 'misc'
-                date = '*'
-                p_title = self.parse_string(title)
-                p_content = self.parse_string(content)
-
-                for i in p_title:
-                    self.add_to_index(i, doc_id)
-                for i in p_content:
-                    self.add_to_index(i, doc_id, False)
-
-                self.store_doc(doc_id, url, source, title, content, date)
-                doc_id += 1
 
     @staticmethod
     def save_obj(obj, name):
