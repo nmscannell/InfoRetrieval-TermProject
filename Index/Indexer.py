@@ -1,5 +1,7 @@
 import requests
 from nltk.corpus import stopwords
+import nltk
+nltk.download('stopwords')
 from medsearch.models import Document
 import pickle
 import os.path
