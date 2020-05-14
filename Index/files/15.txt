@@ -1,23 +1,5 @@
 https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=658
-research
+experiment
 Assessment of Endurance Capacity by Gas Exchange and Heart Rate Kinetics During Physical Training
 *
-Assessment of Endurance Capacity by Gas Exchange and Heart Rate Kinetics During Physical Training (EKE) is assessing crewmember fitness during extended missions with a view to developing a quicker method than currently used in space. Assessing crewmember fitness is extremely important in making sure that crewmembers are healthy during missions lasting many months and developing a quicker method of assessment will free up crewmembers to spend more time on other activities such as scientific research.
-
-
-Detailed Research Description
-	The preservation of aerobic capacity is a major goal of exercise countermeasures during weightlessness. A widely used measurement for endurance capacity is maximal oxygen uptake (VO2 max) determined by incremental exercise tests until exhaustion. A potential alternative method that will allow to at least reduce the frequency of such tests is to determine the dynamics of pulmonary oxygen uptake (VO2) and heart rate (HR) responses during changes in workload at mild to moderate exercise levels and to calculate muscular VO2 kinetics.
-BriefResearchOperations
-
-		No dedicated inflight sessions.
-
-
-
-		Data sharing with VO2max and/or PFE OUM.
-
-
-Space Applications
-	Assessment of crewmember health and fitness (specifically their aerobic capacity) is a vital part of any mission, not only to secure the well-being of the crewmember in question, but also to secure the aims and goals of the mission such as undertaking scientific research. The EKE experiment should help to reduce the amount of time that is spent making this type of cardiopulmonary health assessment on long-duration missions (thus increasing the time available for research activities) by the development of an improved diagnostic method for the assessment of endurance capacity which is less time intensive than currently used method (VO2max).
-
-Earth Applications
-	Data from this research will also help to improve our knowledge in general of the physiological mechanisms at work during the assessment of endurance capacity. The improvement of diagnostic techniques in space could also lead to improved diagnostic techniques of endurance capacity on earth where VO2max is a standard technique.
+Assessment of Endurance Capacity by Gas Exchange and Heart Rate Kinetics During Physical Training (EKE) is assessing crewmember fitness during extended missions with a view to developing a quicker method than currently used in space. Assessing crewmember fitness is extremely important in making sure that crewmembers are healthy during missions lasting many months and developing a quicker method of assessment will free up crewmembers to spend more time on other activities such as scientific research. Detailed Research Description The preservation of aerobic capacity is a major goal of exercise countermeasures during weightlessness. A widely used measurement for endurance capacity is maximal oxygen uptake (VO2 max) determined by incremental exercise tests until exhaustion. A potential alternative method that will allow to at least reduce the frequency of such tests is to determine the dynamics of pulmonary oxygen uptake (VO2) and heart rate (HR) responses during changes in workload at mild to moderate exercise levels and to calculate muscular VO2 kinetics. BriefResearchOperations No dedicated inflight sessions. Data sharing with VO2max and/or PFE OUM. Space Applications Assessment of crewmember health and fitness (specifically their aerobic capacity) is a vital part of any mission, not only to secure the well-being of the crewmember in question, but also to secure the aims and goals of the mission such as undertaking scientific research. The EKE experiment should help to reduce the amount of time that is spent making this type of cardiopulmonary health assessment on long-duration missions (thus increasing the time available for research activities) by the development of an improved diagnostic method for the assessment of endurance capacity which is less time intensive than currently used method (VO2max). Earth Applications Data from this research will also help to improve our knowledge in general of the physiological mechanisms at work during the assessment of endurance capacity. The improvement of diagnostic techniques in space could also lead to improved diagnostic techniques of endurance capacity on earth where VO2max is a standard technique.

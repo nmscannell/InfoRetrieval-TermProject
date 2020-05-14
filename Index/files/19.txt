@@ -1,39 +1,5 @@
 https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1067
-research
-AIRWAY MONITORING
+experiment
+Airway Monitoring
 *
-With dust particles present in the International Space Station atmosphere, Airway Monitoring studies the occurrence and indicators of airway inflammation in crewmembers, using ultra-sensitive gas analysers to analyse exhaled air. This helps to highlight any health impacts and to maintain crewmember well-being on future human spaceflight missions, especially longer-duration missions to the Moon and Mars for example, where crewmembers will have to be more self-sufficient in highlighting and avoiding such conditions.
-
-ResearchDescription
-BriefResearchOperations
-
-		Pre-flight
-
-		3 full sessions (normal + reduced pressure).
-
-		During Launch -150 day period, minimum 1 week in between.
-
-
-			Third session can be waived if other 2 full sessions are valid.
-
-
-		In-flight: # of sessions
-
-		Desired: Three full sessions (normal ambient + reduced ISS pressure (in airlock)). Ideally, the 2 different sessions should be back-to-back with maximum 7 days in between and minimum 30 days between 2 sessions of the same kind.
-
-		Minimum: 1 session at ambient pressure (US lab), 1 session at ambient + reduced pressure (US Airlock). Then 4, instead of 3, measurement repetitions during the reduced pressure part.
-
-
-			Session windows: First session Flight Day (FD)1-60, second session FD 61-120, third session FD 121-Return. The third full session can be waived if data of the first 2 sessions are valid.
-
-
-		Post-flight
-
-		Only if pre-flight BDC was not performed, then perform 3 full sessions starting No Earlier Than Return+60 days. The 3 full sessions must be performed in a time frame of 150 days.
-
-
-Space Applications
-	On future human exploration missions where a greater degree of self-sufficiency will be necessary to secure a productive and fruitful mission, and with respect to medical diagnostics and treatment, this type of research will form the cornerstone of planning for eventualities that centre on the occurrence of airway inflammation in astronauts. This is done by monitoring airway health through the measurement of exhaled nitric oxide. Monitoring these measurements helps to highlight environmental conditions that exacerbate/alleviate airway inflammation, and helps in the development of countermeasures to reduce the possibility of its occurrence. This, in turn, can help to optimise the health and performance of astronauts on long-duration exploration missions.
-
-Earth Applications
-	ESA research has helped in the development of diagnostic tools which quantify airway inflammation, tools which not only help in spaceflight diagnostics, but that also hold applications on earth within diagnostics of similar conditions, for example monitoring of asthma. This research will provide new insights in nitric oxide physiology, which could improve the diagnostic use of exhaled nitric oxide on Earth and thus benefit patients with asthma or other airway inflammatory diseases.
+With dust particles present in the International Space Station atmosphere, Airway Monitoring studies the occurrence and indicators of airway inflammation in crewmembers, using ultra-sensitive gas analysers to analyse exhaled air. This helps to highlight any health impacts and to maintain crewmember well-being on future human spaceflight missions, especially longer-duration missions to the Moon and Mars for example, where crewmembers will have to be more self-sufficient in highlighting and avoiding such conditions. ResearchDescription BriefResearchOperations Pre-flight 3 full sessions (normal + reduced pressure). During Launch -150 day period, minimum 1 week in between. Third session can be waived if other 2 full sessions are valid. In-flight: # of sessions Desired: Three full sessions (normal ambient + reduced ISS pressure (in airlock)). Ideally, the 2 different sessions should be back-to-back with maximum 7 days in between and minimum 30 days between 2 sessions of the same kind. Minimum: 1 session at ambient pressure (US lab), 1 session at ambient + reduced pressure (US Airlock). Then 4, instead of 3, measurement repetitions during the reduced pressure part. Session windows: First session Flight Day (FD)1-60, second session FD 61-120, third session FD 121-Return. The third full session can be waived if data of the first 2 sessions are valid. Post-flight Only if pre-flight BDC was not performed, then perform 3 full sessions starting No Earlier Than Return+60 days. The 3 full sessions must be performed in a time frame of 150 days. Space Applications 	On future human exploration missions where a greater degree of self-sufficiency will be necessary to secure a productive and fruitful mission, and with respect to medical diagnostics and treatment, this type of research will form the cornerstone of planning for eventualities that centre on the occurrence of airway inflammation in astronauts. This is done by monitoring airway health through the measurement of exhaled nitric oxide. Monitoring these measurements helps to highlight environmental conditions that exacerbate/alleviate airway inflammation, and helps in the development of countermeasures to reduce the possibility of its occurrence. This, in turn, can help to optimise the health and performance of astronauts on long-duration exploration missions. Earth Applications ESA research has helped in the development of diagnostic tools which quantify airway inflammation, tools which not only help in spaceflight diagnostics, but that also hold applications on earth within diagnostics of similar conditions, for example monitoring of asthma. This research will provide new insights in nitric oxide physiology, which could improve the diagnostic use of exhaled nitric oxide on Earth and thus benefit patients with asthma or other airway inflammatory diseases.

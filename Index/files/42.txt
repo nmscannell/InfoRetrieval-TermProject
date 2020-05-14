@@ -1,33 +1,5 @@
 https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1545
-research
+experiment
 Effects of Long-Duration Microgravity on Fine Motor Skills: 1 year ISS Investigation
 *
-	Fine motor skills are crucial for successfully interacting with touch-based technologies, repairing sensitive equipment, and a variety of other tasks. In the Effects of Long-Duration Microgravity on Fine Motor Skills: 1 year ISS Investigation (Fine Motor Skills), crew members perform a series of interactive tasks on a touchscreen tablet. The investigation (for which data collection is now complete) is the first fine motor skills study to measure long-term microgravity exposure, different phases of microgravity adaptation, and sensorimotor recovery after returning to Earth gravity.
-
-Detailed Research Description
-	The aim of the study (for which data collection is now complete) is to determine the effects of long-duration microgravity and of different gravitational transitions on fine motor performance. Specifically:
-
-
-		How does fine motor performance in microgravity trend/vary over the duration of a six-month and year-long space mission?
-
-		How does fine motor performance on orbit compare with that of a closely matched participant on Earth?
-
-		How does performance trend/vary before and after gravitational transitions, including the periods of early flight adaptation, and very early/near immediate post-flight periods?
-
-
-	Data are obtained through software developed for measurement of fine motor function. This software utilizes a test battery of four tasks which examine speed/response time, and accuracy. The tasks include a multidirectional pointing task, a dragging task, a shape tracing task, and a pinch-rotate task.
-
-BriefResearchOperations
-
-		Subject unstows tablet computer and associated hardware.
-
-		Subject performs Fine Motor Skills session on tablet.
-
-		Subject stows tablet and associated hardware.
-
-
-Space Applications
-	Fine motor skills are critical during long-duration space missions, especially for working with next-generation space vehicles, spacesuits, and habitats. This is the first investigation to systematically study how microgravity affects crew members&rsquo; fine motor skills, especially over a long-duration mission. Changes in crewmember sensorimotor skills could require countermeasures to protect crew safety and efficiency on future missions.
-
-Earth Applications
-	Computer-based games and tasks are frequently used to measure and improve fine motor abilities in elderly patients, people with motor disorders, and patients with brain injuries. The tasks developed for the Fine Motor Skills investigation could also benefit patients on Earth undergoing rehabilitation for conditions that impair fine motor control.
+Fine motor skills are crucial for successfully interacting with touch-based technologies, repairing sensitive equipment, and a variety of other tasks. In the Effects of Long-Duration Microgravity on Fine Motor Skills: 1 year ISS Investigation (Fine Motor Skills), crew members perform a series of interactive tasks on a touchscreen tablet. The investigation (for which data collection is now complete) is the first fine motor skills study to measure long-term microgravity exposure, different phases of microgravity adaptation, and sensorimotor recovery after returning to Earth gravity. Detailed Research Description The aim of the study (for which data collection is now complete) is to determine the effects of long-duration microgravity and of different gravitational transitions on fine motor performance. Specifically: How does fine motor performance in microgravity trend/vary over the duration of a six-month and year-long space mission? How does fine motor performance on orbit compare with that of a closely matched participant on Earth? How does performance trend/vary before and after gravitational transitions, including the periods of early flight adaptation, and very early/near immediate post-flight periods? Data are obtained through software developed for measurement of fine motor function. This software utilizes a test battery of four tasks which examine speed/response time, and accuracy. The tasks include a multidirectional pointing task, a dragging task, a shape tracing task, and a pinch-rotate task. BriefResearchOperations Subject unstows tablet computer and associated hardware. Subject performs Fine Motor Skills session on tablet. Subject stows tablet and associated hardware. Space Applications Fine motor skills are critical during long-duration space missions, especially for working with next-generation space vehicles, spacesuits, and habitats. This is the first investigation to systematically study how microgravity affects crew members&rsquo; fine motor skills, especially over a long-duration mission. Changes in crewmember sensorimotor skills could require countermeasures to protect crew safety and efficiency on future missions. Earth Applications Computer-based games and tasks are frequently used to measure and improve fine motor abilities in elderly patients, people with motor disorders, and patients with brain injuries. The tasks developed for the Fine Motor Skills investigation could also benefit patients on Earth undergoing rehabilitation for conditions that impair fine motor control.

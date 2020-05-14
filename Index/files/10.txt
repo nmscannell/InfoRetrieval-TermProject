@@ -1,16 +1,5 @@
 https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=421
-research
+experiment
 Biochemical Status of Humans in Long-term Spaceflight (Biotest)
 *
-Biochemical Status of Humans in Long-term Spaceflight (Biotest) studies metabolic adaptation to extended spaceflight conditions to broaden the existing information base on changes in metabolism and its hormonal regulation in microgravity.
-ResearchDescription
-BriefResearchOperations
-Space Applications 	Biotest data improves medical monitoring, training, and postflight rehabilitation of crew members for long-term spaceflight.
-Earth Applications 	Biotest promotes the development of space and ground medicine.
-PreviousMissions
-EducationalActivities
-OPNOM
-Title 	Biochemical Status of Humans in Long-term Spaceflight (Biotest)
-StudentReflection
-ResultsSummary
-	To better understand how humans adapt to microgravity, researchers measured hormonal, metabolic, and biochemical indicators on the ground and the final stages of long-term spaceflight. They found no changes in some types of hormones, such as those secreted by the adrenal cortex, which controls stress response. They did find changes in hormones that reflect an individual&rsquo;s metabolism and activity, such as thyroid hormones. Some of the indicators varied depending on flight duration and crew member age. The data will be used to assess the physical state of crew members on long-duration space flights and help develop and improve diagnostic tools and preventive measures.
+Biochemical Status of Humans in Long-term Spaceflight (Biotest) studies metabolic adaptation to extended spaceflight conditions to broaden the existing information base on changes in metabolism and its hormonal regulation in microgravity. ResearchDescription BriefResearchOperations Space Applications 	Biotest data improves medical monitoring, training, and postflight rehabilitation of crew members for long-term spaceflight. Earth Applications 	Biotest promotes the development of space and ground medicine.

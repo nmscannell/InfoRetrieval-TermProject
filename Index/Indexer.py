@@ -1,4 +1,3 @@
-import nltk
 import requests
 from nltk.corpus import stopwords
 from medsearch.models import Document
@@ -17,7 +16,7 @@ Inverted index is stored in a dict that is saved and loaded via pickle.
 '''
 
 
-class Indexer():
+class Indexer:
     def __init__(self):
         if os.path.exists('Index/obj/index.pkl'):
             print('index exists')
@@ -44,7 +43,6 @@ class Indexer():
                 content += l.strip('\n').strip() + ' '
         p_title = self.parse_string(title)
         p_content = self.parse_string(content)
-        # doc_id = self.num_docs
 
         prev = None
         for i in p_title:
@@ -183,6 +181,7 @@ class Indexer():
 
     def store_doc(self, doc_id, url, source, title, summary, date):
         if Document.objects.filter(url=url).exists():
+            print('doc already in database: ' + doc_id)
             return False
         D = Document()
         D.docID = doc_id

@@ -1,26 +1,5 @@
 https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=964
-research
+experiment
 Behavioral Issues Associated with isolation and Confinement: Review and Analysis of Astronaut Journals
 *
-Behavioral Issues Associated with Isolation and Confinement: Review and Analysis of Astronaut Journals (Journals) obtains information on behavioral and human issues that are relevant to the design of equipment and procedures and sustained human performance during extended-duration missions. Study results provide information to help prepare for future missions to low-Earth orbit and beyond.
-
-Detailed Research Description
-	A previous content analysis of astronaut journals maintained during ISS expeditions provided quantitative data on which to base a rank-ordering of behavioral issues in terms of importance; participants in that study were members of two and three-person ISS crews. This extension of the Journals Flight Experiment uses the same procedures and techniques as before, but focuses on the journals of astronauts who are members of six-person ISS crews. The objective is to identify equipment, habitat, and procedural features that can help humans when adjusting to isolation and confinement while ensuring they remain effective and productive during future long-duration space operations and expeditions.
-
-
-
-	While on orbit, crewmembers make journal entries at least three times a week in a personal journal; the journal can be either in written form (electronic, using an ISS laptop, or paper) or an audio recording (using a PowerPoint audio application). In addition to the journal entries, participating crewmembers complete a brief electronic questionnaire at the mid-point of their Expeditions.
-
-BriefResearchOperations
-
-		Crewmembers complete a journal (electronic or paper or audio) with their thoughts and experiences for 15 minutes at least three times each week.
-
-		A questionnaire is also completed prior to launch, midway through the expedition and several days following return to Earth.
-
-
-Space Applications
-	Studies conducted on Earth show that analyzing the content of journals and diaries is an effective method for identifying the issues that are most important to a person. The method is based on the reasonable assumption that the frequency that an issue or category of issues is mentioned in a journal reflects the importance of that issue or category to the writer. The tone of each entry (positive, negative, or neutral) and phase of the expedition also are variables of interest. Study results will lead to recommendations for the design of equipment, facilities, procedures, and training to help sustain behavioral adjustment and performance during long-duration space expeditions to the ISS, asteroids, the Moon, Mars, and beyond.
-
-
-Earth Applications
-	Results from this study could help to improve the behavioral performance of people living and working under a variety of conditions here on Earth.
+Behavioral Issues Associated with Isolation and Confinement: Review and Analysis of Astronaut Journals (Journals) obtains information on behavioral and human issues that are relevant to the design of equipment and procedures and sustained human performance during extended-duration missions. Study results provide information to help prepare for future missions to low-Earth orbit and beyond. Detailed Research Description A previous content analysis of astronaut journals maintained during ISS expeditions provided quantitative data on which to base a rank-ordering of behavioral issues in terms of importance; participants in that study were members of two and three-person ISS crews. This extension of the Journals Flight Experiment uses the same procedures and techniques as before, but focuses on the journals of astronauts who are members of six-person ISS crews. The objective is to identify equipment, habitat, and procedural features that can help humans when adjusting to isolation and confinement while ensuring they remain effective and productive during future long-duration space operations and expeditions. While on orbit, crewmembers make journal entries at least three times a week in a personal journal; the journal can be either in written form (electronic, using an ISS laptop, or paper) or an audio recording (using a PowerPoint audio application). In addition to the journal entries, participating crewmembers complete a brief electronic questionnaire at the mid-point of their Expeditions. BriefResearchOperations Crewmembers complete a journal (electronic or paper or audio) with their thoughts and experiences for 15 minutes at least three times each week. A questionnaire is also completed prior to launch, midway through the expedition and several days following return to Earth. Space Applications Studies conducted on Earth show that analyzing the content of journals and diaries is an effective method for identifying the issues that are most important to a person. The method is based on the reasonable assumption that the frequency that an issue or category of issues is mentioned in a journal reflects the importance of that issue or category to the writer. The tone of each entry (positive, negative, or neutral) and phase of the expedition also are variables of interest. Study results will lead to recommendations for the design of equipment, facilities, procedures, and training to help sustain behavioral adjustment and performance during long-duration space expeditions to the ISS, asteroids, the Moon, Mars, and beyond. Earth Applications Results from this study could help to improve the behavioral performance of people living and working under a variety of conditions here on Earth.

@@ -2,7 +2,6 @@ from Index.Indexer import Indexer
 from medsearch.models import Document
 from QueryProcessing import search
 import math
-import more_itertools
 
 
 class QueryProcessor:
@@ -29,16 +28,12 @@ class QueryProcessor:
             raise Exception('No index has been made.')
 
         if len(self.query) == 0:
-            results = search.perform_search(self.query_string)
-            self.indexer.index_google_results(results)
-            self.index = self.indexer.index
-            self.parse_query()
-            return self.obtain_docs()
+            # results = search.perform_search(self.query_string)
+            mes = 'No documents contain your query'
+            return mes, []
 
         ranked = self.obtain_docs()
-        if len(ranked) > 20:
-            ranked = ranked[:20]
-        return ranked
+        return None, ranked
 
     def rank_docs(self, common, docs):
         # common is a list of common doc IDs
@@ -46,49 +41,58 @@ class QueryProcessor:
         if len(self.index) == 0:
             raise Exception('No index has been made.')
         if len(docs) == 0:
-            raise Exception('No documents to rank.')
-        doc_scores = [0] * len(common)
+            return None, None
+
         # score depends on tf in title, tf in content, type
         title_w = 0.4
         content_w = 0.3
         source_w = 0.3
 
         common_rank = []
+        print('common')
         for ids in common:
+            print(ids)
             score = 0
             for i in range(len(docs)):
                 idf = math.log(self.indexer.num_docs/len(docs[i]))
                 for pair in docs[i]:
                     if pair[0] == ids:
-                        score += title_w * idf * pair[1]['title']
-                        score += content_w * idf * pair[1]['body']
-                        if pair[1]['source'] == 'experiment' or pair[1]['source'] == 'research':
+                        print(pair[1])
+                        if 'title' in pair[1]:
+                            score += title_w * idf * pair[1]['title']
+                        if 'body' in pair[1]:
+                            score += content_w * idf * pair[1]['body']
+                        if pair[1]['type'] == 'experiment' or pair[1]['type'] == 'research':
                             score += source_w
-                        elif pair[1]['source'] == 'medical':
+                        elif pair[1]['type'] == 'medical':
                             score += source_w * .75
-                        elif pair[1]['source'] == 'book':
+                        elif pair[1]['type'] == 'book':
                             score += source_w * .5
             common_rank.append((ids, score))
 
         rank = []
+        print('not')
         for i in range(len(docs)):
             idf = math.log(self.indexer.num_docs / len(docs[i]))
             for pair in docs[i]:
                 if pair[0] not in common:
+                    print(pair[0], pair[1])
                     score = 0
-                    score += title_w * idf * pair[1]['title']
-                    score += content_w * idf * pair[1]['body']
-                    if pair[1]['source'] == 'experiment' or pair[1]['source'] == 'research':
+                    if 'title' in pair[1]:
+                        score += title_w * idf * pair[1]['title']
+                    if 'body' in pair[1]:
+                        score += content_w * idf * pair[1]['body']
+                    if pair[1]['type'] == 'experiment' or pair[1]['type'] == 'research':
                         score += source_w
-                    elif pair[1]['source'] == 'medical':
+                    elif pair[1]['type'] == 'medical':
                         score += source_w * .75
-                    elif pair[1]['source'] == 'book':
+                    elif pair[1]['type'] == 'book':
                         score += source_w * .5
                     rank.append((pair[0], score))
 
         rank.sort(key=lambda e: e[0])
         for i in range(len(rank)-1):
-            if i > len(rank)-1:
+            if i > len(rank)-2:
                 break
             while i+1 < len(rank) and rank[i][0] == rank[i+1][0]:
                 score = rank[i][1] + rank[i+1][1]
@@ -117,11 +121,14 @@ class QueryProcessor:
         bi_post = []
         bi_keys = []
         for i in bi_grams:
+            print(i)
             if i in self.index:
+                print('bigram in index')
                 p = []
                 keys = []
                 for k, v in self.index[i].items():
-                    if self.source == 'all' or self.source == v['source']:
+                    print(k)
+                    if self.source == 'all' or self.source == v['type']:
                         keys.append(k)
                         p.append((k, v))
                 if len(keys) > 0:
@@ -135,11 +142,14 @@ class QueryProcessor:
         postings = []
         p_keys = []
         for i in self.query:
+            print(i)
             if i in self.index:
+                print('in index')
                 p = []
                 keys = []
                 for k, v in self.index[i].items():
-                    if self.source == 'all' or self.source == v['source']:
+                    print(k, v)
+                    if self.source == 'all' or self.source == v['type']:
                         keys.append(k)
                         p.append((k, v))
                 if len(p) > 0:
@@ -149,45 +159,56 @@ class QueryProcessor:
 
         common_docs = self.find_common_docs(p_keys)
         # check what docs the terms have in common
+        print(common_docs)
 
         bi_ranked_c, bi_ranked_n = self.rank_docs(common_bi_docs, bi_post)
         all_ranked_c, all_ranked_n = self.rank_docs(common_docs, postings)
 
+        print(bi_ranked_c)
+        print(bi_ranked_n)
+        print(all_ranked_c)
+        print(all_ranked_n)
         # get ranked docs and return
         docs = []
-        for pair in bi_ranked_c:
-            docs.append(Document.objects.get(docID=pair[0]))
-        for pair in all_ranked_c:
-            docs.append(Document.objects.get(docID=pair[0]))
-        for pair in bi_ranked_n:
-            docs.append(Document.objects.get(docID=pair[0]))
-        for pair in all_ranked_n:
-            docs.append(Document.objects.get(docID=pair[0]))
-
-        '''
-        # if there are common terms, we will return results with both terms
-        if len(common_docs) > 0:
-            mes = 'Results contain all terms.'
-            docs = []
-            for i in common_docs:
-                if self.source == 'all':
-                    docs.append(Document.objects.get(docID=i))
-                else:
-                    d = Document.objects.get(docID=i)
-                    if d.type == self.source:
-                        docs.append(d)
-        # otherwise, return docs that only contain one
-        else:
-            mes = 'No results found containing both terms. Results have one or more of query terms.'
-            docs = []
-            for i in postings:
-                for j in i:
-                    docs.append(Document.objects.get(docID=j))
-        '''
-        return docs[:20]
+        ids = []
+        if bi_ranked_c is not None:
+            for pair in bi_ranked_c:
+                print(pair[0])
+                if pair[0] not in ids:
+                    ids.append(pair[0])
+                    docs.append(Document.objects.get(docID=pair[0]))
+        if bi_ranked_n is not None:
+            for pair in bi_ranked_n:
+                print(pair[0])
+                if pair[0] not in ids:
+                    ids.append(pair[0])
+                    docs.append(Document.objects.get(docID=pair[0]))
+        if all_ranked_c is not None:
+            for pair in all_ranked_c:
+                print(pair[0])
+                if pair[0] not in ids:
+                    ids.append(pair[0])
+                    docs.append(Document.objects.get(docID=pair[0]))
+        if all_ranked_n is not None:
+            for pair in all_ranked_n:
+                print(pair[0])
+                if pair[0] not in ids:
+                    ids.append(pair[0])
+                    docs.append(Document.objects.get(docID=pair[0]))
+        if len(ids) > 20:
+            ids = ids[:20]
+        print('printing ids')
+        for i in ids:
+            print(i)
+        if len(docs) > 20:
+            docs = docs[:20]
+        return docs
 
     @staticmethod
     def find_common_docs(postings):
+        if len(postings) == 0:
+            return
+
         common = postings[0]
 
         for i in range(1, len(postings)):

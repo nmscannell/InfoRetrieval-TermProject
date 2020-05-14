@@ -2,17 +2,20 @@
 {% load static %}
 
 {% block header %}
-    <link rel="stylesheet" type="text/css" href="{% static "dank2.css" %}">
+    <link rel="stylesheet" type="text/css" href="{% static "res.css" %}">
 {%  endblock %}
 
 {% block content %}
 <div class="results">
     <h1>Search Results</h1>
     <ol class="results_list">
+        {% if mes %}
+            <p>{{ mes }}</p>
+        {% endif %}
         {% for res in results %}
             <li class="list_item">
                 <p class="item_title"><a href={{ res.url }} target="_blank">{{ res.title }}</a></p>
-                <p>{{ res.summary }}</p>
+                <p>{{ res.summary|slice:"0:500" }}...</p>
             </li>
         {% endfor %}
     <a class="back" href="/">Search Again</a>

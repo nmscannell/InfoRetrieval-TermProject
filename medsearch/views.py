@@ -17,47 +17,49 @@ class ResultsView(View):
         query = str(request.POST["query"])
         source = str(request.POST['option'])
         proc = QueryProcessor(query, source)
-        results = proc.perform_search()
+        mes, results = proc.perform_search()
+        if mes is not None:
+            return render(request, 'results.html', {'results': [], 'mes': mes})
         return render(request, 'results.html', {"results": results})
 
 
 class RadiationView(View):
     def get(self, request):
         proc = QueryProcessor("radiation effects", 'all')
-        results = proc.perform_search()
+        mes, results = proc.perform_search()
         return render(request, 'results.html', {"results": results})
 
 
 class MicroView(View):
     def get(self, request):
         proc = QueryProcessor("microgravity", 'all')
-        results = proc.perform_search()
+        mes, results = proc.perform_search()
         return render(request, 'results.html', {"results": results})
 
 
 class VisionView(View):
     def get(self, request):
         proc = QueryProcessor("Vision Loss", 'all')
-        results = proc.perform_search()
+        mes, results = proc.perform_search()
         return render(request, 'results.html', {"results": results})
 
 
 class DystrophyView(View):
     def get(self, request):
         proc = QueryProcessor("muscular dystrophy", 'all')
-        results = proc.perform_search()
+        mes, results = proc.perform_search()
         return render(request, 'results.html', {"results": results})
 
 
 class IsolationView(View):
     def get(self, request):
         proc = QueryProcessor("psychological effects of isolation", 'all')
-        results = proc.perform_search()
+        mes, results = proc.perform_search()
         return render(request, 'results.html', {"results": results})
 
 
 class ReverseView(View):
     def get(self, request):
         proc = QueryProcessor("reverse blood flow", 'all')
-        results = proc.perform_search()
+        mes, results = proc.perform_search()
         return render(request, 'results.html', {"results": results})

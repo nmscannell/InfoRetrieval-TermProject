@@ -1,32 +1,5 @@
 https://www.nasa.gov/mission_pages/station/research/experiments/explorer/Investigation.html?#id=1554
-research
+experiment
 Assessment of the effect of space flight on bone quality using three-dimensional high resolution peripheral quantitative computed tomography (HR-pQCT)
 *
-Humans develop strong, dense bones in part by supporting the body&rsquo;s weight, but this important bone-building activity is lost in people with limited mobility and crew members living in microgravity. The Assessment of the effect of space flight on bone quality using three-dimensional high resolution peripheral quantitative computed tomography (HR-pQCT) (TBone) investigation studies spaceflight&rsquo;s effects on bone quality using a new technique called three-dimensional high-resolution peripheral quantitative computed tomography (HR-pQCT). This type of bone scan measures bone density and structure, allowing scientists to distinguish changes in bone health and strength that result from microgravity or extended periods of immobilization.
-
-ResearchDescription
-BriefResearchOperations
-	Most of the operations are accomplished pre- and post-flight, and include:
-
-
-		HR-pQCT scanning session, where left and right distal radius, as well as left and right distal tibia, are scanned. Sessions are planned at L-80 days &plusmn; 20 days, R+12 d &plusmn; 9 d, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d.
-
-		Bone density measurement: Dual X-ray absorptiometry (DXA) scans of the whole body, and regional scans of both proximal femurs (hips), spine, calcaneus (heel), and wrist are performed before flight (L-360 d to L-45 d) and post-flight (R+12 d &plusmn; 9 d, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d). Some of these sessions are part of the MedB 1.11 protocol.
-
-		Data on blood and urine biomarkers is obtained before, during, and after flight through data sharing with either the Biochemical profile experiment, or the MedB N3.06 Clinical Nutritional Assessment protocols. Sample Collection schedule as follows:
-
-
-				L-180 d, L-60 d &plusmn; 30 d, R+0, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d.
-
-
-
-		In-flight food intake, medication, supplement, and exercise data is obtained by data sharing.
-
-
-	There are no specific in-flight operations required for this experiment.
-
-Space Applications
-	Crew members experience several changes to their bones during spaceflight, including a loss of bone density and changes to the way bone remakes itself. As a result of these changes, space missions could increase the risk of fractures, even later in life. Bone scanning using HR-pQCT can identify crew members for whom spaceflight poses a greater risk of bone density loss, both immediately after a spaceflight and later in the future. Results from this investigation are compared with existing bone loss measures to determine how at-risk crew members may be identified.
-
-Earth Applications
-	Results from this investigation benefit people on Earth who suffer from bone density loss, a common problem affecting anyone from middle-aged women, to patients on bed rest. Scanning patients with HR-pQCT could identify people who are predisposed to bone loss, leading to personalized treatments. Studying how the microgravity environment affects bone health can also help scientists better understand the process of bone loss and degeneration.
+Humans develop strong, dense bones in part by supporting the body&rsquo;s weight, but this important bone-building activity is lost in people with limited mobility and crew members living in microgravity. The Assessment of the effect of space flight on bone quality using three-dimensional high resolution peripheral quantitative computed tomography (HR-pQCT) (TBone) investigation studies spaceflight&rsquo;s effects on bone quality using a new technique called three-dimensional high-resolution peripheral quantitative computed tomography (HR-pQCT). This type of bone scan measures bone density and structure, allowing scientists to distinguish changes in bone health and strength that result from microgravity or extended periods of immobilization. ResearchDescription BriefResearchOperations	Most of the operations are accomplished pre- and post-flight, and include: HR-pQCT scanning session, where left and right distal radius, as well as left and right distal tibia, are scanned. Sessions are planned at L-80 days &plusmn; 20 days, R+12 d &plusmn; 9 d, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d. Bone density measurement: Dual X-ray absorptiometry (DXA) scans of the whole body, and regional scans of both proximal femurs (hips), spine, calcaneus (heel), and wrist are performed before flight (L-360 d to L-45 d) and post-flight (R+12 d &plusmn; 9 d, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d). Some of these sessions are part of the MedB 1.11 protocol. Data on blood and urine biomarkers is obtained before, during, and after flight through data sharing with either the Biochemical profile experiment, or the MedB N3.06 Clinical Nutritional Assessment protocols. Sample Collection schedule as follows: L-180 d, L-60 d &plusmn; 30 d, R+0, R+180 d &plusmn; 15 d, R+360 d &plusmn; 15 d. In-flight food intake, medication, supplement, and exercise data is obtained by data sharing. There are no specific in-flight operations required for this experiment. Space Applications Crew members experience several changes to their bones during spaceflight, including a loss of bone density and changes to the way bone remakes itself. As a result of these changes, space missions could increase the risk of fractures, even later in life. Bone scanning using HR-pQCT can identify crew members for whom spaceflight poses a greater risk of bone density loss, both immediately after a spaceflight and later in the future. Results from this investigation are compared with existing bone loss measures to determine how at-risk crew members may be identified. Earth Applications Results from this investigation benefit people on Earth who suffer from bone density loss, a common problem affecting anyone from middle-aged women, to patients on bed rest. Scanning patients with HR-pQCT could identify people who are predisposed to bone loss, leading to personalized treatments. Studying how the microgravity environment affects bone health can also help scientists better understand the process of bone loss and degeneration.
