@@ -16,15 +16,14 @@ This search bar was adapted from a blog post from Catalin Rosu, a.k.a 'Red'*
 }
 
 label.radio {
-  display: inline-block;
-    padding-left: 50px;
+  display: inline;
+  padding: 5px;
   margin-top: 20px;
-
-
 }
 
 input[type='radio'] {
   display: inline;
+  margin-top: 20px;
 }
 
 /* Form text input */
