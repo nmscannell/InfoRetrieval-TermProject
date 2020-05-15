@@ -48,15 +48,12 @@ class QueryProcessor:
         source_w = 0.3
 
         common_rank = []
-        print('common')
         for ids in common:
-            print(ids)
             score = 0
             for i in range(len(docs)):
                 idf = math.log(self.indexer.num_docs/len(docs[i]))
                 for pair in docs[i]:
                     if pair[0] == ids:
-                        print(pair[1])
                         if 'title' in pair[1]:
                             score += title_w * idf * pair[1]['title']
                         if 'body' in pair[1]:
@@ -70,12 +67,10 @@ class QueryProcessor:
             common_rank.append((ids, score))
 
         rank = []
-        print('not')
         for i in range(len(docs)):
             idf = math.log(self.indexer.num_docs / len(docs[i]))
             for pair in docs[i]:
                 if pair[0] not in common:
-                    print(pair[0], pair[1])
                     score = 0
                     if 'title' in pair[1]:
                         score += title_w * idf * pair[1]['title']
@@ -120,13 +115,10 @@ class QueryProcessor:
         bi_post = []
         bi_keys = []
         for i in bi_grams:
-            print(i)
             if i in self.index:
-                print('bigram in index')
                 p = []
                 keys = []
                 for k, v in self.index[i].items():
-                    print(k)
                     if self.source == 'all' or self.source == v['type']:
                         keys.append(k)
                         p.append((k, v))
@@ -141,13 +133,10 @@ class QueryProcessor:
         postings = []
         p_keys = []
         for i in self.query:
-            print(i)
             if i in self.index:
-                print('in index')
                 p = []
                 keys = []
                 for k, v in self.index[i].items():
-                    print(k, v)
                     if self.source == 'all' or self.source == v['type']:
                         keys.append(k)
                         p.append((k, v))
@@ -158,47 +147,34 @@ class QueryProcessor:
 
         common_docs = self.find_common_docs(p_keys)
         # check what docs the terms have in common
-        print(common_docs)
 
         bi_ranked_c, bi_ranked_n = self.rank_docs(common_bi_docs, bi_post)
         all_ranked_c, all_ranked_n = self.rank_docs(common_docs, postings)
 
-        print(bi_ranked_c)
-        print(bi_ranked_n)
-        print(all_ranked_c)
-        print(all_ranked_n)
         # get ranked docs and return
         docs = []
         ids = []
         if bi_ranked_c is not None:
             for pair in bi_ranked_c:
-                print(pair[0])
                 if pair[0] not in ids:
                     ids.append(pair[0])
                     docs.append(Document.objects.get(docID=pair[0]))
         if bi_ranked_n is not None:
             for pair in bi_ranked_n:
-                print(pair[0])
                 if pair[0] not in ids:
                     ids.append(pair[0])
                     docs.append(Document.objects.get(docID=pair[0]))
         if all_ranked_c is not None:
             for pair in all_ranked_c:
-                print(pair[0])
                 if pair[0] not in ids:
                     ids.append(pair[0])
                     docs.append(Document.objects.get(docID=pair[0]))
         if all_ranked_n is not None:
             for pair in all_ranked_n:
-                print(pair[0])
                 if pair[0] not in ids:
                     ids.append(pair[0])
                     docs.append(Document.objects.get(docID=pair[0]))
-        if len(ids) > 20:
-            ids = ids[:20]
-        print('printing ids')
-        for i in ids:
-            print(i)
+
         if len(docs) > 20:
             docs = docs[:20]
         return docs
